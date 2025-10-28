@@ -193,7 +193,7 @@
 		""
 		"&d@copy&r"
 	]
-	quest.0442F5FC0EC483BC.title: "&6Copyscats+"
+	quest.0442F5FC0EC483BC.title: "&6Copycats+"
 	quest.045A217971DF1258.quest_desc: [
 		"The &6&lCrushing Wheels&r&r are an advanced alternative to the Millstone, used to process items using crushing recipes."
 		""
@@ -1259,6 +1259,7 @@
 		""
 		"Once generated, this energy can be transferred through shafts, gears, and other mechanical components to operate your creations."
 	]
+	quest.231D1BD8D2A930CF.title: "Rotational force"
 	quest.2393A0DC1A59CDEC.quest_desc: [
 		"When applied as an upgrade to any supported device such as an Interface or Export Bus, the &bCrafting Card&f allows the device in question to automatically send out its own crafting requests for a required (filtered) item. Crafting CPUs can be set to respond only to these requests to prevent taking up CPUs meant for player-requested crafts."
 		""
@@ -1628,22 +1629,6 @@
 		""
 		"The quickest and most effective way to assign recipes is to locate the recipe in JEI while the blueprint UI is open. Clicking the '+' in the JEI recipe view will transfer the recipe ingredients to the blueprint for you."
 	]
-	quest.2DE531FF769A86D5.quest_desc: [
-		"The &6Moped&r lets you ride a motorbike in Create. Isn’t that cool?"
-		""
-		"&dRight-click&r with an empty hand to enter the &6Moped.&r"
-		""
-		"To drive it, &cyou’ll need fuel&r. First, craft a &n&aMoped Key.&r&r"
-		""
-		"&dRight-click&r &ethe Moped with the key to open its GUI,&r then drop in some &9coal&r to fuel it."
-		""
-		"You can equip up to 3 &bMoped Booster Upgrades&r to increase its speed."
-		""
-		"While driving, if the key is in your hotbar, &dright-click&r to honk the horn."
-		""
-		"&d@moped&r"
-	]
-	quest.2DE531FF769A86D5.quest_subtitle: " vroom!  vroom!  vroom!"
 	quest.2E156E1D6BA5517A.quest_subtitle: "-75% air friction"
 	quest.2E3B821A8A402B3E.quest_desc: [
 		"You can claim chunks to protect your base and prevent others from modifying your builds."
