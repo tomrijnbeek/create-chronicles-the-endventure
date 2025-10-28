@@ -5,11 +5,6 @@
       "bonus_rolls": 0.0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "irons_spellbooks:druidic_spell_book",
-          "weight": 100
-        },
-        {
           "type": "minecraft:tag",
           "expand": true,
           "functions": [

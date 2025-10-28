@@ -1,19 +1,12 @@
 // === REMOVE BY RECIPE ID ===
 const removeRecipesById = [
   'simplyswords:sword_on_a_stick',
-  'apotheosis:book',
   'waystones:warp_stone',
   'apothic_enchanting:library',
   'apothic_enchanting:prismatic_web',
   'naturescompass:natures_compass',
   'apothic_enchanting:filtering_shelf',
   'apothic_enchanting:ender_library',
-  'irons_spellbooks:lesser_spell_slot_upgrade',
-  'irons_spellbooks:druidic_spell_book',
-  'irons_spellbooks:cinderous_soulcaller',
-  'irons_spellbooks:wayward_compass',
-  'irons_spellbooks:amethyst_rapier',  
-  'irons_spellbooks:citadel_map',  
   'gamediscs:gaming_console',
   'constructionstick:template_unbreakable',
   'multibeds:feather_pile',
@@ -23,10 +16,6 @@ const removeRecipesById = [
   'cataclysm:desert_eye',
   'cataclysm:void_eye',
 
-  'apotheosis:sigil_of_socketing',
-  'apotheosis:sigil_of_withdrawal',
-  'apotheosis:sigil_of_rebirth',
-  'apotheosis:sigil_of_enhancement',      
   'farmingforblockheads:green_fertilizer',
   'farmingforblockheads:red_fertilizer',
   'farmingforblockheads:yellow_fertilizer',
@@ -52,20 +41,8 @@ const removeRecipesById = [
   'create:crushing/tuff',
   'create:crafting/kinetics/belt_connector',
 
-  'hazennstuff:crafting/curios/mana_crystal_ruptured',
-  'hazennstuff:crafting/curios/mana_crystal_refined',
-  'hazennstuff:crafting/curios/mana_crystal_reinforced',  
-  'hazennstuff:crafting/materials/divine_mold',
+  'bosses_of_mass_destruction:void_lily',
 
-  'bosses_of_mass_destruction:void_lily',    
-
-  'crystal_chronicles:divinite_shard',
-  'crystal_chronicles:hemalite_shard',
-  'crystal_chronicles:voidstone_shard',
-  'crystal_chronicles:voltite_shard',
-  'crystal_chronicles:floralite_shard',
-  'crystal_chronicles:volcanite_shard',
-  'crystal_chronicles:ice_shard',
   'supplementaries:sus_bricks',
   'supplementaries:sus_sand',
   'supplementaries:sus_gravel',
@@ -81,7 +58,6 @@ const removeRecipesById = [
   'culturalrecipes:corn_dough',
   'farmersdelight:bread_from_smelting',
   'farmersdelight:bread_from_smoking',
-  'hazennstuff:smelting/blasting/raw_zenalite_from_blasting',
   'minecraft:cake',
   'handcrafted:terracotta_thin_pot'
 ];

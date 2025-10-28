@@ -27,7 +27,7 @@ RecipeViewerEvents.removeEntriesCompletely('item', item =>{
   })
 })
 
-// Hide Categories 
+// Hide Categories
 RecipeViewerEvents.removeCategories(event => {
   event.remove('apothic_enchanting:enchanting')
   event.remove('ftbquests:loot_crate')
@@ -42,42 +42,8 @@ RecipeViewerEvents.removeCategories(event => {
 })
 
 RecipeViewerEvents.addInformation('item', item =>{
-  let fromMarket="Purchased from Market using Boss Tokens"
 
   //other
-  item.add("irons_spellbooks:decrepit_key", "Unlocks Citadel Vaults. Drops from Tyros boss.")
-  item.add("irons_spellbooks:pyrium_ingot", "Can be found in Citadel vaults.")
-  item.add("hazennstuff:fireblossom", " Found in Crimson Forests in the Nether.")
-  item.add("irons_spellbooks:divine_soulshard", "Drops from Tyros, a tier-5 boss.")
- 
-  item.add("kubejs:forgotten_eye_fragment_core", "Drops from Warden")
-  item.add("kubejs:forgotten_eye_fragment_shard", "Drops from Wither Skeleton")
-  item.add("kubejs:forgotten_eye_fragment_cracked", "Drops from Elder Guardian")
-
-  item.add("kubejs:cursed_eye_fragment_core", "Drops from The Gauntlet")
-  item.add("kubejs:cursed_eye_fragment_shard", "Drops from Netherite Monstrosity")
-  item.add("kubejs:cursed_eye_fragment_cracked", "Drops from The Death King")
-
-  item.add("kubejs:lost_eye_fragment_core", "Drops from Starlight Golem")
-  item.add("kubejs:lost_eye_fragment_shard", "Drops from Lunar Monstrosity")
-  item.add("kubejs:lost_eye_fragment_cracked", "Obtained from the Quest Pass the Gatekeeper's Trial")
-
-  item.add("kubejs:lich_eye_fragment_core", "Drops from The Night Lich")
-  item.add("kubejs:lich_eye_fragment_shard", "Drops from The Harbinger")
-  item.add("kubejs:lich_eye_fragment_cracked", fromMarket)
-
-  item.add("kubejs:omen_eye_fragment_core", "Drops from Echo of Tyros, First Flamebearer")
-  item.add("kubejs:omen_eye_fragment_shard", "Drops from Obsidilith")
-  item.add("kubejs:omen_eye_fragment_cracked", "Drops from Void Blossom (This one is ok)")
-
-  item.add("kubejs:gilded_eye_fragment_core", "Drops from The Leviathan")
-  item.add("kubejs:gilded_eye_fragment_shard", "Drops from Ancient Remnant")
-  item.add("kubejs:gilded_eye_fragment_cracked", "Drops from Scylla")
-
-  item.add("kubejs:cryptic_eye_fragment_core", "Drops from Ignis")
-  item.add("kubejs:cryptic_eye_fragment_shard", "Drops from Maledictus")
-  item.add("kubejs:cryptic_eye_fragment_cracked", fromMarket)
-
   item.add("simplyswords:soulstealer", "Drops from Death King")
   item.add("simplyswords:wraithfang", "Drops from Death King")
 
@@ -129,16 +95,13 @@ RecipeViewerEvents.addInformation('item', item =>{
   item.add("simplyswords:arcanethyst", "Drops from Ender Dragon")
   item.add("simplyswords:shadowsting", "Drops from Ender Dragon")
   item.add("simplyswords:livyatan", "Drops from Ender Dragon")
-  //34 total
-  item.add("hazennstuff:overgrown_bone", "Drops from Bogged Zombies")
-  item.add("hazennstuff:excalibur_fragment", "Drops from Dead King")
 
   item.add("garnished:vermilion_kelp", "Vermilion kelp be found in the Cold Ocean or Frozen Ocean")
   item.add("garnished:bok_choy", "Bok Choy can be found in Jungle Temples")
 
   // remove salt when fix recipe
   item.add('garnished:crushed_salt',"You need to use Mechanical Grindstone using Limestone")
-  
+
   item.add('biomeswevegone:yucca_fruit',"Yuca grows on trees and can be found in biomes, such as Badlands variants, or Desert variants.")
   item.add('eternal_starlight:lunaris_cactus_fruit',"Grows on top of Lunaris Cactus. Can be found in the Crystallized Desert biome, and also grows on Twilight Sand in the Eternal Starlight dimension.")
   item.add('eternal_starlight:ether_bucket',"Found in Eternal Starlight dimension.")
@@ -175,7 +138,7 @@ ItemEvents.modifyTooltips(event => {
       tooltip.insert(1, Text.of(`#${index + 1} Used to activate the End Portal.`).color(0xFFA5F7));
     });
   });
-  
+
   global.EYES_CATA.forEach((eye) => {
     event.modify(eye, tooltip => {
       tooltip.insert(1, Text.of("This can't be used to locate the structure, only to respawn bosses.").red())

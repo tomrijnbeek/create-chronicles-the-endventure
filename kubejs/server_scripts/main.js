@@ -4,28 +4,18 @@ ServerEvents.recipes(event => {
   global.EYES.forEach(eye => {
     const id = eye.name.toLowerCase().replace(/ /g, '_'); // "Forgotten Eye" → "forgotten_eye"
     const fragments = [];
-  
+
     global.FRAGMENT_TYPES.forEach(type => {
       fragments.push(`kubejs:${id}_fragment_${type.toLowerCase()}`);
     });
-  
+
     fragments.push('minecraft:ender_eye');
-  
+
     event.shapeless(eye.id, fragments);
   });
 
   event.replaceInput({}, 'refurbished_furniture:dough', 'create:dough')
   event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
-
-  event.replaceInput({id:'apotheosis:salvaging_table'}, 'apotheosis:gem_dust', 'minecraft:diamond_block')
-
-  event.replaceInput({id:'crystal_chronicles:hemalite_shard'}, 'minecraft:amethyst_shard', 'irons_spellbooks:divine_soulshard')
-  event.replaceInput({id:'crystal_chronicles:voidstone_shard'}, 'minecraft:amethyst_shard', 'irons_spellbooks:divine_soulshard')
-  event.replaceInput({id:'crystal_chronicles:divinite_shard'}, 'minecraft:amethyst_shard', 'irons_spellbooks:divine_soulshard')
-  event.replaceInput({id:'crystal_chronicles:voltite_shard'}, 'minecraft:amethyst_shard', 'irons_spellbooks:divine_soulshard')
-  event.replaceInput({id:'crystal_chronicles:floralite_shard'}, 'minecraft:amethyst_shard', 'irons_spellbooks:divine_soulshard')
-  event.replaceInput({id:'crystal_chronicles:volcanite_shard'}, 'minecraft:amethyst_shard', 'irons_spellbooks:divine_soulshard')
-  event.replaceInput({id:'crystal_chronicles:ice_shard'}, 'minecraft:amethyst_shard', 'irons_spellbooks:divine_soulshard')
 
   event.replaceInput({id:'moped:copper_moped_item_recipe'}, 'minecraft:netherite_boots', 'create:belt_connector')
   event.replaceInput({id:'moped:copper_moped_item_recipe'}, '#minecraft:wool', 'create:copper_sheet')
@@ -185,7 +175,7 @@ ServerEvents.recipes(event => {
   ], {
       S: 'createmechanisms:cured_rubber',
   })
-  
+
   event.shaped('createmechanisms:iron_saw', [
       'A  ',
       ' A ',
@@ -201,7 +191,7 @@ ServerEvents.recipes(event => {
   ], {
       C: '#minecraft:wooden_slabs',
       A: 'minecraft:copper_ingot',
-  })  
+  })
   event.shaped('createmechanisms:diamond_saw', [
       'A  ',
       ' A ',
@@ -209,7 +199,7 @@ ServerEvents.recipes(event => {
   ], {
       C: '#minecraft:wooden_slabs',
       A: 'minecraft:diamond',
-  })      
+  })
   event.smoking('createmechanisms:cured_rubber', 'createmechanisms:rubber').cookingTime(200)
 
 
@@ -222,7 +212,7 @@ ServerEvents.recipes(event => {
       B: '#create:toolboxes',
       A: 'create:item_vault',
   })
-  
+
   event.shaped('create_sa:small_filling_tank', [
       ' B ',
       ' A ',
@@ -231,14 +221,14 @@ ServerEvents.recipes(event => {
       B: 'create_sa:hydraulic_engine',
       A: 'create:fluid_tank',
   })
-  
+
   event.shaped('multibeds:feather_pile', [
       'SS ',
       'SS ',
       'SS '
   ], {
       S: 'minecraft:feather',
-  })  
+  })
   event.shapeless('6x minecraft:feather', 'multibeds:feather_pile');
 
   event.shaped('simplyswords:iron_spear', [
@@ -249,7 +239,7 @@ ServerEvents.recipes(event => {
       A: 'minecraft:stick',
       B: 'minecraft:iron_ingot',
       C: 'minecraft:iron_nugget',
-  })   
+  })
 
   event.shaped('simplyswords:gold_spear', [
       ' CB',
@@ -259,7 +249,7 @@ ServerEvents.recipes(event => {
       A: 'minecraft:stick',
       B: 'minecraft:gold_ingot',
       C: 'minecraft:gold_nugget',
-  })   
+  })
 
   event.shaped('simplyswords:diamond_spear', [
       ' CB',
@@ -269,7 +259,7 @@ ServerEvents.recipes(event => {
       A: 'minecraft:stick',
       B: 'minecraft:diamond',
       C: 'createaddition:diamond_grit',
-  }) 
+  })
 
   event.shaped('handcrafted:terracotta_thin_pot', [
       ' A ',
@@ -278,33 +268,4 @@ ServerEvents.recipes(event => {
   ], {
       A: 'minecraft:terracotta',
   })
-
-  // weird bug idk why lost recipe with kubejson
-  event.smithing(
-    'alshanex_familiars:bard_helmet',
-    'alshanex_familiars:sound_rune',
-    'irons_spellbooks:wizard_helmet',
-    'irons_spellbooks:arcane_essence'
-  )
-
-  event.smithing(
-    'alshanex_familiars:bard_chestplate',
-    'alshanex_familiars:sound_rune',
-    'irons_spellbooks:wizard_chestplate',
-    'irons_spellbooks:arcane_essence'
-  )  
-
-  event.smithing(
-    'alshanex_familiars:bard_leggings',
-    'alshanex_familiars:sound_rune',
-    'irons_spellbooks:wizard_leggings',
-    'irons_spellbooks:arcane_essence'
-  )  
-
-  event.smithing(
-    'alshanex_familiars:bard_boots',
-    'alshanex_familiars:sound_rune',
-    'irons_spellbooks:wizard_boots',
-    'irons_spellbooks:arcane_essence'
-  )       
 });

@@ -8,7 +8,6 @@ LootJS.modifiers((event) => {
   event
   .addTableModifier("bosses_of_mass_destruction:chests/gauntlet")
   .addLoot(LootEntry.of(`kubejs:cursed_eye_fragment_core`).setCount(1).randomChance(1.0))
-  .addLoot(LootEntry.of(`apotheosis:common_material`).setCount([3,10]).randomChance(1.0))
   .addLoot(LootEntry.of(`simplyswords:frostfall`).setCount(1).randomChance(0.2))
   .addLoot(LootEntry.of(`simplyswords:watcher_claymore`).setCount(1).randomChance(0.2))
   .addLoot(LootEntry.of(`kubejs:boss_token`).setCount(1).randomChance(1.0));

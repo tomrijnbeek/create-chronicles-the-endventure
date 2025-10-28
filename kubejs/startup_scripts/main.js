@@ -70,14 +70,10 @@ ItemEvents.modification(event => {
   applyModifiers(event, 'cataclysm:bone_reptile_helmet', 'head', [
     { attribute: 'generic.attack_damage', amount: 2, id: 'end:bone_head_attack', operation: 'add_value' },
   ]);
-  applyModifiers(event, 'cataclysm:ignitium_helmet', 'head', [
-    { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_head_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_head_manap', operation: 'add_value' },
-  ]);
   applyModifiers(event, 'cataclysm:cursium_helmet', 'head', [
     { attribute: 'apothic_attributes:ghost_health', amount: 2, id: 'end:cursium_head_overh', operation: 'add_value' },
   ]);
- 
+
 
   // Chest
   applyModifiers(event, 'armoroftheages:holy_armor_chest', 'chest', [
@@ -103,15 +99,7 @@ ItemEvents.modification(event => {
   applyModifiers(event, 'cataclysm:bone_reptile_chestplate', 'chest', [
     { attribute: 'apothic_attributes:crit_chance', amount: 0.15, id: 'end:cen_chest_crit', operation: 'add_value' },
     { attribute: 'apothic_attributes:crit_damage', amount: 0.50, id: 'end:cen_chest_critdamage', operation: 'add_value' },
-  ]);    
-  applyModifiers(event, 'cataclysm:ignitium_chestplate', 'chest', [
-    { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_chest_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_chest_manap', operation: 'add_value' },
-  ]);  
-  applyModifiers(event, 'cataclysm:ignitium_elytra_chestplate', 'chest', [
-    { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'xend:ignis_chest_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'xend:ignis_chest_manap', operation: 'add_value' },
-  ]);  
+  ]);
   applyModifiers(event, 'cataclysm:cursium_chestplate', 'chest', [
     { attribute: 'generic.max_health', amount: 0.1, id: 'end:cursium_chestplate_maxh', operation: 'add_multiplied_base' },
   ]);
@@ -136,11 +124,7 @@ ItemEvents.modification(event => {
     { attribute: 'generic.armor', amount: 4, id: 'end:anubis_legs_armor_bonus', operation: 'add_value' },
     { attribute: 'generic.armor_toughness', amount: 3, id: 'end:anubis_legs_toughness_bonus', operation: 'add_value' },
     { attribute: 'generic.attack_damage', amount: 2, id: 'end:anubis_legs_attack', operation: 'add_value' },
-  ]);  
-  applyModifiers(event, 'cataclysm:ignitium_leggings', 'legs', [
-    { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_legst_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_legst_manap', operation: 'add_value' },
-  ]);   
+  ]);
   applyModifiers(event, 'cataclysm:cursium_leggings', 'legs', [
     { attribute: 'generic.attack_speed', amount: 0.1, id: 'end:cursium_legs_atksped', operation: 'add_multiplied_base' },
   ]);
@@ -165,14 +149,10 @@ ItemEvents.modification(event => {
     { attribute: 'generic.armor', amount: 3, id: 'end:anubis_feet_armor_bonus', operation: 'add_value' },
     { attribute: 'generic.armor_toughness', amount: 3, id: 'end:anubis_feet_toughness_bonus', operation: 'add_value' },
     { attribute: 'generic.attack_damage', amount: 2, id: 'end:anubis_feet_attack', operation: 'add_value' },
-  ]);  
-  applyModifiers(event, 'cataclysm:ignitium_boots', 'feet', [
-    { attribute: 'irons_spellbooks:spell_power', amount: 0.1, id: 'end:ignis_feet_sp', operation: 'add_multiplied_base' },
-    { attribute: 'irons_spellbooks:max_mana', amount: 150, id: 'end:ignis_feet_manap', operation: 'add_value' },
-  ]);  
+  ]);
   applyModifiers(event, 'cataclysm:cursium_boots', 'legs', [
     { attribute: 'generic.movement_speed', amount: 0.15, id: 'end:cursium_feetsped', operation: 'add_multiplied_base' },
-  ]);  
+  ]);
 });
 
 StartupEvents.registry('item', event => {
@@ -203,7 +183,7 @@ StartupEvents.registry('item', event => {
   event.create('token_medium').displayName("§fOperator Token").rarity("RARE")
   event.create('token_advanced').displayName("§eEngineer Token").rarity("EPIC")
   event.create('boss_token').displayName("§6Boss Token").rarity("EPIC")
-  
+
   event.create('heart_container')
     .displayName("§6Heart Container")
     .rarity("EPIC")

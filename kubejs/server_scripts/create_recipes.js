@@ -19,7 +19,7 @@ ServerEvents.recipes((event) => {
     //event.recipes.createMixing(('3x createmechanisms:bronze'),['minecraft:copper_ingot','minecraft:copper_ingot','minecraft:copper_ingot','minecraft:iron_ingot']).heated()
     event.recipes.createMixing("kubejs:chromatic_compound", [ "#c:dusts/glowstone","#c:dusts/glowstone","#c:dusts/glowstone","create:cinder_flour","create:cinder_flour","create:cinder_flour", "create:powdered_obsidian","create:powdered_obsidian","create:polished_rose_quartz"]).superheated();
     event.recipes.createMixing(('createaddition:electrum_ingot'),['minecraft:gold_ingot',"#c:dusts/glowstone","#c:gems/quartz"]).heated()
-    
+
     // Deploy
     event.recipes.createDeploying('minecraft:shroomlight', ['minecraft:glowstone', '#c:mushrooms'])
     event.recipes.createDeploying('minecraft:glow_ink_sac', ['minecraft:ink_sac', 'minecraft:glow_berries'])
@@ -38,10 +38,6 @@ ServerEvents.recipes((event) => {
        withChance("minecraft:glowstone_dust", 0.25),
        withChance("minecraft:glowstone_dust", 0.10)
     ], 'minecraft:soul_sand').processingTime(100)
-    event.recipes.createCrushing([
-      'irons_spellbooks:common_ink',
-      withChance("irons_spellbooks:uncommon_ink", 0.5)
-    ], 'irons_spellbooks:scroll').processingTime(100) 
 
     // mill
     event.recipes.createMilling(
@@ -50,12 +46,12 @@ ServerEvents.recipes((event) => {
         ],
         "minecraft:chorus_fruit"
     ).id("end:chorusfruit");
-    
-    
+
+
     // Filling
     event.recipes.createFilling("minecraft:magma_block",  ["minecraft:netherrack",Fluid.of("lava", 250)]);
     event.recipes.createFilling("create:rose_quartz",  ["#c:gems/quartz",Fluid.of("kubejs:fluid_redstone", 400)]);
-    
+
     // Haunting
     event.recipes.createHaunting(["minecraft:wither_rose"],"minecraft:poppy");
     event.recipes.createHaunting(["minecraft:magma_cream"],"minecraft:slime_ball");
@@ -78,7 +74,7 @@ ServerEvents.recipes((event) => {
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:wooden_mechanism')
-      
+
     transitional = 'kubejs:incomplete_blackstone'
     event.recipes.createSequencedAssembly([
       'minecraft:gilded_blackstone',
@@ -129,7 +125,7 @@ ServerEvents.recipes((event) => {
           event.recipes.createFilling(transitional, [transitional,  Fluid.of('createmechanisms:enderiam', 350)]),
     ]).transitionalItem(transitional)
       .loops(2)
-      .id('end:ender_mechanism')     
+      .id('end:ender_mechanism')
 
 
     transitional = 'createmechanisms:incomplete_advanced_precision_mechanism'
@@ -144,8 +140,8 @@ ServerEvents.recipes((event) => {
           event.recipes.createPressing(transitional,transitional),
     ]).transitionalItem(transitional)
       .loops(3)
-      .id('end:precision_mechanism')     
-    
+      .id('end:precision_mechanism')
+
     // FARMERS DELIGHT
     event.recipes.createMixing('farmersdelight:apple_pie',['minecraft:wheat','minecraft:wheat','minecraft:apple','minecraft:apple','minecraft:apple','minecraft:sugar','minecraft:sugar','farmersdelight:pie_crust'])
     event.recipes.createMixing('farmersdelight:sweet_berry_cheesecake',['minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries',Fluid.of('minecraft:milk', 1000),'farmersdelight:pie_crust'])
@@ -236,9 +232,9 @@ ServerEvents.recipes((event) => {
           event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:salmon_roll']),
     ]).transitionalItem(transitional)
       .loops(2)
-      .id('end:rice_roll_medley_block')   
+      .id('end:rice_roll_medley_block')
 
-        
+
     transitional = 'kubejs:incomplete_shepherds_pie_block'
     event.recipes.createSequencedAssembly([
       'farmersdelight:shepherds_pie_block'
@@ -249,8 +245,8 @@ ServerEvents.recipes((event) => {
           event.recipes.createFilling(transitional, [transitional, Fluid.of('minecraft:milk', 400)]),
     ]).transitionalItem(transitional)
       .loops(2)
-      .id('end:shepherds_pie_block')   
-      
+      .id('end:shepherds_pie_block')
+
     transitional = 'kubejs:incomplete_roast_chicken_block'
     event.recipes.createSequencedAssembly([
       'farmersdelight:roast_chicken_block'
@@ -263,7 +259,7 @@ ServerEvents.recipes((event) => {
           event.recipes.createDeploying(transitional, [transitional, 'minecraft:bread']),
     ]).transitionalItem(transitional)
       .loops(1)
-      .id('end:roast_chicken_block')   
+      .id('end:roast_chicken_block')
 
     transitional = 'kubejs:incomplete_grilled_salmon'
     event.recipes.createSequencedAssembly([
@@ -287,8 +283,8 @@ ServerEvents.recipes((event) => {
           event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
     ]).transitionalItem(transitional)
       .loops(1)
-      .id('end:steak_and_potatoes') 
-      
+      .id('end:steak_and_potatoes')
+
     transitional = 'kubejs:incomplete_roasted_mutton_chops'
     event.recipes.createSequencedAssembly([
       'farmersdelight:roasted_mutton_chops'
@@ -299,7 +295,7 @@ ServerEvents.recipes((event) => {
           event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
     ]).transitionalItem(transitional)
       .loops(1)
-      .id('end:roasted_mutton_chops')     
+      .id('end:roasted_mutton_chops')
 
     transitional = 'kubejs:incomplete_bacon_and_eggs'
     event.recipes.createSequencedAssembly([
@@ -398,7 +394,7 @@ ServerEvents.recipes((event) => {
 
     const recycleEquipment = (inputItem, outputItem, chances) => {
       let outputs = chances.map(chance => withChance(outputItem, chance));
-      event.recipes.create.crushing(outputs, inputItem) 
+      event.recipes.create.crushing(outputs, inputItem)
     }
 
     const processRecyclingData = (event, material, data) => {
@@ -406,12 +402,12 @@ ServerEvents.recipes((event) => {
         recycleEquipment(item, material, chances);
       });
     };
-    
+
     // equipment recycling
     processRecyclingData(event, 'minecraft:diamond', equipmentRecyclingData.diamond);
     processRecyclingData(event, 'minecraft:iron_ingot', equipmentRecyclingData.iron);
     processRecyclingData(event, 'minecraft:gold_ingot', equipmentRecyclingData.gold);
-    
+
 
 
     // THIS LINE IS ALSO IMPORTANT!

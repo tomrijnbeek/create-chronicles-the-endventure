@@ -24,7 +24,6 @@ global.EYES_CATA = [
 
 global.REMOVE_ITEMS = [
   'moped:tiny_copper_moped_item',
-  'irons_spellbooks:furled_map',
   'cataclysm:flame_eye',
   'cataclysm:abyss_eye',
   'cataclysm:cursed_eye',
@@ -32,11 +31,7 @@ global.REMOVE_ITEMS = [
   'endrem:guardian_eye',
   'endrem:rogue_eye',
   'endrem:undead_eye',
-  'apotheosis:potion_charm',
-  'apotheosis:sigil_of_unnaming',
-  'apotheosis:sigil_of_malice',
   'apothic_enchanting:infused_breath',
-  'apotheosis:boss_summoner',
   'apothic_enchanting:hellshelf',
   'apothic_enchanting:infused_hellshelf',
   'apothic_enchanting:blazing_hellshelf',
@@ -84,13 +79,9 @@ global.REMOVE_ITEMS = [
   'gamediscs:battery',
   'gamediscs:display',
   'gamediscs:control_pad',
-  'irons_spellbooks:wayward_compass',
-
-  'alshanex_familiars:illusionist_shard',
 
   'minecraft:suspicious_sand',
   'minecraft:suspicious_gravel',
   'supplementaries:suspicious_gravel_bricks',
   'ftbfiltersystem:smart_filter'
 ]
-

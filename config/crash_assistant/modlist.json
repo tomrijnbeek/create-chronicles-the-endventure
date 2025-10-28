@@ -34,11 +34,6 @@
     "modId": "almanac",
     "version": "1.0.2"
   },
-  "alshanex_familiars-1.21.1_v3.0.jar": {
-    "jarName": "alshanex_familiars-1.21.1_v3.0.jar",
-    "modId": "alshanex_familiars",
-    "version": "1.21.1_v3.0"
-  },
   "alternate_current-mc1.21-1.9.0.jar": {
     "jarName": "alternate_current-mc1.21-1.9.0.jar",
     "modId": "alternate_current",
@@ -59,11 +54,6 @@
     "modId": "another_furniture",
     "version": "4.0.0"
   },
-  "Apotheosis-1.21.1-8.3.6.jar": {
-    "jarName": "Apotheosis-1.21.1-8.3.6.jar",
-    "modId": "apotheosis",
-    "version": "8.3.6"
-  },
   "ApothicAttributes-1.21.1-2.9.0.jar": {
     "jarName": "ApothicAttributes-1.21.1-2.9.0.jar",
     "modId": "apothic_attributes",
@@ -73,11 +63,6 @@
     "jarName": "ApothicEnchanting-1.21.1-1.4.4.jar",
     "modId": "apothic_enchanting",
     "version": "1.4.4"
-  },
-  "ApothicSpawners-1.21.1-1.3.2.jar": {
-    "jarName": "ApothicSpawners-1.21.1-1.3.2.jar",
-    "modId": "apothic_spawners",
-    "version": "1.3.2"
   },
   "appleskin-neoforge-mc1.21-3.0.7.jar": {
     "jarName": "appleskin-neoforge-mc1.21-3.0.7.jar",
@@ -464,11 +449,6 @@
     "modId": "creeperoverhaul",
     "version": "4.0.6"
   },
-  "crystal_chronicles-0.0.7-alpha.jar": {
-    "jarName": "crystal_chronicles-0.0.7-alpha.jar",
-    "modId": "crystal_chronicles",
-    "version": "0.0.7-alpha"
-  },
   "culturaldelights-0.17.7.jar": {
     "jarName": "culturaldelights-0.17.7.jar",
     "modId": "culturaldelights",
@@ -602,11 +582,6 @@
     "jarName": "extra_gauges-1.1.1.jar",
     "modId": "extra_gauges",
     "version": "1.1.1"
-  },
-  "familiarslib-1.0.0.jar": {
-    "jarName": "familiarslib-1.0.0.jar",
-    "modId": "familiarslib",
-    "version": "1.0.0"
   },
   "fancymenu_neoforge_3.6.4_MC_1.21.1.jar": {
     "jarName": "fancymenu_neoforge_3.6.4_MC_1.21.1.jar",
@@ -763,11 +738,6 @@
     "modId": "handcrafted",
     "version": "4.0.3"
   },
-  "hazennstuff-1.2.0.jar": {
-    "jarName": "hazennstuff-1.2.0.jar",
-    "modId": "hazennstuff",
-    "version": "1.2.0"
-  },
   "Highlighter-1.21-neoforge-1.1.11.jar": {
     "jarName": "Highlighter-1.21-neoforge-1.1.11.jar",
     "modId": "highlighter",
@@ -827,16 +797,6 @@
     "jarName": "iris-neoforge-1.8.12+mc1.21.1.jar",
     "modId": "iris",
     "version": "1.8.12-snapshot+mc1.21.1-local"
-  },
-  "irons_apothic-1.3.0.jar": {
-    "jarName": "irons_apothic-1.3.0.jar",
-    "modId": "irons_apothic",
-    "version": "1.3.0"
-  },
-  "irons_spellbooks-1.21.1-3.14.2.jar": {
-    "jarName": "irons_spellbooks-1.21.1-3.14.2.jar",
-    "modId": "irons_spellbooks",
-    "version": "1.21.1-3.14.2"
   },
   "itemzoom-1.21-3.0.0.jar": {
     "jarName": "itemzoom-1.21-3.0.0.jar",
@@ -1050,11 +1010,6 @@
     "jarName": "netherportalfix-neoforge-1.21.1-21.1.1.jar",
     "modId": "netherportalfix",
     "version": "21.1.1"
-  },
-  "noapotheosisnames-1.0.1.jar": {
-    "jarName": "noapotheosisnames-1.0.1.jar",
-    "modId": "noapotheosisnames",
-    "version": "1.0.1"
   },
   "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar": {
     "jarName": "noisium-neoforge-2.3.0+mc1.21-1.21.1.jar",
