@@ -17,11 +17,6 @@ ServerEvents.recipes(event => {
   event.replaceInput({}, 'refurbished_furniture:dough', 'create:dough')
   event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
 
-  event.replaceInput({id:'moped:copper_moped_item_recipe'}, 'minecraft:netherite_boots', 'create:belt_connector')
-  event.replaceInput({id:'moped:copper_moped_item_recipe'}, '#minecraft:wool', 'create:copper_sheet')
-  event.replaceInput({id:'moped:copper_moped_item_recipe'}, 'minecraft:cut_copper_slab', 'create:copper_sheet')
-  event.replaceInput({id:'moped:copper_moped_item_recipe'}, 'minecraft:copper_block', '#create:seats')
-
   //conf
   event.replaceInput({id:'another_furniture:cherry_table'}, 'minecraft:cherry_planks', 'minecraft:cherry_slab')
   event.replaceInput({id:'another_furniture:warped_table'}, 'minecraft:warped_planks', 'minecraft:warped_slab')

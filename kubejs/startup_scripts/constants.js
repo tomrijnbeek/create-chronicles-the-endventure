@@ -23,7 +23,6 @@ global.EYES_CATA = [
 ]
 
 global.REMOVE_ITEMS = [
-  'moped:tiny_copper_moped_item',
   'cataclysm:flame_eye',
   'cataclysm:abyss_eye',
   'cataclysm:cursed_eye',
