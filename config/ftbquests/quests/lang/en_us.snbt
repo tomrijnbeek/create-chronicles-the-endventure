@@ -1,9 +1,7 @@
 {
-	chapter.00BD5759F8E2525F.title: "&l&eOrder of Engineers&r&r"
 	chapter.09B56D111668F538.title: "&6&nGetting Started!"
 	chapter.1114C1AB6A2F68FA.title: "&eHazen n Stuff"
 	chapter.178BB414E2F55B72.title: "&aElectricity"
-	chapter.19BE083ACF488E0F.title: "&6Iron's Spells 'n Spellbooks&r"
 	chapter.1B9B51E90A5A29A0.title: "&aMolten Vents and Renewables&r"
 	chapter.200DC5467E72813C.title: "&dImmersive Aircraft"
 	chapter.2385B4F2FA029016.title: "&6Alshanex's Familiars&r"
@@ -11,10 +9,8 @@
 	chapter.2CF7FF0BE3628E3D.title: "&eAlshanex's Familiars&r"
 	chapter.464FB437D5DF7824.title: "&eArtifacts"
 	chapter.4B6E4A0215F45FC0.title: "&3The Otherside: &0Deeper and Darker"
-	chapter.4F11D0F95BB94F2B.title: "&bRefined Storage"
 	chapter.50471206A7BA908F.title: "&3Eternal Starlight"
 	chapter.53732D728CE0A308.title: "&aCreate"
-	chapter.576F6A1E4D30F4F2.title: "&l&aThe Endventure"
 	chapter.58D00C1309225860.title: "&aGarnished"
 	chapter.5A695917A1E23476.title: "&dGolem Overhaul"
 	chapter.66515D165B519FE2.title: "&eGame Discs"
@@ -72,17 +68,6 @@
 	]
 	quest.01B1F88F57961B10.title: "Oxygen for your Bases!"
 	quest.0206507E91CB74CB.quest_subtitle: "Use in Smithing Table to remove &6Imbuement or Upgrades"
-	quest.026469F32F5639EB.quest_desc: [
-		"Step into the pixelated past with the &eGameDiscs Mod&r, a retro gaming console you can &bbuy from market&r and use inside Minecraft! Power up, pick a game, and relive the classics right from your inventory. "
-		""
-		"With your Game Discs in your inventory, right click with the &aGaming Console&r to open the menu and choose your favourite game with &5W&r and &5S&r keys, to enter the game press &5Space&r or&5 Enter&r and start playing with the basic controls like &5W, S, A, D, SPACE, ENTER, &r or even with the &5Quit button (Q)&r or &5Reset button (R).&r"
-		""
-		"Game Discs can be found in loot chests across various structures or obtained 100% of the time when a Bee, Slime, Frog, or Rabbit is killed by a Skeleton"
-		""
-		"&6Let the games begin!&r"
-	]
-	quest.026469F32F5639EB.quest_subtitle: "&aRetro Fun in a Blocky World"
-	quest.026469F32F5639EB.title: "&6🎮 My first console"
 	quest.02ABDDCDE6E1CCAE.quest_desc: [
 		"You might be wondering: what’s the limit for enchantment levels with &bSuper Enchanting&r?"
 		""
@@ -266,13 +251,6 @@
 		"While you're at it, consider upgrading to a stone pickaxe so you can start mining better ores like &bIron&r!"
 	]
 	quest.05B32DE12868C6DE.title: "Stone and Flame"
-	quest.05BAE9FB04861C47.quest_desc: [
-		"Your first step is to craft a &eSalvaging Table&r a workstation that lets you recycle tools containing affixes or gems to recover valuable materials."
-		""
-		"&6Once you obtain your first gem&r, you can use the table to break it down into &bGem Dust&r, which is essential for crafting your next tables."
-		""
-		"Not sure how to get gems? Check the &aEndventure quest chapter&r for guidance!"
-	]
 	quest.05C058A7299224FF.quest_desc: [
 		"&6Range Upgrade &rincreases the operating range of a &aWireless Transmitter&r, allowing wireless tools to work farther from the network."
 		""
@@ -578,15 +556,6 @@
 		""
 		"So power up your &6workbench&r and start crafting the amazing furniture to decorate your house!"
 	]
-	quest.0B0043E696D0EE22.quest_desc: [
-		"&aThe Smithing Table is used to insert gems into your tools&r but only if the tool has an open gem &bsocket&r. "
-		""
-		"If a &bsocket &ris available, simply place the tool and the gem in the &eSmithing Table&r to apply it."
-		""
-		"To remove a gem, use a &9Sigil of Withdrawal.&r"
-		""
-		"To add a new socket, use a &9Sigil of Socketing.&r"
-	]
 	quest.0BD070E54EF86FDA.quest_desc: [
 		"You can display items outside of chests to better organize your storage. For example, a food chest can display a carrot to indicate its contents."
 		""
@@ -771,7 +740,6 @@
 		""
 		"This is especially useful because this quest is set to auto-claim by default—meaning that once completed, the reward items will go directly into your inventory."
 	]
-	quest.12029CC14E6FFE54.quest_desc: ["&aThe Reforging Table&r works just like the Simple version however, this advanced table lets you go beyond &9Rare&r, upgrading all the way to &6Epic and Mythic tiers.&r"]
 	quest.12506A200E56E7E9.quest_desc: [
 		"&e&nBlood Vial&r&r"
 		"Place a lit campfire beneath a cauldron, and put a mob in the cauldron to cook the mob. This will fill the cauldron with blood, which can be withdrawn with glass bottles to obtain vials of blood."
@@ -1265,8 +1233,6 @@
 	]
 	quest.22415034137B2D62.title: "&6Supplementaries&r"
 	quest.2241F84F6AAD5933.quest_subtitle: "Teleport amulet gives you evasion after you teleport if your Ender spell power is high enough"
-	quest.227E5C94A66B214D.quest_desc: ["You can buy it from market."]
-	quest.227E5C94A66B214D.quest_subtitle: "Removes durability consumption, allowing infinite block placement."
 	quest.229C5328751C93F5.quest_desc: [
 		"The &cElder Guardian&r is a powerful aquatic boss found in &eOcean Monuments.&r"
 		""
@@ -1612,11 +1578,6 @@
 		"&e"
 		""
 		"&bHeart Container&r"
-	]
-	quest.2BC8D0B1B84F96DB.quest_desc: [
-		"The &6Library of Alexandria&r is an upgraded Enchantment Library. "
-		""
-		"It can store higher-level &aenchanted books&r and hold significantly more &benchantment points.&r"
 	]
 	quest.2C0A86D7F9D1A0D8.quest_desc: [
 		"Don’t confuse &bstripped logs&r with &dstripped wood&r—they are two different things. "
@@ -2455,25 +2416,6 @@
 	]
 	quest.4070652999DD3249.quest_subtitle: "When used for Upgrade: &6+5% Nature Spell Power"
 	quest.409394CEF9087E88.quest_subtitle: "Please visit the renewable ores chapter to learn how to activate this."
-	quest.4095FA4FB6615FCA.quest_desc: [
-		"&eApotheosis has been extensively rebalanced to deliver a fairer and more polished gameplay experience. &r"
-		""
-		"Gems and affixes now serve as small progression bonuses rather than overpowered stat boosts, making the system feel more controlled and rewarding."
-		""
-		"&aApotheotic enchantments&r and their associated items &chave been disabled. &rInstead, enchantment progression is now handled through &aCreate: Enchantment Industry&r, which provides a more immersive and balanced path."
-		""
-		"&6The World Tier system&r has also been reworked. &aPress Ctrl + T to open the tier menu&r — this is required to use the &6Reforging Table.&r "
-		""
-		"By default, the world starts in the Haven tier and shifts to Pinnacle after defeating the Ender Dragon. &dJust skip the tutorial and ignore the rest; you won’t need to interact with that menu again.&r"
-		""
-		"&bTo begin acquiring Apotheosis gems and materials, start battling Tier 2 bosses and beyond.&r The higher the tier, the greater the rewards. For a complete guide on boss progression, check out the “&aThe Endventure&r” quest chapter."
-		""
-		"Finally, some enchantment books and items have been removed for balance purposes. But don't worry — &aspawner mechanics are fully functional,&r and you can still use them to build mob farms."
-		""
-		""
-		"&a&aTip:&r&r &e&oYou can pick up mob spawners with a pickaxe that has Silk Touch.&r&r"
-	]
-	quest.4095FA4FB6615FCA.title: "&l&dApotheosis Rework and Integration&r&r"
 	quest.409E9857A7494319.quest_subtitle: "Allows walking on powdered snow and makes ice less slippery"
 	quest.40B15BEB0A7D4755.quest_desc: ["The Wrench is used to rotate blocks already placed in the world."]
 	quest.40DF2E8EAD1100B6.quest_desc: [
@@ -2518,21 +2460,6 @@
 		"  - It can be opened by using it while not looking at any block or right-clicking in the GUI."
 		"  - Mark whill be drawn with leftmost chalk in order sneaking"
 		"  - You can draw glowing mark with Chalk Box by adding glowing items in a spacial slot."
-	]
-	quest.4198B060806140C0.quest_desc: [
-		"&6The Simple Reforging Table&r allows you to apply affixes, reroll stats, and upgrade item rarity up to Rare."
-		""
-		"To use it, you’ll need special materials like:"
-		""
-		"* &7Mysterious Scrap Metal&r (for Common rarity)"
-		""
-		"* &aTimeworn Fabric&r (for Uncommon rarity)"
-		""
-		"* &9Luminous Crystal&r (for Rare rarity)"
-		""
-		"Let’s say you have a diamond sword? by reforging it, you transform it into a colored, enhanced weapon with affixes that boost its stats and unlock gem slots."
-		""
-		"This system allows you to progressively grow stronger, turning ordinary tools into powerful gear tailored to your playstyle."
 	]
 	quest.419A16655447AA92.quest_subtitle: "Provides an infinite night vision effect"
 	quest.419FB723D9EE7EFB.quest_desc: [
@@ -2738,14 +2665,6 @@
 		"If you want to get rid of the measurements you &dshift-right click&r the ground."
 	]
 	quest.48503955A124184F.title: "&bHeavy Knight Outfit"
-	quest.485444C876FDECFF.quest_desc: [
-		"The way you locate structures has also changed you'll now need to &6buy special maps from the Market.&r "
-		""
-		"These maps work differently &ethey don’t guide you to the nearest location, but instead give you random coordinates&r for the structure you’re looking for."
-		""
-		"Because of that, buying more than one map might point you to different spots. That randomness is part of the challenge!"
-	]
-	quest.485444C876FDECFF.title: "&aFinding Structures with Maps"
 	quest.488055D85AD88A2C.quest_desc: [
 		"&nCrafting Process to get the block:&r"
 		""
@@ -3354,25 +3273,6 @@
 	quest.5590204A473913AC.quest_subtitle: "Automatically smelts mined ores"
 	quest.561A753B404A8C0A.quest_subtitle: "Not repeatable"
 	quest.56487ACFC2360FE0.title: "&6Paladin Outfit"
-	quest.567ED608748850A8.quest_desc: [
-		"&aMagic Coins&r are an essential part of the pack. They can only be found in loot chests while exploring."
-		""
-		"There are three types of coins:"
-		""
-		"&7Silver Coin&r = 1"
-		""
-		"&6Gold Coin&r = 50"
-		""
-		"&bCrystal Coin&r = 2500"
-		""
-		"If you have a coin in your inventory, you can right-click it to store it in your wallet. "
-		""
-		"Once stored, you’ll see three new buttons in your inventory UI that let you extract coins back to your inventory."
-		""
-		"&eCoins are used in the Market to buy exclusive items, so spend wisely—your supply is limited!&r"
-	]
-	quest.567ED608748850A8.quest_subtitle: "$$$$$$$$"
-	quest.567ED608748850A8.title: "&6Mastering Currency"
 	quest.5690FCED46349207.quest_desc: [
 		"Please visit &6magic chapter Ars Nouveau&r to learn how to use &cEnchanting Apparatus&r"
 		""
@@ -3887,20 +3787,7 @@
 		"If a mob or player happens to stand inside of the SCS while the space is being captured, they too will be transported to where the rest of the space goes, i.e. in a dedicated dimension. Just make sure you have a way to get back out and in if you're the one being captured."
 	]
 	quest.64A2A85357384A51.title: "Spatial IO"
-	quest.64B6D3C0ACA9473F.quest_desc: [
-		"&6The Gem Cutting Table&r lets you increase the rarity of your gems by combining two of the same type."
-		""
-		"Check JEI for the available recipes and start upgrading your gems!"
-	]
 	quest.64D7956A3E6681A5.quest_subtitle: "You already know how to make sulfur don't you?"
-	quest.64DF63794FBD1F2C.quest_desc: [
-		"&l&aThe Market &r&ris a central part of this pack. It allows you to access a shop filled with exclusive items that can’t be crafted or found anywhere else. These special items can only be purchased using Magic Coins, Boss Tokens, or Seal Tokens so make sure to hold onto them!"
-		""
-		"You can filter using the tabs on the left of Market."
-		""
-		"&aSkipping the Market means missing out on essential progression items, so don’t overlook it!&r"
-	]
-	quest.64DF63794FBD1F2C.title: "&6The Market – A Must Have!"
 	quest.65663D9E051280F2.quest_subtitle: "Increases the speed of ridden mounts"
 	quest.660C3D5CB407247F.quest_desc: [
 		"&l&cCheck Your Keybinds!&r&r"
@@ -4077,7 +3964,6 @@
 	]
 	quest.6BF73E8BF5844527.title: "Comfort Sleeping Bag"
 	quest.6BFD66913FB72821.quest_subtitle: "Not repeatable"
-	quest.6C09C1569A947DA0.quest_desc: ["&6The Augmenting Table&r allows you to&a reroll affixes&r on your items or &amaximize their stats&r."]
 	quest.6C1085B9052E3A52.quest_desc: [
 		"Can be found naturally in birch forests. The&e honey golem&r will shoot mobs with a honey projectile, which applies slowness."
 		""
@@ -4188,16 +4074,6 @@
 		""
 		"It controls what passes through—like energy, storage, security, and autocrafting—from its input sides to the output. When pass-through is off, you can fine-tune what gets shared."
 	]
-	quest.6E4DA395958EFE02.quest_desc: [
-		"&cThese enchantments have been removed for balancing reasons:&r"
-		""
-		"* Boon of the Earth"
-		""
-		"* Scavenger"
-		""
-		"* Capturing"
-	]
-	quest.6E4DA395958EFE02.title: " Enchantment Removal"
 	quest.6E691464A1D6FEEC.quest_desc: [
 		"The &l&6Andesite Funnel&r&r is used to move items in and out of inventories."
 		""
@@ -4396,26 +4272,6 @@
 		"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
 	]
 	quest.7261FED43BDDEFA8.title: "Portable Inventory"
-	quest.72746FE37828D4F6.quest_desc: [
-		"Step into the future of enchantment storage with the &6Enchant Library&r — the ultimate solution for managing your &aEnchanted Books&r."
-		""
-		"To deposit enchantments, simply shift-left click your &aBooks&r or place them into the &9Blue Input Slot&r. The system will absorb them into its mystical archive, converting each enchantment into stored &dEssence Points&r."
-		""
-		"Enchantments are categorized by type and stored in scalable quantities:"
-		""
-		"Level I = 1 Point"
-		""
-		"Level II = 2 Points"
-		""
-		"Level III = 4 Points"
-		""
-		"Level IV = 8 Points"
-		"...and so on."
-		""
-		"Each enchantment type can store up to &d32,768 Points&r. Retrieval is simple: click on the enchantment you wish to extract, and it will begin building in the &6Crafting Slot&r. Repeated clicks increase its level."
-		""
-		"You can even combine multiple enchantments in the &6Orange Output&r just like you would on an Anvil — but without the cost."
-	]
 	quest.72A389F374C87353.quest_desc: [
 		"&cThe Harbinger&r is a boss found in an &eAncient Factory&r deep underground in the Overworld."
 		""
@@ -4840,32 +4696,6 @@
 	]
 	quest.7C3B4C2C5210096F.quest_subtitle: "Again? What?"
 	quest.7C3B4C2C5210096F.title: "&3Visit the dimension: &0Deeper and Darker"
-	quest.7C68CB331F9E5212.quest_desc: [
-		"&n&8Common&r&r"
-		"0-1 Affixes"
-		"0–1 Gem Slots"
-		""
-		"&n&aUncommon&r&r"
-		"1 Affix"
-		"1 Gem Slot"
-		""
-		"&n&9Rare&r&r"
-		"1 Basic Effect"
-		"1 Affix"
-		"2 Gem Slots"
-		""
-		"&n&5Epic&r&r"
-		"1 Basic Effect"
-		"2 Affixes"
-		"2 Gem Slots"
-		""
-		"&n&6Mythic&r&r"
-		"1 Basic Effect"
-		"2 Affixes"
-		"3 Gem Slots"
-		"1 Unique Ability"
-	]
-	quest.7C68CB331F9E5212.title: "&a&lItem Rarity Tiers and Properties&r&r"
 	quest.7C8FD4693FE20947.quest_desc: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
 	quest.7CC7FD9C32B77B35.quest_subtitle: "Not repeatable"
 	quest.7D080D777F9AADCA.quest_desc: [
