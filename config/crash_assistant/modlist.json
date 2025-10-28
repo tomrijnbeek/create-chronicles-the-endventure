@@ -1126,21 +1126,6 @@
     "modId": "reeses_sodium_options",
     "version": "1.8.3+mc1.21.4"
   },
-  "refinedstorage-curios-integration-1.0.0.jar": {
-    "jarName": "refinedstorage-curios-integration-1.0.0.jar",
-    "modId": "refinedstorage_curios_integration",
-    "version": "1.0.0"
-  },
-  "refinedstorage-jei-integration-neoforge-1.0.0.jar": {
-    "jarName": "refinedstorage-jei-integration-neoforge-1.0.0.jar",
-    "modId": "refinedstorage_jei_integration",
-    "version": "1.0.0"
-  },
-  "refinedstorage-neoforge-2.0.0-beta.8.jar": {
-    "jarName": "refinedstorage-neoforge-2.0.0-beta.8.jar",
-    "modId": "refinedstorage",
-    "version": "2.0.0-beta.8"
-  },
   "refurbished_furniture-neoforge-1.21.1-1.0.16.jar": {
     "jarName": "refurbished_furniture-neoforge-1.21.1-1.0.16.jar",
     "modId": "refurbished_furniture",
