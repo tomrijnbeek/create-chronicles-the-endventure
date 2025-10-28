@@ -18,7 +18,7 @@
 				id: "0D3E32D9D007FA89"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -55,7 +55,7 @@
 				id: "05A2BE3EE55C2562"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -92,7 +92,7 @@
 				id: "51D4C368B5E911D9"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -129,7 +129,7 @@
 				id: "5311F81A14BE282A"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -166,7 +166,7 @@
 				id: "0A477F7E0DD7A75D"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -203,7 +203,7 @@
 				id: "6A6956D0701AB723"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -240,7 +240,7 @@
 				id: "0FD084B5525DEB98"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -277,7 +277,7 @@
 				id: "2336EE32B2E4EF4C"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -314,7 +314,7 @@
 				id: "5907CE02E6CE5EBE"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -351,7 +351,7 @@
 				id: "0254AE4E96FE0679"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -388,7 +388,7 @@
 				id: "6461AA83FEE2B942"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -425,7 +425,7 @@
 				id: "65B888D6E3B286BC"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -462,7 +462,7 @@
 				id: "2F8B0FA67F4BEB33"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -499,7 +499,7 @@
 				id: "631396FB5A4BB111"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -536,7 +536,7 @@
 				id: "4B34D62799B9FFE8"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -578,7 +578,7 @@
 				id: "2DC5B482A359384F"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -616,7 +616,7 @@
 				id: "19867D565C9D99B0"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -653,7 +653,7 @@
 				id: "1400D1F0DFF06CE5"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -690,7 +690,7 @@
 				id: "211425740BC05276"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -727,7 +727,7 @@
 				id: "40207AE0690E7DA2"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -747,7 +747,7 @@
 				id: "0CACF6BEC28767AB"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -767,7 +767,7 @@
 				id: "476221612E89173C"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -787,7 +787,7 @@
 				id: "217BC9EB1322D85E"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -807,7 +807,7 @@
 				id: "1BA5FCB1EC1409B4"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -827,7 +827,7 @@
 				id: "097345E518827DA8"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -847,7 +847,7 @@
 				id: "42361C99AAAAABCA"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -867,7 +867,7 @@
 				id: "391E7FFF233E0814"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -887,7 +887,7 @@
 				id: "3CE793A1F8B36329"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -907,7 +907,7 @@
 				id: "34497D0A3267D546"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -927,7 +927,7 @@
 				id: "3EE7C8CF80CD048A"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -949,7 +949,7 @@
 				id: "2CC011042CCC6F57"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -971,7 +971,7 @@
 				id: "086B53BE81001EAD"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -993,7 +993,7 @@
 				id: "08B19BBC6C129D9A"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -1063,7 +1063,7 @@
 					id: "6595E975012373B3"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "create:experience_nugget"
 					}
 					type: "item"
 				}

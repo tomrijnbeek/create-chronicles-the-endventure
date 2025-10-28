@@ -130,7 +130,7 @@
 				id: "40EA5978CCDFDD7C"
 				item: {
 					count: 1
-					id: "magic_coins:gold_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}

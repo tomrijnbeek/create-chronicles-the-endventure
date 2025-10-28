@@ -2435,7 +2435,7 @@
 				id: "55144B6F6FB90988"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -2454,7 +2454,7 @@
 				id: "02367DB6735027AC"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -2473,7 +2473,7 @@
 				id: "2E4FF15AC432B20C"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -2492,7 +2492,7 @@
 				id: "49DB29DA1E2E8B94"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]

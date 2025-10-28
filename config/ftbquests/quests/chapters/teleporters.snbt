@@ -29,7 +29,7 @@
 					id: "6BD1CE5494F71F53"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "create:experience_nugget"
 					}
 					type: "item"
 				}
@@ -58,7 +58,7 @@
 				id: "7575D4F94FC523D0"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -79,7 +79,7 @@
 					id: "3705CB7756C55F70"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "create:experience_nugget"
 					}
 					type: "item"
 				}
@@ -108,7 +108,7 @@
 				id: "0D3A64A3B20FF979"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -131,7 +131,7 @@
 				id: "2A80A968A123B524"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -152,7 +152,7 @@
 					id: "468748C74F7A0287"
 					item: {
 						count: 1
-						id: "magic_coins:silver_coin"
+						id: "create:experience_nugget"
 					}
 					type: "item"
 				}
@@ -181,7 +181,7 @@
 				id: "75DF45CDAC95E42C"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -201,7 +201,7 @@
 				id: "2261890D64606556"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -220,7 +220,7 @@
 				id: "6B46A8FCC6AD96AA"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]
@@ -242,7 +242,7 @@
 				id: "2AFD47A8FFB18D7B"
 				item: {
 					count: 1
-					id: "magic_coins:silver_coin"
+					id: "create:experience_nugget"
 				}
 				type: "item"
 			}]

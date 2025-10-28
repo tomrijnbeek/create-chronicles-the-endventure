@@ -166,7 +166,7 @@
 					id: "3A9D321AF57FAFE3"
 					item: {
 						count: 1
-						id: "magic_coins:gold_coin"
+						id: "create:experience_nugget"
 					}
 					type: "item"
 				}
