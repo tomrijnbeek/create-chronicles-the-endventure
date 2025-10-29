@@ -123,12 +123,6 @@
 	#On first world join of modpack creator if set to false shows greeting, then self enables.
 	shown_greeting = true
 
-#Checks crash_assistant compatibility with other incompatible mods.
-#Highly unrecommended to disable!
-[compatibility]
-	#Enable feature.
-	enabled = true
-
 #You can customise GUI with this options.
 [gui_customisation]
 	#Append comment text with notice about sending screenshot of this gui tells nothing to modpack creators.
@@ -148,4 +142,10 @@
 	#Same as upload_all_button_foreground_color, but for Request Help button.
 	#Default for this button is "0_0_178" (dark blue color).
 	request_help_button_foreground_color = "0_0_178"
+
+#Checks crash_assistant compatibility with other incompatible mods.
+#Highly unrecommended to disable!
+[compatibility]
+	#Enable feature.
+	enabled = true
 

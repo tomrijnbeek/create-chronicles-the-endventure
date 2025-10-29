@@ -194,7 +194,7 @@
     "tangledHatred": {
       "maxHealth": 60.0,
       "armor": 5.0,
-      "attackDamageScale": 3.5,
+      "attackDamageScale": 1.0,
       "followRange": 100.0,
       "canSpawn": true
     }
