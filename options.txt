@@ -131,12 +131,6 @@ key_key.exposure.camera_controls:key.keyboard.unknown
 key_key.shetiphiancore.tool.next:key.keyboard.page.up
 key_key.shetiphiancore.tool.previous:key.keyboard.page.down
 key_supplementaries.keybind.quiver:key.keyboard.v
-key_key.refinedstorage.focus_search_bar:key.keyboard.tab
-key_key.refinedstorage.clear_crafting_grid_matrix_to_network:key.keyboard.x:CONTROL
-key_key.refinedstorage.clear_crafting_grid_matrix_to_inventory:key.keyboard.unknown
-key_key.refinedstorage.open_wireless_grid:key.keyboard.unknown
-key_key.refinedstorage.open_portable_grid:key.keyboard.unknown
-key_key.refinedstorage.open_wireless_autocrafting_monitor:key.keyboard.unknown
 key_key.eternal_starlight.switch_crest:key.keyboard.h
 key_key.corpse.death_history:key.keyboard.j
 key_key.veinmining.activate.desc:key.keyboard.unknown
