@@ -59,8 +59,6 @@ ServerEvents.recipes((event) => {
     event.recipes.create.cutting(["snowball","snowball","snowball","snowball"],["minecraft:snow_block"]).id("endsnowball");
     event.recipes.create.cutting('garnished:small_chorus_plant','minecraft:chorus_fruit')
 
-    //event.recipes.createMixing("7x "+IS("arcane_essence"),["2x "+MC('lapis_lazuli'), "2x "+MC('blaze_powder'),CR('experience_nugget')]).superheated()
-
     let transitional = 'createmechanisms:incomplete_wooden_mechanism'
     event.recipes.createSequencedAssembly([
       'createmechanisms:wooden_mechanism',

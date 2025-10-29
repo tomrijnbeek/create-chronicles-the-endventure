@@ -2,19 +2,10 @@
 const removeRecipesById = [
   'simplyswords:sword_on_a_stick',
   'waystones:warp_stone',
-  'apothic_enchanting:library',
-  'apothic_enchanting:prismatic_web',
   'naturescompass:natures_compass',
-  'apothic_enchanting:filtering_shelf',
-  'apothic_enchanting:ender_library',
   'gamediscs:gaming_console',
   'constructionstick:template_unbreakable',
   'multibeds:feather_pile',
-  'cataclysm:storm_eye',
-  'cataclysm:monstrous_eye',
-  'cataclysm:mech_eye',
-  'cataclysm:desert_eye',
-  'cataclysm:void_eye',
 
   'farmingforblockheads:green_fertilizer',
   'farmingforblockheads:red_fertilizer',
@@ -43,9 +34,6 @@ const removeRecipesById = [
 
   'bosses_of_mass_destruction:void_lily',
 
-  'supplementaries:sus_bricks',
-  'supplementaries:sus_sand',
-  'supplementaries:sus_gravel',
   // Recipe conflits
   'garnished:haunting/dragon_breath',
   'garnished:emptying/dragon_breath',
@@ -64,8 +52,8 @@ const removeRecipesById = [
 
 // === REMOVE BY MOD ID ===
 const removeByMod = [
-  'endrem',
-  'armoroftheages'
+  // 'endrem',
+  // 'armoroftheages'
 ];
 
 // === REMOVE BY INPUT ===
