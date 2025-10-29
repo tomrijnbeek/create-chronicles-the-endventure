@@ -76,3 +76,5 @@ config/combat_roll/client.json5
 *-client.yaml
 *-client.json
 *-client.snbt
+
+config/ars_nouveau/search_index
