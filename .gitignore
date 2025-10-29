@@ -51,7 +51,7 @@ win_event*
 
 
 # files
-ftbchunks-client.snbt
+
 knownkeys.txt
 realms_persistence.json
 exposure_catalog_state.json
@@ -66,5 +66,13 @@ patchouli_data.json
 rhino.local.properties
 config/libraryferret_1.properties
 .probe
+sodium-fingerprint.json
+sodium-options.json
+config/bettercombat/client.json5
+config/combat_roll/client.json5
 
 *.toml.bak
+*-client.toml
+*-client.yaml
+*-client.json
+*-client.snbt
