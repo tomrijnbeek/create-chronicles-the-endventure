@@ -30,6 +30,7 @@ win_event*
 command_history.txt
 minecraftinstance.json
 patchouli_data.json
+user-prefs.json
 usercache.json
 usernamecache.json
 
