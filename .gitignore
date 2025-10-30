@@ -70,6 +70,9 @@ sodium-fingerprint.json
 sodium-options.json
 config/bettercombat/client.json5
 config/combat_roll/client.json5
+config/iris.properties
+config/packetfixer.properties
+config/fabric/indigo-renderer.properties
 
 *.toml.bak
 *-client.toml
