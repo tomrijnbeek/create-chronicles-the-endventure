@@ -13,7 +13,10 @@
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	icon: {
-		id: "kubejs:cursed_eye_fragment_core"
+		components: {
+			"ftbquests:missing_item": "kubejs:cursed_eye_fragment_core"
+		}
+		id: "ftbquests:missing_item"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {

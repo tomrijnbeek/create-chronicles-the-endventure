@@ -1035,7 +1035,7 @@
 				{
 					count: 4L
 					id: "18C2B02BEE804003"
-					item: { count: 4, id: "create:fluid_tank" }
+					item: { count: 1, id: "create:fluid_tank" }
 					type: "item"
 				}
 			]

@@ -1,0 +1,231 @@
+{
+	quest.0562F21AA82B2961.quest_subtitle: "Craft any Diamond Chest type."
+	quest.065D5E33586CE44C.quest_desc: ["Apply your custom decoration at the table by inserting a paintbrush. Once applied, you can use the paintbrush directly on a chest without breaking it, instantly transferring the chosen style."]
+	quest.08838CFB8BF290E5.quest_desc: [
+		"The &6Upgrade Base&r is the foundational component for crafting all the various upgrades for Sophisticated Storage."
+		""
+		"It serves as the essential starting point for enhancing your storage functionality and capacity."
+		""
+		"To explore all available upgrades, use JEI and type `&d@sophisticatedstorage upgrade&r`."
+	]
+	quest.0BD070E54EF86FDA.quest_desc: [
+		"You can display items outside of chests to better organize your storage. For example, a food chest can display a carrot to indicate its contents."
+		""
+		"To do this, go to the settings of the chest and navigate to the Item Display Settings. Left-click on an item inside the chest to display it. The selected item will be marked with a border square. To remove the display, right-click on the square."
+	]
+	quest.0BD070E54EF86FDA.title: "Display labels"
+	quest.0C28D365031DFBB9.quest_desc: ["The &6diamond backpack&r is the upgrade of the &egold backpack&r. It has 108 storage slots and can hold 5 upgrades"]
+	quest.0C28D365031DFBB9.quest_subtitle: "Massive storage on the go"
+	quest.0E10A137480D309E.quest_desc: ["The &6netherite backpack&r is the upgrade of the &ediamond backpack&r. It has 120 storage slots and can hold 7 upgrades"]
+	quest.0E10A137480D309E.quest_subtitle: "Insane storage on the go"
+	quest.0E2DD647FACCEE2A.quest_desc: ["&6Storage I/O&r combines the functionalities of both Storage Input and Storage Output into a single block. This allows items to be both inserted into and extracted from the network seamlessly."]
+	quest.1A2605092B8B7F37.quest_subtitle: "Craft any Golden Chest type."
+	quest.1DDD74A012CDE699.quest_desc: ["The &6iron backpack&r is the upgrade of the basic &ebackpack&r. It has 54 slots and can hold 2 upgrades"]
+	quest.1DDD74A012CDE699.quest_subtitle: "Bigger storage on the go"
+	quest.1FCC2D01626EF71E.quest_desc: [
+		"If you need to integrate storage from different areas into your main system, the &6Storage Link&r is your solution."
+		""
+		"Place it on any Sophisticated Storage multiblock, then use the &bStorage Tool&r to establish a connection to your&d Storage Controller&r. "
+		""
+		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
+	]
+	quest.2946E1B9B068C2F3.quest_desc: [
+		"Compacting Drawers, from a few other mods, automatically compacts nuggets into ingots."
+		""
+		"Using the &cCompacting Upgrade&r, you can do the same thing!"
+		""
+		"For any &b3x3&r recipes (like nuggets into ingots), you do need the &aAdvanced&r &cCompacting Upgrade&r."
+		""
+		"--->"
+		"{@pagebreak}"
+		"Once installed, the settings appear on the right side of the barrel, like any other upgrade."
+		""
+		"You should enable \"&6Compact anything&r\" and just like that, you compact anything!"
+		""
+		"&4&l&oNote:&r It isn't an exact replacement. For example, you can't UNcompact things directly inside the barrel. It only goes UP."
+		"&aNuggets -> Ingots -> Blocks&r"
+		"But not &dBlocks -> Ingots -> Nuggets&r"
+		""
+		"&4&l&oNote 2:&r It won't compact anything until new items enter it!"
+		""
+		"&e&lHappy Compacting!"
+	]
+	quest.2AA436F021EDDC48.quest_subtitle: "Craft any Diamond Shulker Box type."
+	quest.2B4E5F59E5625ADF.quest_subtitle: "Craft any Iron Shulker Box type."
+	quest.2C9E13E2196DC6D7.quest_subtitle: "x2"
+	quest.2F957F552CB5A245.quest_subtitle: "x16"
+	quest.32F8B69C66723910.quest_subtitle: "Craft any Iron Barrel type."
+	quest.334FB21A2ED1C5ED.quest_desc: [
+		"Tired of items spilling everywhere when you break a chest?"
+		""
+		"&6Packing Tape&r is the solution! It lets you safely break chests without dropping their contents, making storage and relocation a breeze."
+	]
+	quest.33628061006314AB.quest_desc: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
+	quest.33628061006314AB.quest_subtitle: "Getting the most out of your backpack"
+	quest.34174F45D62D0D6E.quest_subtitle: "Craft any Iron Chest type."
+	quest.3488B3847D0D01DC.quest_subtitle: "Craft any Netherite Chest type."
+	quest.396DA8B3E8A23C6D.quest_subtitle: "Upgrades a Iron tier to gold tier."
+	quest.3BFAF2034D6C99BC.quest_desc: [
+		"The &6Storage Controller&r allows you to manage multiple storages as if they were one large storage multiblock."
+		""
+		"Containers placed directly next to each other form this \"storage network.\" Simply right-click the &6Storage Controller&r with an item, and it will be efficiently sorted into the appropriate container within the network."
+		""
+		"Additionally, the &6Storage Controller&r can connect wireless to any storage link within a &n&crange of 15 blocks.&r&r"
+	]
+	quest.3CE1281049B4B14B.quest_subtitle: "x16"
+	quest.3E7413B4D1A55B58.quest_subtitle: "Craft any Golden Shulker Box type."
+	quest.3F565733F3E8BEBD.quest_subtitle: "x4"
+	quest.3F7E6AE9B71BCE7E.quest_subtitle: "x8"
+	quest.41329FF8F96017A9.quest_desc: [
+		"The &eBasic Tier Upgrade&r is the entry-level upgrade for&6 Sophisticated Storage&r. "
+		""
+		"&aIt allows you to convert all your vanilla chests, barrels, and shulker boxes into \"Sophisticated Storage\" versions. &r"
+		""
+		"Upgrade your vanilla storage to unlock the advanced features and benefits of Sophisticated Storage."
+	]
+	quest.41E439ED3FAAAA94.quest_subtitle: "Craft any Netherite Shulker Box type."
+	quest.46BFA878FE03C07E.quest_subtitle: "Craft any Iron Limited Barrel I type."
+	quest.48042EA601D85309.quest_subtitle: "x++"
+	quest.4980B1E559CB90C6.quest_subtitle: "Upgrades a Diamond tier to netherite tier."
+	quest.4BC707D6FBE8FF09.quest_desc: [
+		"&eLimited Barrels&r come in different formats: I, II, III, and IV. "
+		""
+		"These formats represent the number of individual items each barrel can hold. "
+		""
+		"Limited Barrels can store a large amount of items and function similarly to drawers, providing efficient and organized storage solutions for your inventory needs."
+		""
+		"&n&bInteraction Instructions:&r&r"
+		""
+		"&aSingle Right Click:&r Deposit your items."
+		""
+		"&aDouble Right Click: &rDeposit all items in your inventory."
+		""
+		"&aLeft Click:&r Retrieve one item."
+		""
+		"&aShift Left Click:&r Retrieve one stack of items."
+		""
+		"You can use Limited Barrels as filters! To use a Limited Barrel as a filter, cycle your &6storage tool&r to &7Locking/Unlocking&r mode, then right-click on the barrel to apply a lock. A lock icon will appear on the barrel Next, place an item inside, for exemple an Iron Nugget. The barrel will only accept Iron Nuggets even if it goes empty or has an Andesite Funnel as input. This way, the Limited Barrel functions as a filter that also stores items inside."
+		""
+		"Another option is to use the barrel settings. Go to the settings of the barrel, navigate to the slot memory settings, and click to memorize that slot. Note that you must have at least one item inside to enable the memory function."
+		""
+		"Both methods ensure the Limited Barrel functions as a filter that also stores items inside."
+	]
+	quest.4CED308848726E28.quest_desc: [
+		"Using EITHER the &6Magnet Upgrade&r or the &6Pickup Upgrade&r, you can make it so any item you pick up goes straight into your backpack!"
+		""
+		"Great for pairing with &6Stack Upgrades&r, &6Void Upgrades&r, and going strip mining!"
+	]
+	quest.4CED308848726E28.quest_subtitle: "Make the Backpack do the work"
+	quest.4E22392BDC9FF135.quest_subtitle: "Craft any Netherite Barrel type."
+	quest.4FE2B38F21E965E8.quest_subtitle: "x3"
+	quest.51ECBE8030E9D801.quest_subtitle: "Craft any Diamond Limited Barrel I type."
+	quest.52092833009BDC49.quest_subtitle: "Craft any Diamond Barrel type."
+	quest.5261190FDCE5314D.quest_subtitle: "x++"
+	quest.53084CB2BEA9253E.quest_desc: [
+		"The Storage Tool is an essential core tool of the Sophisticated Storage mod, designed to streamline your storage management."
+		""
+		"&nInstructions:&r"
+		""
+		"&6Shift Scroll:&r Change mode."
+		""
+		""
+		"&nModes:&r"
+		""
+		"&aLinking:&r Right-click the Controller to start linking, then right-click storages or Storage Links to connect them. To unlink, shift right-click in the air to enter unlink mode, then select the green connection you want to remove."
+		""
+		"&aLocking:&r Right-click a storage or Controller to lock/unlock either a single storage or all connected storages."
+		""
+		"&aToggling Visibility:&r Right-click a storage or Controller to toggle the visibility of locks and item counts."
+	]
+	quest.574BACFBD270FD8F.quest_desc: [
+		"If you need to integrate storage from different areas into your main system, the &6Storage Link&r is your solution."
+		""
+		"Place it on any Sophisticated Storage multiblock, then use the &bStorage Tool&r to establish a connection to your&d Storage Controller&r. "
+		""
+		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
+	]
+	quest.59E937483DE3A78D.quest_subtitle: "Upgrades a Basic storage to iron tier."
+	quest.5A52E77204B42646.quest_desc: ["The &6gold backpack&r is the upgrade of the &eiron backpack&r. It has 81 storage slots and can hold 3 upgrades"]
+	quest.5A52E77204B42646.quest_subtitle: "Even bigger storage on the go"
+	quest.5BC526ACC0046B20.quest_desc: ["With the &6Inception Upgrade&r, you can put backpacks in your backpacks!"]
+	quest.5BC526ACC0046B20.quest_subtitle: "Backs on Backs on Backs"
+	quest.5CDB898FBFF026F2.quest_subtitle: "Upgrades a Gold tier to a diamond tier."
+	quest.5FA9D6B1B66399AC.quest_desc: [
+		"The &8Furnace Upgrade&r, &8Smoking Upgrade&r, and &8Blasting Upgrade&r allow you to smelt stuff in your backpack!"
+		""
+		"The &6Crafting Upgrade&r gives you a crafting table anywhere you have your backpack."
+		"Same with the &6anvil&r, and &6stonecutter upgrades&r!"
+		""
+		"There is also &bChipped Mod&r table integration! You can make the &bChipped&r &6Upgrade&r to take your &bChipped Tables &ranywhere!"
+	]
+	quest.5FA9D6B1B66399AC.quest_subtitle: "Crafting... on the go!"
+	quest.5FA9D6B1B66399AC.title: "Workstation Upgrades"
+	quest.6659EBA759E55BD5.quest_desc: [
+		"When the &6Eating Upgrade&r is in your backpack, it will automatically feed you when you start to get hungry!"
+		""
+		"If you make the &badvanced&r version of the upgrade, you can set it to feed you where you won't waste ANY food!"
+	]
+	quest.6659EBA759E55BD5.quest_subtitle: "A Waiter on demand!"
+	quest.6659EBA759E55BD5.title: "Auto Feeder"
+	quest.6A0982B3EC12BAF2.quest_desc: ["&eDecoration Table&r allows you to customize the Chest with any block."]
+	quest.703D0E0BD4F9DC4F.quest_subtitle: "Craft any Gold Limited Barrel I type."
+	quest.7226FB66C2B28ACB.quest_desc: [
+		"&dSophisticated Storage&r upgrades your chests and barrels, increasing their capacity and adding functionalities like magnets, built-in smelting, compacting, and more."
+		""
+		"This mod introduces multiple tiers of barrels, chests, and shulker boxes, each customizable with various color combinations and wood varieties."
+		""
+		"It also adds &a&lLimited Barrels&r&r that work like drawers, holding large amounts of storage."
+		""
+		"Enhance your storage solutions with a range of upgrades to augment their functionality."
+	]
+	quest.7226FB66C2B28ACB.title: "&6Welcome to Sophisticated Storage!"
+	quest.723F98AC017A4F8C.quest_desc: [
+		"With the &6deposit upgrade&r, you can shift-right-click on any storage, and it will instantly deposit the backpack contents!"
+		""
+		"If you use the &badvanced&r upgrade, you can filter to match contents of the storage!"
+	]
+	quest.723F98AC017A4F8C.quest_subtitle: "Drop 'n Go!"
+	quest.7261FED43BDDEFA8.quest_desc: [
+		"&6Sophisticated Backpacks&r add some of the most useful Backpacks to Minecraft!"
+		""
+		"To equip a &9backpack&r, click the Equip icon in the &9backpack&r menu."
+		""
+		"Once a &9backpack&r is equipped, you can open it by pressing &bB&r"
+		""
+		"&9Backpacks&r can be upgraded through several tiers."
+		""
+		"To see all &9backpack&r variants, search &d@sophisticated&r in the &eJEI&r search bar."
+		""
+		"You can find this search bar at the bottom right. "
+		""
+		"Clicking on items in the item list to the right of your inventory will show their recipes and uses."
+		""
+		"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
+	]
+	quest.7261FED43BDDEFA8.title: "Portable Inventory"
+	quest.746AE4CA7CE83847.quest_subtitle: "x8"
+	quest.761D029F52BA267B.quest_desc: ["This &6Stack Upgrade&r allows each slot in your Sophisticated Storage to hold &6double&r its normal capacity, accommodating &62 stacks&r of items per slot."]
+	quest.761D029F52BA267B.quest_subtitle: "x2"
+	quest.79D7109441F5540F.quest_subtitle: "x32"
+	quest.7A36AA33AB12EE37.quest_subtitle: "Craft any Iron Limited Barrel I type."
+	quest.7A516A80B0491E03.quest_subtitle: "x4"
+	quest.7A8D89E446B6FBE8.quest_desc: [
+		"If you need to integrate storage from different areas into your main system, the &6Storage Link&r is your solution."
+		""
+		"Place it on any Sophisticated Storage multiblock, then use the &bStorage Tool&r to establish a connection to your&d Storage Controller&r. "
+		""
+		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
+	]
+	quest.7B2E2427787A55A7.quest_desc: [
+		"With the &6Everlasting Upgrade&r, your backpack won't get destroyed by anything!"
+		""
+		"This includes, but is not limited to:"
+		"> &4Lava"
+		"> &8Void"
+		"> &2Creepers"
+		"> &bDespawning"
+		"> &6And more!"
+	]
+	quest.7DE83E440B507868.quest_subtitle: "x1.5"
+	quest.7F5DCDCFFD24ABE7.quest_subtitle: "Craft any Golden Barrel type."
+}

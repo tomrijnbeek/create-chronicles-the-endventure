@@ -1,0 +1,39 @@
+{
+	quest.144A3346C18A992F.quest_desc: ["Flap with your bee, and avoid the pipes&e"]
+	quest.144A3346C18A992F.quest_subtitle: "Flap with SPACE or ENTER"
+	quest.144A3346C18A992F.title: "&eFlappy Bee"
+	quest.1456C26C92A56C10.quest_desc: [
+		"Control your long slimy body, and eat the apples"
+		""
+		"Don't break into yourself."
+	]
+	quest.1456C26C92A56C10.quest_subtitle: "Change direction with W, S, A and D"
+	quest.1456C26C92A56C10.title: "&2Slime"
+	quest.1E3C1257A1048B85.quest_desc: [
+		"Travel the desert"
+		""
+		"Run, and avoid the cactus"
+	]
+	quest.1E3C1257A1048B85.quest_subtitle: "Jump with Enter or Space"
+	quest.1E3C1257A1048B85.title: "&6Rabbit"
+	quest.1E6F5EB0D07001C1.quest_desc: [
+		"Dig out safe tiles, and reveal underground TNTs by knowing how many of them are around digged out tiles. You win when all safe tiles are digged out, and all TNTs are marked with flags."
+		"Try to don't blow up yourself :)&c"
+	]
+	quest.1E6F5EB0D07001C1.quest_subtitle: "Move selection frame with W, S, A and D. Dig with SPACE, and place/remove flag with ENTER"
+	quest.1E6F5EB0D07001C1.title: "&cTNTsweeper"
+	quest.23D7FCA6FD1D3EA5.quest_desc: ["Fit the pieces into small space, and fill lines to get points&9"]
+	quest.23D7FCA6FD1D3EA5.quest_subtitle: "Move with A and D, rotate with W, move down with S, hard drop with SPACE, and hold with ENTER"
+	quest.23D7FCA6FD1D3EA5.title: "&9Blocktris"
+	quest.34AB7EB1F6BF5457.quest_desc: ["Move your paddle, and don't let the ball get past you&f&9"]
+	quest.34AB7EB1F6BF5457.quest_subtitle: "Move the paddle with W and S"
+	quest.34AB7EB1F6BF5457.title: "&f Pong"
+	quest.490B9CE61B5F7D4A.title: "&6Collect all the Game Discs"
+	quest.4E8C513048CB4D01.quest_desc: [
+		"Make it all the way home with all five frogs"
+		""
+		"Cross the rails, don't get hit by a minecart, jump over the logs and turtles in the river&a"
+	]
+	quest.4E8C513048CB4D01.quest_subtitle: "Jump with W, S, A and D"
+	quest.4E8C513048CB4D01.title: "&aFroggie"
+}
