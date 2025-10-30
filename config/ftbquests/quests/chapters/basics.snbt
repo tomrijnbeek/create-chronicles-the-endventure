@@ -54,20 +54,12 @@
 		}
 	]
 	order_index: 0
-	quest_links: [
-		{
-			id: "7FEE2FA800F748C3"
-			linked_quest: "736512E2075451A1"
-			x: -25.0d
-			y: 16.0d
-		}
-		{
-			id: "71ED0104BD03B34D"
-			linked_quest: "7261FED43BDDEFA8"
-			x: -32.0d
-			y: 16.0d
-		}
-	]
+	quest_links: [{
+		id: "71ED0104BD03B34D"
+		linked_quest: "7261FED43BDDEFA8"
+		x: -32.0d
+		y: 16.0d
+	}]
 	quests: [
 		{
 			id: "1F6BC8C2A5B8F9B2"
@@ -924,14 +916,17 @@
 			rewards: [{
 				id: "5695E0B24E93746C"
 				item: {
+					components: {
+						"ftbquests:missing_item": "refurbished_furniture:wrench"
+					}
 					count: 1
-					id: "refurbished_furniture:wrench"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "73C3D3A6CE522B19"
-				item: { count: 1, id: "refurbished_furniture:workbench" }
+				item: { components: { "ftbquests:missing_item": "refurbished_furniture:workbench" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -1466,14 +1461,17 @@
 			rewards: [{
 				id: "62B451B57B6D95A2"
 				item: {
+					components: {
+						"ftbquests:missing_item": "refurbished_furniture:oak_mail_box"
+					}
 					count: 1
-					id: "refurbished_furniture:oak_mail_box"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]
 			tasks: [{
 				id: "5AC6A6DB3DEB7E3D"
-				item: { count: 1, id: "refurbished_furniture:light_electricity_generator" }
+				item: { components: { "ftbquests:missing_item": "refurbished_furniture:light_electricity_generator" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -1484,7 +1482,7 @@
 			id: "31DB2CD7ECC30BF9"
 			tasks: [{
 				id: "1EF67D0C964E0ABF"
-				item: { count: 1, id: "cfm_circuit_breaker:circuit_breaker" }
+				item: { components: { "ftbquests:missing_item": "cfm_circuit_breaker:circuit_breaker" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.0d
@@ -2339,7 +2337,7 @@
 			}]
 			tasks: [{
 				id: "69E997E52F506277"
-				item: { count: 1, id: "buildinggadgets2:gadget_building" }
+				item: { components: { "ftbquests:missing_item": "buildinggadgets2:gadget_building" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -21.0d
@@ -2355,7 +2353,7 @@
 			}]
 			tasks: [{
 				id: "5892DA124105B721"
-				item: { count: 1, id: "buildinggadgets2:gadget_copy_paste" }
+				item: { components: { "ftbquests:missing_item": "buildinggadgets2:gadget_copy_paste" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -22.0d
@@ -2371,7 +2369,7 @@
 			}]
 			tasks: [{
 				id: "40FB5525D8101139"
-				item: { count: 1, id: "buildinggadgets2:gadget_exchanging" }
+				item: { components: { "ftbquests:missing_item": "buildinggadgets2:gadget_exchanging" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -20.0d
@@ -2387,7 +2385,7 @@
 			}]
 			tasks: [{
 				id: "6B93ACFCD720BAF4"
-				item: { count: 1, id: "buildinggadgets2:template_manager" }
+				item: { components: { "ftbquests:missing_item": "buildinggadgets2:template_manager" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -22.0d

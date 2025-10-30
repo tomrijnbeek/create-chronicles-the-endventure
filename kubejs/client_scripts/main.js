@@ -95,34 +95,8 @@ RecipeViewerEvents.addInformation('item', item =>{
   item.add("simplyswords:shadowsting", "Drops from Ender Dragon")
   item.add("simplyswords:livyatan", "Drops from Ender Dragon")
 
-  item.add("garnished:vermilion_kelp", "Vermilion kelp be found in the Cold Ocean or Frozen Ocean")
-  item.add("garnished:bok_choy", "Bok Choy can be found in Jungle Temples")
-
-  // remove salt when fix recipe
-  item.add('garnished:crushed_salt',"You need to use Mechanical Grindstone using Limestone")
-
   item.add('biomeswevegone:yucca_fruit',"Yuca grows on trees and can be found in biomes, such as Badlands variants, or Desert variants.")
   item.add('eternal_starlight:lunaris_cactus_fruit',"Grows on top of Lunaris Cactus. Can be found in the Crystallized Desert biome, and also grows on Twilight Sand in the Eternal Starlight dimension.")
   item.add('eternal_starlight:ether_bucket',"Found in Eternal Starlight dimension.")
   item.add('minecraft:brown_mushroom',"Grow using Warped or Crimson Nylium (farmable)")
 })
-
-const discs =[
-  'gamediscs:game_disc_rabbit',
-  'gamediscs:game_disc_flappy_bird',
-  'gamediscs:game_disc_slime',
-  'gamediscs:game_disc_blocktris',
-  'gamediscs:game_disc_pong',
-  'gamediscs:game_disc_froggie',
-  'gamediscs:game_disc_tnt_sweeper',
-]
-
-
-// Tooltips with order
-ItemEvents.modifyTooltips(event => {
-  discs.forEach((disc) => {
-    event.modify(disc, tooltip => {
-      tooltip.insert(1, Text.of('§7You need a gaming console to play the game.'))
-    })
-  })
-});

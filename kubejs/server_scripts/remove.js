@@ -1,29 +1,10 @@
 // === REMOVE BY RECIPE ID ===
 const removeRecipesById = [
   'simplyswords:sword_on_a_stick',
-  'waystones:warp_stone',
-  'naturescompass:natures_compass',
-  'gamediscs:gaming_console',
   'constructionstick:template_unbreakable',
   'multibeds:feather_pile',
 
-  'farmingforblockheads:green_fertilizer',
-  'farmingforblockheads:red_fertilizer',
-  'farmingforblockheads:yellow_fertilizer',
-  'farmingforblockheads:feeding_trough',
-  'farmingforblockheads:chicken_nest',
   'create_sa:block_picker_recipe',
-  'create_mechanical_extruder:mechanical_brass_extruder',
-  'create_mechanical_extruder:crafting/mechanical_extruder',
-  //
-  'garnished:crushing/zultanite/iron_from_zultanite',
-  'garnished:crushing/zultanite/zinc_from_zultanite',
-  'garnished:crushing/zultanite/gold_from_zultanite',
-  'garnished:crushing/zultanite/copper_from_zultanite',
-  'garnished:crushing/materials_from_unstable_stone',
-  'garnished:milling/crushed_salt',
-  'garnished:crushing/crushed_salt',
-  'garnished:integration/create_aquatic_ambitions/crushed_salt_crushing',
   'create_aquatic_ambitions:crushing/prismarine_bricks_to_lapis_and_copper',
   'create_aquatic_ambitions:crushing/prismarine_to_lapis',
   'create_aquatic_ambitions:smelting/veridium',
@@ -35,8 +16,6 @@ const removeRecipesById = [
   'bosses_of_mass_destruction:void_lily',
 
   // Recipe conflits
-  'garnished:haunting/dragon_breath',
-  'garnished:emptying/dragon_breath',
   'multibeds:feather_pile_uncraft',
   'create_sa:small_filling_tank_recipe',
   'simplyswords:iron_spear',

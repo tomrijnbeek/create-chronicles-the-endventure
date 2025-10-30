@@ -4,7 +4,10 @@
 	filename: "game_discs"
 	group: "3808ABBD2D934E7D"
 	icon: {
-		id: "gamediscs:gaming_console"
+		components: {
+			"ftbquests:missing_item": "gamediscs:gaming_console"
+		}
+		id: "ftbquests:missing_item"
 	}
 	id: "66515D165B519FE2"
 	order_index: 2
@@ -25,7 +28,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "21DEBB43B6B43459"
-				item: { count: 1, id: "gamediscs:game_disc_rabbit" }
+				item: { components: { "ftbquests:missing_item": "gamediscs:game_disc_rabbit" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -45,7 +48,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "73D063ACB9016F8D"
-				item: { count: 1, id: "gamediscs:game_disc_slime" }
+				item: { components: { "ftbquests:missing_item": "gamediscs:game_disc_slime" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -65,7 +68,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "363B4C64653153EE"
-				item: { count: 1, id: "gamediscs:game_disc_blocktris" }
+				item: { components: { "ftbquests:missing_item": "gamediscs:game_disc_blocktris" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d
@@ -73,7 +76,10 @@
 		}
 		{
 			icon: {
-				id: "gamediscs:game_disc_tnt_sweeper"
+				components: {
+					"ftbquests:missing_item": "gamediscs:game_disc_tnt_sweeper"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "1E6F5EB0D07001C1"
 			rewards: [{
@@ -88,7 +94,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "603D62232F4D0CC8"
-				item: { count: 1, id: "gamediscs:game_disc_tnt_sweeper" }
+				item: { components: { "ftbquests:missing_item": "gamediscs:game_disc_tnt_sweeper" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 5.0d
@@ -108,7 +114,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "43E8A9B972126C1F"
-				item: { count: 1, id: "gamediscs:game_disc_froggie" }
+				item: { components: { "ftbquests:missing_item": "gamediscs:game_disc_froggie" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 2.0d
@@ -116,7 +122,10 @@
 		}
 		{
 			icon: {
-				id: "gamediscs:game_disc_flappy_bird"
+				components: {
+					"ftbquests:missing_item": "gamediscs:game_disc_flappy_bird"
+				}
+				id: "ftbquests:missing_item"
 			}
 			id: "144A3346C18A992F"
 			rewards: [{
@@ -131,7 +140,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "7DE41AFF4DC00BBF"
-				item: { count: 1, id: "gamediscs:game_disc_flappy_bird" }
+				item: { components: { "ftbquests:missing_item": "gamediscs:game_disc_flappy_bird" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 0.5d
@@ -194,7 +203,7 @@
 			shape: "rsquare"
 			tasks: [{
 				id: "1C3FE3968F6712AE"
-				item: { count: 1, id: "gamediscs:game_disc_pong" }
+				item: { components: { "ftbquests:missing_item": "gamediscs:game_disc_pong" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: 3.5d

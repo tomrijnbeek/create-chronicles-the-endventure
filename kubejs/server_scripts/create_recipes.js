@@ -8,7 +8,6 @@ ServerEvents.recipes((event) => {
     event.recipes.createSandpaperPolishing(["minecraft:leather"],"minecraft:rotten_flesh")
 
     //Mixing
-    event.recipes.createMixing("createmechanisms:rubber", ["minecraft:kelp","minecraft:kelp","minecraft:kelp","minecraft:kelp", Fluid.of("water", 250)])
     event.recipes.createMixing("culturaldelights:corn_dough", ["culturaldelights:corn_cob","culturaldelights:corn_cob","culturaldelights:corn_cob", Fluid.of("water", 250)])
     event.recipes.createMixing('2x minecraft:dirt',['minecraft:mud','minecraft:gravel','minecraft:clay_ball'])
     event.recipes.createMixing(('minecraft:warped_nylium'),['minecraft:netherrack','minecraft:warped_fungus'])
@@ -16,7 +15,6 @@ ServerEvents.recipes((event) => {
     event.recipes.createMixing(('9x minecraft:gunpowder'),['minecraft:wither_rose','biomeswevegone:blue_glowcane_powder','biomeswevegone:red_glowcane_powder','biomeswevegone:green_glowcane_powder','biomeswevegone:yellow_glowcane_powder']).superheated()
     event.recipes.createMixing(('minecraft:lapis_lazuli'),['minecraft:glowstone_dust','minecraft:blue_dye','amethyst_shard',Fluid.of("create_enchantment_industry:experience", 100)]).superheated()
     event.recipes.createMixing(('minecraft:ender_pearl'),[Fluid.of("createaddition:bioethanol", 250),'createaddition:biomass_pellet','createaddition:biomass_pellet','createaddition:biomass_pellet','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_crystals']).superheated()
-    //event.recipes.createMixing(('3x createmechanisms:bronze'),['minecraft:copper_ingot','minecraft:copper_ingot','minecraft:copper_ingot','minecraft:iron_ingot']).heated()
     event.recipes.createMixing("kubejs:chromatic_compound", [ "#c:dusts/glowstone","#c:dusts/glowstone","#c:dusts/glowstone","create:cinder_flour","create:cinder_flour","create:cinder_flour", "create:powdered_obsidian","create:powdered_obsidian","create:polished_rose_quartz"]).superheated();
     event.recipes.createMixing(('createaddition:electrum_ingot'),['minecraft:gold_ingot',"#c:dusts/glowstone","#c:gems/quartz"]).heated()
 
@@ -39,14 +37,6 @@ ServerEvents.recipes((event) => {
        withChance("minecraft:glowstone_dust", 0.10)
     ], 'minecraft:soul_sand').processingTime(100)
 
-    // mill
-    event.recipes.createMilling(
-        [
-           "garnished:small_chorus_plant"
-        ],
-        "minecraft:chorus_fruit"
-    ).id("end:chorusfruit");
-
 
     // Filling
     event.recipes.createFilling("minecraft:magma_block",  ["minecraft:netherrack",Fluid.of("lava", 250)]);
@@ -57,88 +47,6 @@ ServerEvents.recipes((event) => {
     event.recipes.createHaunting(["minecraft:magma_cream"],"minecraft:slime_ball");
 
     event.recipes.create.cutting(["snowball","snowball","snowball","snowball"],["minecraft:snow_block"]).id("endsnowball");
-    event.recipes.create.cutting('garnished:small_chorus_plant','minecraft:chorus_fruit')
-
-    let transitional = 'createmechanisms:incomplete_wooden_mechanism'
-    event.recipes.createSequencedAssembly([
-      'createmechanisms:wooden_mechanism',
-    ], '#c:stripped_woods', [
-          event.recipes.createDeploying(transitional, [transitional, '#createmechanisms:sawing_tools']),
-          event.recipes.createDeploying(transitional, [transitional, 'garnished:boarded_pulp']),
-          event.recipes.createDeploying(transitional, [transitional, 'create:andesite_alloy']),
-          event.recipes.createDeploying(transitional, [transitional, 'create:cogwheel']),
-          event.recipes.createDeploying(transitional, [transitional, 'create:large_cogwheel']),
-          event.recipes.createPressing(transitional,transitional)
-    ]).transitionalItem(transitional)
-      .loops(1)
-      .id('end:wooden_mechanism')
-
-    transitional = 'kubejs:incomplete_blackstone'
-    event.recipes.createSequencedAssembly([
-      'minecraft:gilded_blackstone',
-    ], 'minecraft:blackstone', [
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:gold_ingot']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:gold_ingot']),
-    ]).transitionalItem(transitional)
-      .loops(1)
-      .id('end:black')
-
-
-    transitional = 'createmechanisms:incomplete_rubber_mechanism'
-    event.recipes.createSequencedAssembly([
-      'createmechanisms:rubber_mechanism',
-    ], 'createmechanisms:wooden_mechanism', [
-          event.recipes.createDeploying(transitional, [transitional, 'createmechanisms:cured_rubber']),
-          event.recipes.createDeploying(transitional, [transitional, 'createmechanisms:cured_rubber']),
-          event.recipes.createDeploying(transitional, [transitional, 'garnished:hardened_wrap']),
-          event.recipes.createDeploying(transitional, [transitional, 'create:copper_sheet']),
-          event.recipes.createPressing(transitional,transitional),
-    ]).transitionalItem(transitional)
-      .loops(1)
-      .id('end:rubber_mechanism')
-
-    transitional = 'createmechanisms:incomplete_heat_mechanism'
-    event.recipes.createSequencedAssembly([
-      'createmechanisms:heat_mechanism',
-    ], 'createmechanisms:rubber_mechanism', [
-          event.recipes.createDeploying(transitional, [transitional, 'createmechanisms:bronze']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:gunpowder']),
-          event.recipes.createDeploying(transitional, [transitional, 'garnished:baklava']),
-          event.recipes.createDeploying(transitional, [transitional, 'create_things_and_misc:crushed_magma']),
-          event.recipes.createFilling(transitional, [transitional,  Fluid.of('create_bic_bit:frying_oil', 250)]),
-          event.recipes.createPressing(transitional,transitional),
-    ]).transitionalItem(transitional)
-      .loops(2)
-      .id('end:heat_mechanism')
-
-    transitional = 'createmechanisms:incomplete_ender_mechanism'
-    event.recipes.createSequencedAssembly([
-      'createmechanisms:ender_mechanism',
-    ], 'biomeswevegone:mossy_stone_slab', [
-          event.recipes.createDeploying(transitional, [transitional, 'eternal_starlight:lunaris_cactus_gel']),
-          event.recipes.createDeploying(transitional, [transitional, 'garnished:wrapped_warped_tangle']),
-          event.recipes.createDeploying(transitional, [transitional, 'garnished:ethereal_compound']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:ender_eye']),
-          event.recipes.createPressing(transitional,transitional),
-          event.recipes.createFilling(transitional, [transitional,  Fluid.of('createmechanisms:enderiam', 350)]),
-    ]).transitionalItem(transitional)
-      .loops(2)
-      .id('end:ender_mechanism')
-
-
-    transitional = 'createmechanisms:incomplete_advanced_precision_mechanism'
-    event.recipes.createSequencedAssembly([
-      'createmechanisms:advanced_precision_mechanism',
-    ], 'kubejs:chromatic_compound', [
-          event.recipes.createDeploying(transitional, [transitional, 'createmechanisms:ender_mechanism']),
-          event.recipes.createDeploying(transitional, [transitional, 'createmechanisms:heat_mechanism']),
-          event.recipes.createDeploying(transitional, [transitional, 'create_things_and_misc:vibration_mechanism']),
-          event.recipes.createDeploying(transitional, [transitional, 'createteleporters:quantum_mechanism']),
-          event.recipes.createDeploying(transitional, [transitional, 'create:precision_mechanism']),
-          event.recipes.createPressing(transitional,transitional),
-    ]).transitionalItem(transitional)
-      .loops(3)
-      .id('end:precision_mechanism')
 
     // FARMERS DELIGHT
     event.recipes.createMixing('farmersdelight:apple_pie',['minecraft:wheat','minecraft:wheat','minecraft:apple','minecraft:apple','minecraft:apple','minecraft:sugar','minecraft:sugar','farmersdelight:pie_crust'])

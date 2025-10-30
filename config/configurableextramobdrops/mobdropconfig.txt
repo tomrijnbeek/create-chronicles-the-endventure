@@ -166,7 +166,6 @@
 'minecraft:blaze' : '',
 'minecraft:piglin' : '',
 'minecraft:panda' : '',
-'create_bic_bit:herring' : '',
 'cataclysm:aptrgangr' : '',
 'minecraft:donkey' : '',
 'eternal_starlight:tangled_skull' : '',

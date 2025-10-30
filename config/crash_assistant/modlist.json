@@ -174,11 +174,6 @@
     "modId": "bridgingmod",
     "version": "2.6.2+1.21.1"
   },
-  "buildinggadgets2-1.3.9.jar": {
-    "jarName": "buildinggadgets2-1.3.9.jar",
-    "modId": "buildinggadgets2",
-    "version": "1.3.9"
-  },
   "cable_facades-1.21.1-NeoForge-1.6.1.jar": {
     "jarName": "cable_facades-1.21.1-NeoForge-1.6.1.jar",
     "modId": "cable_facades",
@@ -188,11 +183,6 @@
     "jarName": "caelus-neoforge-7.0.1+1.21.1.jar",
     "modId": "caelus",
     "version": "7.0.1+1.21.1"
-  },
-  "catburger_neoforge1.21.1-1.0.3_fix.jar": {
-    "jarName": "catburger_neoforge1.21.1-1.0.3_fix.jar",
-    "modId": "catburger",
-    "version": "1.0.3_fix"
   },
   "CerbonsAPI-NeoForge-1.21-1.3.0.jar": {
     "jarName": "CerbonsAPI-NeoForge-1.21-1.3.0.jar",
@@ -374,11 +364,6 @@
     "modId": "create_aquatic_ambitions",
     "version": "1.21.1-2.0.1"
   },
-  "create_bic_bit-1.0.1.jar": {
-    "jarName": "create_bic_bit-1.0.1.jar",
-    "modId": "create_bic_bit",
-    "version": "1.0.1"
-  },
   "create_cardboarded_conveynience-0.0.3b.jar": {
     "jarName": "create_cardboarded_conveynience-0.0.3b.jar",
     "modId": "create_cardboarded_conveynience",
@@ -393,11 +378,6 @@
     "jarName": "create_hypertube-0.2.4-NEOFORGE.jar",
     "modId": "create_hypertube",
     "version": "0.2.4"
-  },
-  "create_mechanical_extruder-1.21.1-2.1.2-6.0.6.jar": {
-    "jarName": "create_mechanical_extruder-1.21.1-2.1.2-6.0.6.jar",
-    "modId": "create_mechanical_extruder",
-    "version": "1.21.1-2.1.1-6.0.4"
   },
   "create_pattern_schematics-2.0.9.jar": {
     "jarName": "create_pattern_schematics-2.0.9.jar",
@@ -418,16 +398,6 @@
     "jarName": "createaddition-1.5.1.jar",
     "modId": "createaddition",
     "version": "1.5.1"
-  },
-  "createmechanisms-2.0.2.jar": {
-    "jarName": "createmechanisms-2.0.2.jar",
-    "modId": "createmechanisms",
-    "version": "2.0.2"
-  },
-  "createteleporters2.4-1.21.1.jar": {
-    "jarName": "createteleporters2.4-1.21.1.jar",
-    "modId": "createteleporters",
-    "version": "2.4"
   },
   "CreativeCore_NEOFORGE_v2.13.7_mc1.21.1.jar": {
     "jarName": "CreativeCore_NEOFORGE_v2.13.7_mc1.21.1.jar",
@@ -593,11 +563,6 @@
     "modId": "farmers_structures",
     "version": "1.0.0"
   },
-  "farmingforblockheads-neoforge-1.21.1-21.1.8.jar": {
-    "jarName": "farmingforblockheads-neoforge-1.21.1-21.1.8.jar",
-    "modId": "farmingforblockheads",
-    "version": "21.1.8"
-  },
   "farsight-1.21-3.8.jar": {
     "jarName": "farsight-1.21-3.8.jar",
     "modId": "farsight_view",
@@ -687,16 +652,6 @@
     "jarName": "fzzy_config-0.7.2+1.21+neoforge.jar",
     "modId": "fzzy_config",
     "version": "0.7.2+1.21+neoforge"
-  },
-  "gamediscs-0.3.2-neoforge.jar": {
-    "jarName": "gamediscs-0.3.2-neoforge.jar",
-    "modId": "gamediscs",
-    "version": "0.3.2-neoforge"
-  },
-  "garnished-2.1.6.3+1.21.1-neoforged.jar": {
-    "jarName": "garnished-2.1.6.3+1.21.1-neoforged.jar",
-    "modId": "garnished",
-    "version": "2.1.6.3"
   },
   "geckolib-neoforge-1.21.1-4.7.6.jar": {
     "jarName": "geckolib-neoforge-1.21.1-4.7.6.jar",
@@ -911,11 +866,6 @@
     "modId": "measurements",
     "version": "3.0.1"
   },
-  "mechanical_botany-1.0.6.2+1.21.1-neoforged.jar": {
-    "jarName": "mechanical_botany-1.0.6.2+1.21.1-neoforged.jar",
-    "modId": "mechanical_botany",
-    "version": "1.0.6.2"
-  },
   "mechanicals-1.21.1-1.0.12.jar": {
     "jarName": "mechanicals-1.21.1-1.0.12.jar",
     "modId": "mechanicals",
@@ -1111,11 +1061,6 @@
     "modId": "reeses_sodium_options",
     "version": "1.8.3+mc1.21.4"
   },
-  "refurbished_furniture-neoforge-1.21.1-1.0.16.jar": {
-    "jarName": "refurbished_furniture-neoforge-1.21.1-1.0.16.jar",
-    "modId": "refurbished_furniture",
-    "version": "1.0.16"
-  },
   "repurposed_structures-7.5.17+1.21.1-neoforge.jar": {
     "jarName": "repurposed_structures-7.5.17+1.21.1-neoforge.jar",
     "modId": "repurposed_structures",
@@ -1165,11 +1110,6 @@
     "jarName": "silent-lib-1.21.1-neoforge-10.5.1.jar",
     "modId": "silentlib",
     "version": "10.5.1"
-  },
-  "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar": {
-    "jarName": "SimpleDiscordRichPresence-neoforge-87.0.1-build.49+mc1.21.jar",
-    "modId": "sdrp",
-    "version": "87.0.1-build.49+mc1.21"
   },
   "simplelootviewer-neoforge-1.21.1-21.1.3.jar": {
     "jarName": "simplelootviewer-neoforge-1.21.1-21.1.3.jar",

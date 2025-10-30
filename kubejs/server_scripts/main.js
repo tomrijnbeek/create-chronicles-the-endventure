@@ -1,6 +1,5 @@
 ServerEvents.recipes(event => {
 
-  event.replaceInput({}, 'refurbished_furniture:dough', 'create:dough')
   event.replaceInput({}, 'farmersdelight:wheat_dough', 'create:dough')
 
   //conf
@@ -21,31 +20,6 @@ ServerEvents.recipes(event => {
   event.smoking('minecraft:leather', 'minecraft:rotten_flesh').cookingTime(900)
 
   event.custom({
-    "type": "mechanical_botany:insolating",
-    "ingredients": [
-      {
-        "type": "fluid_stack",
-        "amount": 250,
-        "fluid": "eternal_starlight:ether"
-      },
-      {
-        "item": "eternal_starlight:lunaris_cactus"
-      }
-    ],
-    "processing_time": 3200,
-    "results": [
-      {
-        "count": 2,
-        "id": "eternal_starlight:lunaris_cactus_fruit"
-      },
-      {
-        "count": 1,
-        "id": "eternal_starlight:lunaris_cactus"
-      }
-    ]
-  })
-
-  event.custom({
     "type": "create_enchantment_industry:grinding",
     "ingredients": [
       {
@@ -56,61 +30,6 @@ ServerEvents.recipes(event => {
       {
         "amount": 120,
         "id": "kubejs:fluid_redstone"
-      }
-    ]
-  })
-
-  event.custom({
-    "type": "create_enchantment_industry:grinding",
-    "ingredients": [
-      {
-        "item": "minecraft:ender_pearl"
-      }
-    ],
-    "results": [
-      {
-        "amount": 750,
-        "id": "createmechanisms:enderiam"
-      },
-      {
-        "amount": 1,
-        "id": "garnished:crushed_ender_pearl"
-      }
-    ]
-  })
-
-  event.custom({
-    "type": "create_enchantment_industry:grinding",
-    "ingredients": [
-      {
-        "item": "create:limestone"
-      }
-    ],
-    "results": [
-      {
-        "amount": 1,
-        "id": "create_enchantment_industry:experience"
-      },
-      {
-        "amount": 1,
-        "id": "garnished:crushed_salt"
-      }
-    ]
-  })
-
-
-  event.custom({
-    "type": "createaddition:charging",
-    "energy": 4000,
-    "ingredients": [
-      {
-        "item": "minecraft:copper_ingot"
-      }
-    ],
-    "max_charge_rate": 200,
-    "results": [
-      {
-        "id": "createmechanisms:bronze"
       }
     ]
   })
@@ -134,55 +53,6 @@ ServerEvents.recipes(event => {
       "count": 1
     }
   });
-
-  event.custom({
-    "type": "createaddition:liquid_burning",
-    "burn_time": 3380,
-    "ingredients": [
-      {
-        "type": "fluid_tag",
-        "amount": 1000,
-        "fluid_tag": "garnished:peanut_oil"
-      }
-    ],
-    "results": [],
-    "superheated": true
-  })
-
-  event.shaped('2x create:belt_connector', [
-      '   ',
-      'SSS',
-      'SSS'
-  ], {
-      S: 'createmechanisms:cured_rubber',
-  })
-
-  event.shaped('createmechanisms:iron_saw', [
-      'A  ',
-      ' A ',
-      '  C'
-  ], {
-      C: '#minecraft:wooden_slabs',
-      A: 'minecraft:iron_ingot',
-  })
-  event.shaped('createmechanisms:copper_saw', [
-      'A  ',
-      ' A ',
-      '  C'
-  ], {
-      C: '#minecraft:wooden_slabs',
-      A: 'minecraft:copper_ingot',
-  })
-  event.shaped('createmechanisms:diamond_saw', [
-      'A  ',
-      ' A ',
-      '  C'
-  ], {
-      C: '#minecraft:wooden_slabs',
-      A: 'minecraft:diamond',
-  })
-  event.smoking('createmechanisms:cured_rubber', 'createmechanisms:rubber').cookingTime(200)
-
 
   // Recipe conflicts
   event.shaped('create_sa:vault_component', [

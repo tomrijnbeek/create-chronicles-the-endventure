@@ -2956,68 +2956,6 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["2D412FE8D78F46FE"]
-			id: "71A3D03B6C04E703"
-			rewards: [
-				{
-					count: 5
-					id: "0BE3211437A8269A"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "18771D7C108FFB6F"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "51BD51B35B7F11B0"
-				item: { count: 1, id: "mechanical_botany:mechanical_insolator" }
-				type: "item"
-			}]
-			x: -11.0d
-			y: -6.0d
-		}
-		{
-			dependencies: ["2D412FE8D78F46FE"]
-			id: "2B603051BF399205"
-			rewards: [
-				{
-					count: 5
-					id: "575D6B41CBB5FDBD"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-				{
-					count: 2
-					id: "5F4E035FADC9B2DE"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "01694B4E3C2C8A4B"
-				item: { count: 1, id: "mechanical_botany:mechanical_composter" }
-				type: "item"
-			}]
-			x: -10.0d
-			y: -6.0d
-		}
-		{
 			dependencies: ["6C7DDDC1123E208A"]
 			id: "239660F260DB37EA"
 			rewards: [
@@ -3619,43 +3557,6 @@
 			y: -9.5d
 		}
 		{
-			dependencies: ["6D46BA0F714FB56B"]
-			id: "5E9E882D7F331693"
-			rewards: [
-				{
-					count: 5
-					id: "2C331A193D916C6E"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-				{
-					id: "08EB99B6B6E0C629"
-					item: {
-						count: 1
-						id: "create:experience_nugget"
-					}
-					type: "item"
-				}
-			]
-			tasks: [
-				{
-					id: "6A6CA5397D8A5962"
-					item: { count: 1, id: "escalated:wooden_walkway_steps" }
-					type: "item"
-				}
-				{
-					id: "7E545A8F08CCDE74"
-					item: { count: 1, id: "escalated:metal_walkway_steps" }
-					type: "item"
-				}
-			]
-			x: -8.4d
-			y: -6.0d
-		}
-		{
 			dependencies: ["1FDE0EA030EC5D9B"]
 			id: "52CD60BB56B17A39"
 			rewards: [{
@@ -3796,8 +3697,11 @@
 				count: 4
 				id: "0E0A39E898EF96F6"
 				item: {
+					components: {
+						"ftbquests:missing_item": "createmechanisms:rubber"
+					}
 					count: 1
-					id: "createmechanisms:rubber"
+					id: "ftbquests:missing_item"
 				}
 				type: "item"
 			}]

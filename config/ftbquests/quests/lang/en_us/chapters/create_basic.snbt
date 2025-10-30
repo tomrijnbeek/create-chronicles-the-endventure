@@ -378,19 +378,6 @@
 		""
 		"The &n&6Smart Chute&r is the same as the Chute but with additional functionalities, such as stack size, Item filter and responds to Redstone signal."
 	]
-	quest.2B603051BF399205.quest_desc: [
-		"The &6Mechanical Composter &rprocesses compostable items—such as flowers—into Compost."
-		""
-		"It can be powered from the side using a Cogwheel or from below. "
-		""
-		"The &6Mechanical Composter&r has a shaft output on top that allows for creative automation setups."
-		""
-		"&aCompost&r can be extracted either manually by &dRight-clicking&r or automatically using a Funnel."
-		""
-		"To convert Compost into a fluid form, place it onto an Item Drain."
-		""
-		"&oNote: &7Mixing Liquid Compost with Lava in a Basin with a burning Blaze beneath, produces Molten Liquid Compost.&r&r"
-	]
 	quest.2BA2400B5F877FF7.quest_desc: [
 		"The &6Stock Link&r is used to create a Logistics Network and to connect &cPackagers&r, &cthe Stock Tinker&r, &cFactory Gauge&r and the &cRedstone Requester&r to that network."
 		""
@@ -857,33 +844,6 @@
 		""
 		"The brown arrows on the pump show the current flow direction. Use a Wrench to reverse it."
 	]
-	quest.5E9E882D7F331693.quest_desc: [
-		"&n&aWalkways: &r&r"
-		"The Walkway Steps are placed similarly to Mechanical Belts. Place two Shafts a distance apart, then right-click one Shaft with Walkway Steps, followed by the other Shaft, to create the Walkway."
-		"Additional shafts can be added to the Walkway just like Mechanical Belts."
-		""
-		"&a&n&nEscalators:&r&r&r"
-		"Escalators are created similarly to Walkways, but with one key difference:"
-		""
-		"The Shafts cannot be placed on a perfect diagonal."
-		""
-		"The horizontal distance between the Shafts must be three blocks greater than the vertical distance. For example: 7 blocks horizontally and 4 blocks vertically."
-		""
-		"Unlike Walkways, additional Shafts cannot be added to Escalators after placement."
-		""
-		"&n&aCustomization&r&r"
-		"Both Walkways and Escalators can be dyed any color."
-		""
-		"&n&aHandrails:&r&r"
-		"Add Handrails by right-clicking a Walkway or Escalator with a Mechanical Belt."
-		""
-		"Handrails can also be dyed."
-		""
-		"Convert Handrails to Glass by right-clicking them with a Glass block."
-		""
-		"Walkways and Escalators can be extended by first extending the shaft line, then Right-click the existing structure with a Walkway Step and then Right-click the new Shaft to extend the Walkway or Escalator."
-	]
-	quest.5E9E882D7F331693.title: "&3Create Escalated"
 	quest.5F9BEF8918186325.quest_desc: [
 		"The &l&6Spout&r&r is a block used to fill liquid containers—such as bottles or buckets—or to apply fluids in crafting recipes."
 		""
@@ -1058,18 +1018,6 @@
 		"The &6&lCrafter Slot Cover&r&r act as empty spaces in recipes and can connect inventories between otherwise unlinked Crafters. Unlike recipe items, Slot Covers do not move during crafting."
 		""
 		"&oTip: If you make the convergence crafter point to a chest next to it, the itm will automatically be stored in the chest.&r"
-	]
-	quest.71A3D03B6C04E703.quest_desc: [
-		"The &6Mechanical Insolator&r is used to reprocess specific plants automatically."
-		""
-		"&bTo operate, it requires a fluid input from the bottom. &rThe type of fluid depends on the plant being processed. Most plants require Water, Nether-based plants require Lava and Special plants need unique fluids."
-		""
-		"For example:"
-		"Sniffer-obtained plants require Liquid Compost."
-		"Wither Roses require Molten Liquid Compost."
-		"Chorus Fruit requires Void Liquid Compost."
-		""
-		"&aProcessed plants can be extracted manually by Right-clicking or automatically using a Funnel.&r"
 	]
 	quest.73866AF524F9F82F.quest_desc: [
 		"&6Train Stations&r are used to create, disassemble, and guide Trains."
