@@ -10,12 +10,14 @@
 	chapter.50471206A7BA908F.title: "&3Eternal Starlight"
 	chapter.53732D728CE0A308.title: "&aCreate"
 	chapter.58D00C1309225860.title: "&aGarnished"
+	chapter.59395B6806F2A98A.title: "&dCataclysm"
 	chapter.5A695917A1E23476.title: "&dGolem Overhaul"
 	chapter.66515D165B519FE2.title: "&eGame Discs"
 	chapter.699146B31CBD0538.title: "&aEnchantment Industry&r"
 	chapter.6AEDA2F9BEB57759.title: "&cArs Nouveau"
 	chapter.6EF23835B92B89EC.title: "&ePlushies"
 	chapter.734C4C2CDBC52F6C.title: "&bSophisticated Storage"
+	chapter.7732CF7AAA63DB3A.title: "&3Twilight Forest"
 	chapter.784A6CC38A657526.title: "&eSimply Swords"
 	chapter_group.10BAE746B6F04D66.title: "Magic"
 	chapter_group.37AD19D80019787F.title: "Storage"
@@ -24,6 +26,7 @@
 	chapter_group.61769445B9D5700E.title: "Dimensions"
 	chapter_group.781F17A4DC3D0E66.title: "Create"
 	file.0000000000000001.title: "&e&lCreate Chronicles: &a&lThe Endventure"
+	quest.00307A898A639191.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.0051AD1BF14F9EC9.quest_subtitle: "&6+10% Summon Damage"
 	quest.00611844AFD5C31E.quest_desc: ["While the Inscriber and Charger will natively accept RF/FE, the vast majority of an ME network uses its own dedicated power system called AE.\\n\\nRF/FE can be converted into the native AE at a ratio of 2:1 RF:AE, either directly through an ME Controller, or through the &bEnergy Acceptor&f, which can instead be connected to any part of the network."]
 	quest.00611844AFD5C31E.quest_subtitle: "Plug in"
@@ -58,8 +61,14 @@
 	]
 	quest.00E7A8B5F17E3D4A.quest_subtitle: "Decorating your home just got better! "
 	quest.00E7A8B5F17E3D4A.title: "&6Another Furniture"
+	quest.0107D516E038E0DB.quest_desc: ["The &eLich Tower&r is home to the &eLich&r! The fight has 3 phases:\\n\\nPhase 1: The &eLich&r surrounds himself in shields, and attacks you with &5Ender Pearls&r that shoot out like Ghast fireballs. Reflect them back to the &eLich&r to break his shields! As his shields break, he'll send out duplicates to distract you.\\n\\nPhase 2: The &eLich&r switches scepters to summon Zombies to help him in the fight. With his defenses down, you will be able to melee him!\\n\\nPhase 3: Once all of the charges are spent on his Scepter, he will switch to a &eGolden Sword&r and go berserk. Kill him fast!"]
+	quest.0107D516E038E0DB.title: "&eBring out your Dead"
 	quest.01219DEB95032DC7.title: "&dShadow-Walker Outfit"
 	quest.016C498DFB704536.quest_subtitle: "Allows you to trade with villagers for much cheaper"
+	quest.01748C2CD9C97523.quest_desc: ["&cReappearing Blocks&r are like really cool doors. Once right-clicked, they'll disappear for a short time.\\n\\n&cVanishing Blocks&r will disappear when right-clicked, but they don't come back."]
+	quest.01748C2CD9C97523.title: "&cReappearing \\& Vanishing Blocks"
+	quest.01AFC11EAAB6CB3B.quest_desc: ["&eBone Reptile Armor&r is made from &eKoboleton Bones&r, &eAncient Metal&r, and for the Helmet a &eKobolediator Skull&r. \\n\\nThese don't appear to do anything special, just give very good stats for cheap Armor!"]
+	quest.01AFC11EAAB6CB3B.title: "&eBone Reptile Armor"
 	quest.01B1F88F57961B10.quest_desc: [
 		"If you want to make a base outside Earth, you'll need &4Oxygen.&r&l"
 		""
@@ -209,6 +218,8 @@
 		"&d@copy&r"
 	]
 	quest.0442F5FC0EC483BC.title: "&6Copycats+"
+	quest.04440BB2EFFD6DD9.quest_desc: ["In the depths of the Labyrinth Swamp is a giant &cMinoshroom&r.\\n\\nOnce defeated, it'll drop &eMeef Stroganoff&r. To unlock the next area, you must eat it."]
+	quest.04440BB2EFFD6DD9.title: "&cMighty Meef Stroganoff"
 	quest.045A217971DF1258.quest_desc: [
 		"The &6&lCrushing Wheels&r&r are an advanced alternative to the Millstone, used to process items using crushing recipes."
 		""
@@ -223,6 +234,8 @@
 		""
 		"To configure, &2shift right-click&r with an empty hand and explore a wide array of options."
 	]
+	quest.0496E8E786262464.quest_desc: ["Do I really need to explain the &2Overworld&r to you?"]
+	quest.0496E8E786262464.title: "&2Overworld&r: Land of &m3 4&r 5 bosses"
 	quest.04A995BBF67D6395.quest_desc: [
 		"&cHatchets&r have higher attack speed and damage than swords, but lower than axes. They can break the same blocks as axes, plus cobwebs."
 		""
@@ -243,6 +256,9 @@
 		"* &bCurse of the Leech:&r Damages the player when hitting mobs (opposite of Rejuvenate)."
 	]
 	quest.04A995BBF67D6395.title: "Hatchet Interactions"
+	quest.04B40BB107F14330.quest_desc: ["The &4Meat Shredder&r is a Melee weapon you can make from &4Witherite&r. \\n\\nIt has two attacks, either using Left Click or Right Click. \\n\\nWhen you Left Click it'll use the &4Meat Shredder&r like an Axe, hitting them once from a decent range. \\n\\nWhen you hit Right Click it will repeatedly shred them with it's Saw, doing much quicker Damage from closer."]
+	quest.04B40BB107F14330.quest_subtitle: "Straight outta Fallout 3 DLC The Pitt"
+	quest.04B40BB107F14330.title: "&4Meat Shredder"
 	quest.04D9F6587EF8D9B7.quest_desc: ["The &9Potion Jar&r stores up to 100 potions. You can remove them by using an empty bottle or a potion flask on the jar. \\n\\nWixies will use these jars during Potion Autocrafting."]
 	quest.04D9F6587EF8D9B7.quest_subtitle: "Storing Potions"
 	quest.0513DE018AA2BB84.quest_desc: [
@@ -273,6 +289,8 @@
 	]
 	quest.05C4FF888D75423E.quest_desc: ["The &6&lMechanical Bearing&r&r is used to rotate Contraptions. When supplied with rotational force, right-clicking the bearing will begin rotation—provided a valid Contraption is attached to its front."]
 	quest.05D652475C442E78.quest_subtitle: "Not repeatable"
+	quest.05DE9E1CDFBC22DE.quest_desc: ["&dVoid Scatter Arrows&r are Crafted with a Spectral Arrow and a &dVoid Jaw&r. \\n\\nThey can be shot by any Bow or Crossbow. When they hit any Mob or Block they will break apart. \\n\\nWhen they break apart, many parts will be thrown around the area, damaging whatever they hit!"]
+	quest.05DE9E1CDFBC22DE.title: "&dVoid Scatter Arrows"
 	quest.05E44A1BD522BC74.quest_desc: [
 		"When Garnished liquids come into contact with Lava, they generate specific blocks based on the liquid used. Below are the combinations:"
 		""
@@ -350,6 +368,8 @@
 		""
 		"You can rotate the Encased Mirror to choose the direction you wish the Light Ray to be redirected to. "
 	]
+	quest.0741FABE57CA1A7D.quest_desc: ["&9Hippocamtus&r are powerful Sea Horse warriors who guard &9Acropolis&r. \\n\\nThey wear lots of Armor and hold a Spear and Shield. \\n\\nThey have 85 &4Hearts&r and 18 Armor Points. \\n\\nTheir Shield will protect from Damage and their Spear will be used to Kill you. They can swing, stab, and even do a special move on you. This move will lock you into place where the &9Hippocamtus&r will repeatedly stab you. \\n\\nLike the &9Cindaria&r, these will Drop &9Lacrima&r."]
+	quest.0741FABE57CA1A7D.title: "&9Hippocamtus"
 	quest.07655CF543C452F8.quest_subtitle: "Collect Dragon's Breath in a Glass Bottle."
 	quest.078C4BD0C9D079E3.quest_subtitle: "+3% Stabilizing, -100% wind effect."
 	quest.078DF329C409A210.quest_desc: [
@@ -427,6 +447,8 @@
 	quest.08277642FD16A56E.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
 	quest.083D458032F0325C.quest_desc: ["The &bME Export Bus&f periodically spits items in its whitelist filter out to whatever external storage the bus is facing. Unlike the Import Bus, the Export Bus cannot work without being filtered."]
 	quest.083D458032F0325C.quest_subtitle: "The O"
+	quest.0853917693A259C2.quest_desc: ["&3The Annihilator&r is a very fun weapon made from &3Cursium&r and Black Steel. \\n\\nYou can smack enemies around with it all day! But you know what's more fun than one &3Annihilator&r? \\n\\nTwo &3Annihilators&r! \\n\\nIf you have an &3Annihilator&r in each Hand, then you can Hold Right Click to do a powerful ground pound, damaging all around you!"]
+	quest.0853917693A259C2.title: "&3The Annihilator"
 	quest.086223FF8861479F.quest_desc: [
 		"If you're planning to go to space, you'll need a new set of gear for the journey."
 		""
@@ -445,6 +467,8 @@
 		"To explore all available upgrades, use JEI and type `&d@sophisticatedstorage upgrade&r`."
 	]
 	quest.088FCB5267CB7A89.quest_desc: ["This belt will give random positive potion effects for a short duration. These will vary in strength."]
+	quest.0894EB1F3FCFCECA.quest_desc: ["&3Draugrs&r are similar to &5Deeplings&r as they have rankings. The &3Draugr&r rankings are: &3Draugr&r, &3Royal Draugr&r, and &3Elite Draugr&r. \\n\\nNormal &3Draugr&r have 14 &4Hearts&r and carry Black Steel Swords and Axes. These drop Rotten Flesh, Bones, and rarely Black Steel Nuggets. \\n\\nNext in line are &3Royal Draugr&r. These have 15 &4Hearts&r and carry Black Steel Targes along with the Swords and Axes. They drop the same Items as normal &3Draugrs&r. \\n\\nLast is the &3Elite Draugr&r. These switch between Black Steel Swords and Crossbows, depending on how far you are from them. They have 16 &4Hearts&r and drop, of course, the same loot!"]
+	quest.0894EB1F3FCFCECA.title: "&3Draugrs"
 	quest.089899282C7F87E4.quest_desc: [
 		"An important concept within AE2 is a technique known as \"&esubnetting&f\", wherein an extra separate ME network (a &esubnetwork&f) acts in conjuction with the main network to perform some specialised function or process."
 		""
@@ -492,6 +516,8 @@
 		""
 		"It supports different placement modes (default, round-robin, random), can launch fireworks, and works with redstone signals."
 	]
+	quest.0990D6CEE042F44E.quest_desc: ["This map is a must have for the &9Twilight Forest&r.\\n\\nUsing a &eBlank Magic Map&r will give you a map that shows icons for nearby bosses and structures."]
+	quest.0990D6CEE042F44E.title: "&eMagic Map"
 	quest.09A1D7358EAB6139.quest_subtitle: "Can be used to store familiars and let wander freely"
 	quest.09C33BB3342632B4.quest_desc: [
 		"In &eThe End&r, you'll find the final boss of Vanilla Minecraft: The &5Ender Dragon&r."
@@ -504,6 +530,8 @@
 	quest.09C33BB3342632B4.title: "Enter &ethe end&f"
 	quest.0A1ABE9CF7740AAA.quest_desc: ["The Rings of Discount provides a small bonus to max mana and mana regen. It also reduces the total cost to cast a spell."]
 	quest.0A1ABE9CF7740AAA.title: "Rings of Discount"
+	quest.0A207A437AF153AA.quest_desc: ["&2Phantom Armor&r has a chance of being found in &2Knight Phantom&r chests."]
+	quest.0A207A437AF153AA.title: "&2Phantom Armor"
 	quest.0A69851F5CC1A1F0.quest_subtitle: "Better Elytra!"
 	quest.0A6B65C5893B9BD4.quest_desc: [
 		"&6Train Controls&r are required to build a Train. &dRight-Click&r a &6Train Controller&r to control the Train. "
@@ -577,6 +605,9 @@
 	]
 	quest.0B218DD73FE8D985.quest_desc: ["If you did that last quest correctly, you should have turned that singularity into a pair of &bQuantum Entangled Singularities&f. These new singularities are used to link together a ring-shaped device known as a &eQuantum Network Bridge&f.\\n\\nWhen two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power (e.g. an energy cell), an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions."]
 	quest.0B218DD73FE8D985.title: "Quantum Network Bridge"
+	quest.0B7F2B63D867D221.quest_desc: ["To find these we'll need a little archeology! \\n\\nIn the giant shaft you'll take to get to the &e&lAncient Remnant&r, there are 3 rooms on the sides of it. \\n\\n2 of these rooms have Suspicious Sand which you can use a Brush on to get Loot! Including the &eNecklace of Desert&r. \\nThen, Right Click the &e&lAncient Remnant&r with the &eNecklace of Desert&r to resurect it!"]
+	quest.0B7F2B63D867D221.quest_subtitle: "Resurecting an Ancient Remnant"
+	quest.0B7F2B63D867D221.title: "&eNecklace of the desert"
 	quest.0BD070E54EF86FDA.quest_desc: [
 		"You can display items outside of chests to better organize your storage. For example, a food chest can display a carrot to indicate its contents."
 		""
@@ -665,6 +696,12 @@
 	quest.0E809747193ED3A9.quest_desc: ["The third MEGA tier of storage component, providing &e16777216&f (16384k) bytes of storage."]
 	quest.0E809747193ED3A9.quest_subtitle: "x4^2"
 	quest.0E809747193ED3A9.title: "16M Storage Component"
+	quest.0E9DE6293DF611E1.quest_desc: ["Do you want to make the &aOverworld&r feel more like the &9Twilight Forest&r?\\n\\nYou can use this powder on animals in the Overworld to convert them into their &9Twilight Forest&r variants.\\n\\nYou can find this in dungeon chests in the &9Twilight Forest&r."]
+	quest.0ED7B25DC1AA767B.quest_desc: ["Within the &9Twilight Forest&r, there are loot chests that can give you rare saplings.\\n\\nCollect them all!"]
+	quest.0ED7B25DC1AA767B.quest_subtitle: "Growing Trees"
+	quest.0ED7B25DC1AA767B.title: "&aThe Real Final Boss"
+	quest.0EE0946240B41A00.quest_desc: ["&bIgnitium&r is an upgrade for Netherite. You'll need an &bIgnitium Upgrade&r which is Crafted, and an &bIgnitium Ingot&r which is dropped from the &b&lIgnis&r. \\n\\nThe &bIgnitium Helmet&r allows you to see clearly under Lava. \\n\\nThe &bIgnitium Chestplate&r can combined with an Elytra. \\n\\nThe &bIgnitium Leggings&r don't make us flame-proof, rather the Fires that are covering our bodies will go out quicker! \\nThe &bIgnitium Boots&r allow us to walk over Lava. Like Leather Boots over Powdered Snow, you can Hold Shift to lower into the Lava."]
+	quest.0EE0946240B41A00.title: "&bIgnitium Armor"
 	quest.0F03E75CF79BADD7.quest_desc: ["MEGA Cells&f offers the bespoke &bBulk Item Storage Cell&f, which is limited to no more than &oone&r type of item storeable per cell but can store a practically &o&lINFINITE&r* number of that item type. Before it can accept an item type, it must be filtered in advance using a Cell Workbench.\\n\\n*&oTechnically \"max long\". If you know, you know.&r"]
 	quest.0F03E75CF79BADD7.quest_subtitle: "Bulk and cut"
 	quest.0F03E75CF79BADD7.title: "Bulk Item Storage"
@@ -690,6 +727,11 @@
 		""
 		"Unlike brackets or transparent sections, Copper Casing can also be applied to pipe corners, locking them in place and stopping automatic connections with adjacent pipes."
 	]
+	quest.0F8F0F7880235BA2.quest_desc: [
+		"&cThe Soul BlackSmith&r resides in the Nether&r. Don't overlook it thinking it is a Bastion, it's much worse. \\n\\nYou can find Gold, Blackstone, and Netherite here. \\n\\nThe only hostile Mobs that spawn here is the boss... the &c&lNetherite Monstrosity&r!"
+		"{image:atm:textures/questpics/cataclysm/cataclysm_blacksmith.png width:200 height:100 align:center}"
+	]
+	quest.0F8F0F7880235BA2.title: "&cSoul BlackSmith&f: Home of the &c&lNetherite Monstrosity&r"
 	quest.0FD0F0F442972293.quest_desc: [
 		"A special type of tree can be found in the &l&6Plains biome&r&r, featuring distinctive leaves and light green logs, offering both aesthetic building materials and a source of nuts."
 		""
@@ -760,6 +802,8 @@
 		""
 		"With a bit of luck, one of those trades might yield &athe Druidic Tome&r "
 	]
+	quest.111F2EE85FB0A455.quest_desc: ["Using the &cFiery Blood&r from the Hydra, you can make a couple of tools.\\n\\nThe Fiery Sword comes with Fire Aspect II.\\n\\nThe Fiery Pickaxe comes with auto-smelt."]
+	quest.111F2EE85FB0A455.title: "&cFiery Tools"
 	quest.112F3359CF96132C.quest_subtitle: "Better Elytra!"
 	quest.114173896E5DF62C.quest_desc: ["A &eCompass&r can be bound to a &3Lodestones&r with &7[&rRight-Click&7]&r, causing the needle to point towards it when in the same dimension."]
 	quest.114173896E5DF62C.quest_subtitle: "Find a Lodestone"
@@ -770,6 +814,8 @@
 		""
 		"This is especially useful because this quest is set to auto-claim by default—meaning that once completed, the reward items will go directly into your inventory."
 	]
+	quest.1178E4123E8818E2.quest_desc: ["Sorry, you can't wear these anymore, now they are just Items! \\n\\nBy Right Clicking with them, 2 &eSandstorms&r will spawn. The &eSandstorms&r will circle you and move with you. \\n\\nWhatever is hit by them will be Damaged and Knockbacked."]
+	quest.1178E4123E8818E2.title: "&eBottle O' Sandstorm"
 	quest.12506A200E56E7E9.quest_desc: [
 		"&e&nBlood Vial&r&r"
 		"Place a lit campfire beneath a cauldron, and put a mob in the cauldron to cook the mob. This will fill the cauldron with blood, which can be withdrawn with glass bottles to obtain vials of blood."
@@ -814,6 +860,8 @@
 	quest.135A70D16AC6511D.quest_subtitle: "Bought from market"
 	quest.136F140D9A3ED036.quest_subtitle: "Increases knockback from attacks"
 	quest.137CC533B864B25F.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
+	quest.13D5F689E6884281.quest_desc: ["&eKobolediators&r are one of the two mini-bosses within the &eCursed Pyramid&r. \\n\\nThey will remain dormant until a Player (in Survival, took me awhile to figure that out) walks near them and they will wake up. \\n\\nThey have 1080 &4Hearts&r and will inflict Mining Fatigue on you. \\n\\nThey will swing their Sword at you if you get too close! If you gain some distance from them, they will charge at you as if you were holding a Football and running for the endzone! \\n\\nOn death they will drop Koboleton Bones, Ancient Metal Ingots, and their Skull!"]
+	quest.13D5F689E6884281.title: "&eKobolediator"
 	quest.140ABE41794E9C33.quest_desc: [
 		"The &6Photo Album&r can hold up to 16 pages, each featuring a photograph and a short caption beneath it. "
 		"&a"
@@ -838,6 +886,7 @@
 	]
 	quest.1456C26C92A56C10.quest_subtitle: "Change direction with W, S, A and D"
 	quest.1456C26C92A56C10.title: "&2Slime"
+	quest.1464D45C474464DB.quest_subtitle: "A Glorified Leafblower"
 	quest.14B60AA1D014540A.quest_desc: [
 		"&6The Security Manager &rcontrols who can access and interact with your storage network. Once placed, the network becomes locked—only players with a valid &aSecurity Card&r can use it."
 		""
@@ -853,6 +902,8 @@
 	quest.14CC69CF9016CD4F.quest_desc: ["You can set it to speak a message or show it in chat."]
 	quest.14DB8A515CA50932.quest_desc: ["The &9Enchanter's Sword&r allows you to attach a Touch Spell to the sword. \\n\\nAll spells on the Sword gain 1 additional Amplify augment to the last effect on the spell. \\n\\nTo apply a spell to the sword, use a Scribe's Table. Create the spell without using a form."]
 	quest.14E9C287665C6AD4.quest_subtitle: "When used for Upgrade: &6+5% Blood Spell Power"
+	quest.15006CF73F8CAB7C.quest_desc: ["Just like the &cCharm of Life I&r, the &eCharm of Life II&r is consumed to prevent your death. When consumed, you'll regen all of your health and be given Regen IV, Resistance, and Fire Resistance for 30 seconds.\\n\\nThese can be crafted with 4 &cCharms of Life I&r."]
+	quest.15006CF73F8CAB7C.title: "&eCharm of Life II"
 	quest.151648179684B088.quest_desc: ["Runic Chalk is used to draw permanent Runes on that ground. These runes will cast spells on entities that walk over them. \\n\\nTo attach a spell to a rune, inscribe a &eSpell Parchment&r using a Scribe's Table.\\n\\nNote: The Rune will need Source to operate."]
 	quest.151648179684B088.quest_subtitle: "Placeable Spells"
 	quest.153FB224571B339A.quest_subtitle: "&6+15% Cast Time Reduction"
@@ -915,6 +966,8 @@
 	]
 	quest.171DB69D600EBD90.quest_subtitle: "Items as a file system"
 	quest.171DB69D600EBD90.title: "The Storage"
+	quest.1744E700CF742CE2.quest_desc: ["&5The Coralssus&r works as a Guard and Steed for the &5Sunken City&r. \\n\\nThey can be ridden by &5Deeplings&r to move quicker and attack together! \\n\\nThey have 160 &4Hearts&r and basic attacks . Its attacks are just smacking and throwing you. \\n\\nWhen killed it'll drop Coral Chunks which can be used to make the &5Abyssal Sacrifice&r."]
+	quest.1744E700CF742CE2.title: "&5Coralssus&r"
 	quest.178F6215923BB915.quest_desc: [
 		"The &6train schedule&r is helpful as you can decide what order a train goes from station to station and how long it is at the station before it departs for the next station."
 		""
@@ -922,6 +975,11 @@
 	]
 	quest.17C488042DB187A3.quest_subtitle: "The wearer cannot be knocked back"
 	quest.17C649AD8C23444B.quest_subtitle: "Useful for spell resistance. "
+	quest.17CA9D80D8EC3EF7.quest_desc: [
+		"&4&lThe Harbinger&r takes a lot of inspiration from what powers him, the Nether Star. \\n\\nHe has 15,600 &4Hearts&r and will attack every Mob and Player he sees that doesn't spawn in the &4Ancient Factory&r. \\n\\nHe will fly around and even charge at you. Like &0The Wither&r, &l&4The Harbringer&r will break almost every Block in its path. \\n\\nTo attack he can shoot &4Wither Missiles&r at you which can give you &0Wither Effect&r or shoot &4Wither Howitzers&r from his back which will shoot off in every direction. \\n\\nHe also has &4Lasers&r he can shoot you with, &4Laser Gatlings&r, and a &4big mouth beam&r. \\n\\nHe has a big weakness, like the other living machines, he is weak to the &4EMPs&r! If you use them on him, he will be stun locked, unable to move or fight for a few seconds."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_harbinger.png width:100 height:100 align:center}"
+	]
+	quest.17CA9D80D8EC3EF7.title: "&4&lThe Harbinger&r"
 	quest.17D7D34F519F7E5F.quest_desc: ["To create the final tier of your Spellbook, you'll need to have killed the &6Wilden Chimera&r. \\n\\nThis is a Ritual that you'll need to complete using a &9Ritual Brazier&r."]
 	quest.17F0FADB3DFB3001.quest_desc: [
 		"&nCrafting Process to get the block:&r"
@@ -984,6 +1042,8 @@
 		"Also, be mindful that each individual pylon (regardless of its length) takes up one channel. For particularly large spaces, you may wish to build a dedicated network with a controller to fit all the required pylons."
 	]
 	quest.18E0360F9A93DD58.quest_subtitle: "+100% Durability"
+	quest.18EB86F91CBBCCC6.quest_desc: ["Not all Cataclysm Dungeons are as easy to find as the &eCursed Pyramids&r are. \\n\\nSo, a specific Eye might help you find them! \\n\\nEach of the different Eyes will lead you to its set structure; and don't worry, the Eyes rarely break."]
+	quest.18EB86F91CBBCCC6.title: "Eye see you!"
 	quest.1912B53794E7EB02.quest_desc: ["These doors can be opened with hand but NOT redstone signals."]
 	quest.192EE909C57F390A.quest_subtitle: "Rare chance of spawning after breaking an &8Ancient Vase&r."
 	quest.193B6128E25C5FE5.quest_desc: [
@@ -1036,6 +1096,11 @@
 		"&d@multi&r"
 	]
 	quest.1A39F6601A18F853.title: "&aMulti Beds"
+	quest.1A8F438DB8508276.quest_desc: [
+		"The &3Frosted Prison&r is a massive Castle like structure on top and within the Snowy Mountains. \\n\\nWithin you will find dozens of cells, armories, and a great room which the &3Cursed Tombstone&r lies. \\n\\nYou can find plenty of Chests full of Loot, including Black Steel. There's Decorated Pots everywhere for the taking! \\n\\nAnd of course Mobs enemies to stand in your way: &3Draugrs&r and &3Aptrgangr&r."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_prison.png width:200 height:100 align:center}"
+	]
+	quest.1A8F438DB8508276.title: "&3Frosted Prison&r: Home of the &3&lMaledictus"
 	quest.1AAF0B31B47AF23D.quest_desc: ["Individual ME devices can also be configured to respond to redstone signals. When upgraded with a &bRedstone Card&f, a device can be configured to do work only when powered with redstone or otherwise as needed.\\n\\nThis behavior can also apply to entire &osections&r of an ME network by using an &bME Toggle Bus&f. This allows a section of the network on the other side of the bus to come online only when the bus is powered by redstone, or to go offline if using an &einverted&f toggle bus."]
 	quest.1AAF0B31B47AF23D.title: "Redstone-Controlled ME"
 	quest.1AC154CB94B7A0EA.quest_desc: [
@@ -1055,6 +1120,8 @@
 		""
 		"Note: A banner can also be use in place of a Blanket (sneak while placing to mirror pattern)"
 	]
+	quest.1B4ED65C614B102F.quest_desc: ["The &bIgnited Revenant&r stands in our way to kill the &b&lIgnis&r. \\n\\nThe &bRevenant&r looks and acts like a Blaze, but instead of being Rods, he has Shields! \\n\\nThese Shields make him invunerable to all attacks, you'll need to wait for him to lift them, to attack him! \\n\\nHe has 1200 &4Hearts&r and has 2 attacks: one where he lifts in the air and throws Blaze Rods all around him, and the other where he spins his Shields around as if he was doing Spinjitzu. \\n\\nOn death he will drop the &bBurning Ashes&r."]
+	quest.1B4ED65C614B102F.title: "&bIgnited Revenant&r"
 	quest.1B5625F7E4626EEE.quest_desc: [
 		"There are various ways to obtain large quantities of &cLava,&r such as going into the Nether to collect or using Trains to do so."
 		""
@@ -1092,6 +1159,9 @@
 	quest.1B78054E61C50110.title: "Find a Bee Nest"
 	quest.1C051DC0D07AF588.quest_subtitle: "Not repeatable"
 	quest.1C267CC53FD04C88.title: "&4Cultist Outfit"
+	quest.1C5EA7D62BAF2108.quest_desc: ["In order to fight &5&lThe Leviathan&r you'll need a sacrifice. The &5Abyssal Sacrifice&r to be specific. \\n\\nThe most basic Items needed is the Blocks of Ingots and Amethyst which are just &2&lVanilla&r Items. \\n\\nThen, you'll need a Nautilus Shell and a Heart of the Sea. These are &2&lVanilla&r Items which are rare to get... unless you kill &5Deeplings&r which can drop them! \\n\\nYou'll also need an Athame which is a weapon used by &5Deepling Warlocks &fand &5Priests&r and dropped by them on death. \\nThe last part gives us a choice, either Crystallized Coral or Coral Chunk. Both are drops from &5Coral Golem&r and &5Coralssus&r."]
+	quest.1C5EA7D62BAF2108.quest_subtitle: "Waking up The Leviathan"
+	quest.1C5EA7D62BAF2108.title: "&5Abyssal Sacrifice"
 	quest.1C60254EAE960673.quest_desc: [
 		"&e&nBottle o' Lightning&r&r"
 		"Use an empty bottle on a charged creeper to obtain. You can use the Lightning Bolt Spell, lightning rod or trident to charge a creeper."
@@ -1116,6 +1186,8 @@
 		"&d@chipped&r"
 	]
 	quest.1CA36734A9127D0C.title: "&6Chipped&r"
+	quest.1D56D3B444A4B2D4.quest_desc: ["The &dGauntlet of &bBulwark&r acts different from what you'd assume. \\n\\nInstead of bringing mobs closer it pushes them away, when Holding Right Click, and gives them &bBlazing Brand&r. \\n\\nThen when you release Right Click you'll charge in the direction you are looking. \\n\\nIt's made by fusing the &dGauntlet of Guard&r with a &bBulwark of Flame&r in the &4Mechanical Fusion Anvil&r."]
+	quest.1D56D3B444A4B2D4.title: "&dGauntlet of &bBulwark"
 	quest.1D86B2E553503E53.quest_desc: ["The Dominion Wand is used for controlling the creatures you might encounter in the world! Each being responds differently to the wand, so make sure to read up in the Worn Notebook!"]
 	quest.1D86B2E553503E53.title: "Summoning Help!"
 	quest.1D9D2E1FF9BD8A91.quest_desc: ["{ \"text\": \"☞ Click here for more information about beams visit Chapter V at the end.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"265960CE3104527E\" } }"]
@@ -1233,7 +1305,13 @@
 		"Right-click with this item in hand on a &6&lBlaze&r&r from the &c&lNether&r&r to capture it and get the &l&6Blaze Burner&r&r."
 	]
 	quest.1FF26858DB8E88F8.quest_subtitle: "Obtain loot by breaking a vase."
+	quest.1FF5906DF721D091.quest_desc: ["The &2Hyrda&r drops &cFiery Blood&r that can be used to craft &cFiery Armor&r.\\n\\nWhen wearing the full set, enemies that attack you will be set on fire for 10 seconds."]
+	quest.1FF5906DF721D091.title: "&cFiery Armor"
+	quest.2011638351B67396.quest_desc: ["With 2 &9Essence of the Storm&r and 3 &9Lacrima&r we can make &9Astrape&r. \\n\\n&9Astrape&r is a combination of the Weapons used by the &9Hippocamtus&r and &9Cindaria&r. \\n\\nIt can stab like a Trident, just with more Damage and Range. Plus you can Hold Right Click to send &9Lightning Spears&r, just like &9Cindaria&r! \\n\\nThe &9Lightning Spears&r still bounce off Walls! Just now with a Cooldown..."]
+	quest.2011638351B67396.title: "&9Astrape"
 	quest.203CEDAC6E1CAB91.quest_subtitle: "&6+100 Max Mana"
+	quest.20436AFCC7E6855D.quest_desc: ["With Magic Beans and Uberous Soil, you'll want to look for a large cloud in the highland biomes.\\n\\nPlant the magic beans in the soil to grow a beanstalk all the way up. Here, you'll find the Giants.\\n\\nYou'll need to kill the Miner Giant and get their pickaxe to continue on."]
+	quest.20436AFCC7E6855D.quest_subtitle: "The giants look like me, but are nothing LIKE me"
 	quest.2077D64428E9C067.quest_desc: [
 		"An important concept within AE2 is a technique known as '&esubnetting&f', wherein an extra separate ME network (a &esubnetwork&f) acts in conjunction with the main network to perform some specialised function or process. "
 		""
@@ -1284,6 +1362,9 @@
 	quest.20CE45C10A58D357.title: "&6Immersive Aircraft&r"
 	quest.20EAD0D76E8C2683.quest_subtitle: "When used for Upgrade: &6+50 Max Mana"
 	quest.2109EF6D9005AD03.quest_subtitle: "&6+15% Summon Damage"
+	quest.212EC1F41227184D.quest_desc: ["Do you want to be able to shoot Ender blasts like the &eLich&r? If so, the &9Scepter of Twilight&r is the scepter for you!.\\n\\nTo recharge, combine it with an &5Ender Pearl&r in a crafting grid."]
+	quest.212EC1F41227184D.quest_subtitle: "Shoots Ender Blasts"
+	quest.212EC1F41227184D.title: "&9Scepter of Twilight"
 	quest.2136A142781BBE2B.quest_subtitle: "Not repeatable"
 	quest.216E2ED7D793F72A.quest_subtitle: "Rare random drop from Evokers or Archevokers."
 	quest.2192D2F22A2C17FD.quest_desc: [
@@ -1305,6 +1386,11 @@
 	quest.219932CB19258C16.quest_desc: ["The third tier of storage component, providing &e16384&f bytes of storage."]
 	quest.219932CB19258C16.quest_subtitle: "x4^2"
 	quest.219932CB19258C16.title: "16k Storage Component"
+	quest.21A0FD474FBB49F7.quest_desc: [
+		"Another structure to cover the barreness of &5The End&r, the &dRuined Citadel&r. \\n\\nThe &dRuined Citadel&r is a Palace of &5Obsidian&r, Endstone, and &dPurpur&r. \\n\\nIn the palace you'll find Chests, Shulker Boxes, Shulkers, and even the unique &dVoid Stone&r! \\n\\nJust be careful of the afformentioned Shulkers, &dEndermaptera&r, and &dEnder Golems&r."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_citadel.png width:200 height:100 align:center}"
+	]
+	quest.21A0FD474FBB49F7.title: "&dRuined Citadel&r: Home of the &d&lEnder Guardian&r"
 	quest.21E5B83843A2DA2A.quest_desc: ["Useful for separating trains or carts that bump into each other, or simply to add extra flair to your train."]
 	quest.221AD10D242035D1.quest_subtitle: "A heavy crossbow with a powerful punch, which requires Arrows, is kept in the aircraft inventory and uses 2 arrows per use."
 	quest.2234E7EDAC54CC40.quest_subtitle: "Lets the stick use RF instead of durability."
@@ -1359,6 +1445,8 @@
 	quest.234DC1702333EB18.quest_desc: ["The &dAEInfinityBooster&f add-on provides two bespoke wireless boosters allowing for infinite connectivity range, with optional cross-dimensional support."]
 	quest.234DC1702333EB18.quest_subtitle: "I'm not writing the Toy Story line"
 	quest.234DC1702333EB18.title: "Infinity Booster"
+	quest.236EA8D18ECD5FE8.quest_desc: ["This one is quite unique in its spawning! After you kill the &b&lIgnis&r, there's a chance &bIgnited Berserkers&r will spawn in Nether Fortresses. \\n\\nThey are just like &bRevenants&r just instead of Shields they have Swords! Their Swords won't protect against damage like the Shields do, instead they deal more damage. \\n\\nThey have much less health, at 65 &4Hearts&r and will drop Dying Embers when killed. 4 Dying Embers can be Crafted into 1 &bBurning Ashes&r."]
+	quest.236EA8D18ECD5FE8.title: "&bIgnited Berserker"
 	quest.2393A0DC1A59CDEC.quest_desc: [
 		"When applied as an upgrade to any supported device such as an Interface or Export Bus, the &bCrafting Card&f allows the device in question to automatically send out its own crafting requests for a required (filtered) item. Crafting CPUs can be set to respond only to these requests to prevent taking up CPUs meant for player-requested crafts."
 		""
@@ -1448,7 +1536,13 @@
 		"Each Assembler has a slot for a crafting pattern and can operate standalone when powered."
 	]
 	quest.250E32D632A506B2.quest_subtitle: "A Cushion that makes you let out a loud fart. Totally useless... or is it?"
+	quest.2542D8A6894816C6.quest_desc: ["The &eEye of Desert&r will take you to the &eCursed Pyramid&r to fight the &e&lAncient Remnant&r."]
+	quest.2542D8A6894816C6.title: "&eEye of Desert&r"
 	quest.256C0855A1AD720B.quest_desc: ["When placed, the &9Dread Lamp&r prevents all passive mobs from naturally spawning in a &d96 block radius&r."]
+	quest.25906B43A198B72F.quest_desc: ["Knightmetal Armor&r can be crafted with Knightmetal Ingots and has a chance of being found in &2Knight Phantom&r chests."]
+	quest.25906B43A198B72F.title: "Knightmetal Armor"
+	quest.25ACB08E4F12CE79.quest_desc: ["The &cNetherite Ministrosity&r is a Pet given to us by &4&lCataclysm&r! \\n\\nFirst, you'll need to Craft a &cNetherite Effigy&r. \\n\\nThen, we can kill the &c&lNetherite Monstrosity&r for the &cLava Power Cells&r. \\n\\nFinally, place down the &cEffigy&r and feed it a &cPower Cell&r to tame him! \\n\\nOnce tamed he can be Shift Right Clicked to edit whether he is following, staying, or wandering. \\n\\nYou can also Right Click him to open his Inventory, aka cracking open his entire head like a Rock Monster from Lego Power Miners. He has an Inventory of 15 Slots. \\n\\nHe also has 3000 &4Hearts&r and I can't find a way to heal him..."]
+	quest.25ACB08E4F12CE79.title: "&cNetherite Ministrosity"
 	quest.25DBA00422301EDC.quest_desc: ["The second MEGA tier of storage component, providing &e4194304&f (4096k) bytes of storage."]
 	quest.25DBA00422301EDC.quest_subtitle: "x4"
 	quest.25DBA00422301EDC.title: "4M Storage Component"
@@ -1572,6 +1666,9 @@
 		"From here on out, things are only going to get more exciting."
 	]
 	quest.28B245505F91D21C.title: "The Age of Metal"
+	quest.291C76140DE97E3C.quest_desc: ["&bIgnitium&r is like Netherite but it takes actual skill to get. \\n\\nThe &b&lIgnis&r will only drop 1 so get good use of it! \\n\\nYou can use it to upgrade your Netherite Armor or use it to make the Weapons."]
+	quest.291C76140DE97E3C.quest_subtitle: "Better than Netherite?"
+	quest.291C76140DE97E3C.title: "&bIgnitium"
 	quest.2946E1B9B068C2F3.quest_desc: [
 		"Compacting Drawers, from a few other mods, automatically compacts nuggets into ingots."
 		""
@@ -1594,6 +1691,8 @@
 		"&e&lHappy Compacting!"
 	]
 	quest.29491A4A65DEDCDC.quest_subtitle: "Grants +5 Hearts"
+	quest.2951B1D7080C5EF9.quest_desc: ["Using the &6Lamp of Cinders&r, you are able to break the Thorns in the Thornland Biome.\\n\\nGather some &cThorn Roses&r to continue on to the &2Final Plateau&r."]
+	quest.2951B1D7080C5EF9.title: "Every Thorn has its Rose"
 	quest.295C77EEC89000FC.quest_subtitle: "Generates Source from Mob Deaths and Animal Breeding"
 	quest.2965B8DD03DA1142.quest_desc: [
 		"&cThe Night Lich&r resides within the &eLich Tower&r, found in the Overworld’s colder biomes. To summon this chilling boss, you’ll first need to collect &aSoul Stars&r, which have a small chance of dropping from Zombies and Skeletons."
@@ -1615,6 +1714,11 @@
 		"Make sure to supply both the &bWater Pump&r and the &aOxygen Distributor&r with enough power."
 	]
 	quest.2A0B07555EC8D47E.quest_subtitle: "You can find corundum in caves or by trading with Ribbits."
+	quest.2A0B3C91D72E8B75.quest_desc: ["Small Yetis and Winter Wolves drop Arctic Fur, which can be used to make &6Arctic Armor&r."]
+	quest.2A0B3C91D72E8B75.quest_subtitle: "It's Dyable!"
+	quest.2A0B3C91D72E8B75.title: "&6Arctic Armor"
+	quest.2A196974431FCC42.quest_desc: ["The &cInfernal Forge&r is a drop from the &c&lNetherite Monstrosity&r and is technically not a weapon, it's a pickaxe! \\nIt can be used to mine up to Netherite Tier, so it can mine Allthemodium Ore. \\n\\nWhen right clicked it will attack in an AOE mode. Pounding the ground hitting everything close by. \\n\\n(It can be enchanted with Sword and Pickaxe enchantments!)"]
+	quest.2A196974431FCC42.title: "&cInfernal Forge"
 	quest.2A30FB7263BB3ECB.title: "&4Hemomancer Outfit"
 	quest.2A844214CE94E140.quest_desc: [
 		"{image:kubejs:textures/familiars/bard.png width:100 height:130 align:center}"
@@ -1657,6 +1761,11 @@
 	quest.2AB224DCCC535411.title: "&l&aKeeping resources in stock&r&r"
 	quest.2ADE6153313B3D37.quest_subtitle: "Obtained from market with operator tokens"
 	quest.2AEF1BFD3C4C0F7A.quest_subtitle: "+5% spell resist, when equipped tamed familiars that fall below half health will get oakskin effect, crafted."
+	quest.2B115519A21F9CB7.quest_desc: [
+		"The &d&lEnder Guardian&r is a hulking beast of Endstone, &dPurpur&r, and &5Obsidian&r that waits within the &dVoid Altar&r. \\nIt has 13,320 &4Hearts&r and careful not to get too close or you might be sucked closer to him! \\n\\nHe has a ton of attacks and abilities, one being a very simple punch for those who are too close to his personal space, or a slam which will knock you back. \\n\\nIf you are farther from him, he might close the gap by charging and knocking into you. Or he might stomp and produce &dVoid Runes&r to hit you! He can also send &dShulker Balls&r in a row. \\n\\nAlso remember when I said he can suck you closer to him? Yeah he does that with a thing called a &dVoid Typhon&r, which he can also summon at your Feet to get you stuck. After you are there for too long, it will explode, most likely damaging you in the process. \\n\\nWhen you get him to half &4Health&r, his Mask will break revealing his true Head! In anger he will destroy the floor of the arena taking you both to the lower level. \\n\\nNow he will suck you in more, send more &dVoid Runes&r after you, and attack faster and stronger!"
+		"{image:atm:textures/questpics/cataclysm/cataclysm_guardiuan.png width:100 height:100 align:center}"
+	]
+	quest.2B115519A21F9CB7.title: "&d&lEnder Guardian&r"
 	quest.2B31E6C1707D8195.quest_desc: ["The next thing to make to allow for wireless network access is the &bME Wireless Access Point&f. The Access Point is used to open the network to wireless access via a &ewireless terminal&f, and has a set (finite) range depending on how many &bWireless Boosters&f are inserted into the access point."]
 	quest.2B4E5F59E5625ADF.quest_subtitle: "Craft any Iron Shulker Box type."
 	quest.2B603051BF399205.quest_desc: [
@@ -1688,6 +1797,10 @@
 		""
 		"&bHeart Container&r"
 	]
+	quest.2BCB788924BBD849.quest_desc: ["My personal favorite and one of the most powerful. \\n\\nThe &bIncinerator&r can be used just like a normal Sword and Enchanted like one! \\nBut when Holding Right Click it does something no normal Sword does. When you Hold and let go of Right Click for a few seconds, massive flames will strike out of the ground in the direction you are looking at, then they will explode. \\n\\nIt is also massive, which not just looks cool, but also gives better Range!"]
+	quest.2BCB788924BBD849.title: "&bThe Incinerator"
+	quest.2BEBF66D7EA594FA.quest_desc: ["This is slightly stronger than &2Naga&r armor, and comes fully enchanted.\\n\\nYou can make these by finding &2Steeleaf&r within the &9Twilight Forest&r."]
+	quest.2BEBF66D7EA594FA.title: "&2Steeleaf Armor"
 	quest.2C04B3BA507D5673.quest_desc: ["&bPatterns&f are what hold an encoded recipe to be fulfilled by a Pattern Provider. To encode a recipe onto a Pattern, the &bME Pattern Encoding Terminal&f must be used.\\n\\nPatterns can be set to hold either a regular &ecrafting&f recipe, which will require the use of a &eMolecular Assembler&f on the face of its Provider, or a more general '&eprocessing&f' recipe, wherein any input items can be sent out by the provider into some other machine block or specialised processing plant."]
 	quest.2C04B3BA507D5673.title: "Patterns"
 	quest.2C0A86D7F9D1A0D8.quest_desc: [
@@ -1732,6 +1845,8 @@
 		"&6https://discord.gg/Dm4B7UfhXd&r"
 	]
 	quest.2CBF8CC3EB107804.title: "&l&6Better Energy Production"
+	quest.2CD58FC229BC0C28.quest_desc: ["The &dGauntlet of the Guard&r is the drop from the &d&lEnder Guardian&r. \\n\\nWhen you hold it in either Hand, you can Hold Right Click to bring all Mobs near you, even closer! \\n\\nYou can also smack Mobs with it in your Main Hand to deal Damage. \\n\\nTry using the pull mechanic with flying to drop Mobs!"]
+	quest.2CD58FC229BC0C28.title: "&dGauntlet of Guard"
 	quest.2D0CF18C8B2ABB7D.quest_desc: ["Placing this near growing plants or saplings will provide Source. Archwood trees provide more Source! \\n\\nNote: Bonemealing does not produce Source."]
 	quest.2D0CF18C8B2ABB7D.quest_subtitle: "Creates Source using the growth of Plants"
 	quest.2D412FE8D78F46FE.quest_desc: ["The &6&lShaft&r&r is fundamental to transmit rotation between connected machines. It also serves as the exclusive base for placing Mechanical Belts."]
@@ -1811,6 +1926,8 @@
 	quest.2F40B3F9E34F9B1F.title: "Patterns"
 	quest.2F556E7919582D2D.quest_desc: ["The &bCell Workbench&f allows for cells to be 'partitioned' to hold specific items, i.e. given a whitelist filter. It also allows the cell to be upgraded with certain upgrade cards such as the Inverter Card, which sets the aforementioned whitelist to be a blacklist instead.\\n\\nCells can also be given a higher or lower 'priority' via the workbench, i.e. allow the cell to be the first to receive certain items until full, or made to wait for other higher-priority cells to fill up first."]
 	quest.2F622A7B13D36360.quest_subtitle: "Not repeatable"
+	quest.2F62C290A5CE50F8.quest_desc: ["Wait you're telling me for just a few &eAncient Metal&r we can get a Weapon that does more Damage than a Netherite Sword, has insane Range, and throws &eSandstorms&r!? \\n\\nYep, that's what you get from the &eAncient Spear&r!"]
+	quest.2F62C290A5CE50F8.title: "&eAncient Spear"
 	quest.2F6A074C1F506CC3.quest_desc: [
 		"Backtank must be filled with Air Pressure to function."
 		""
@@ -1879,6 +1996,8 @@
 		"Merging &eAccumulators&r reduces the number of required &bConnectors&r and saves space."
 	]
 	quest.30B4AA1B5916FC72.title: "&e⚡ Electrical Energy Storage – Accumulator"
+	quest.30C5D432C810F904.quest_desc: ["The &9Eye of Storm&r will take you to the &9Acropolis&r to fight &9&lScylla&r."]
+	quest.30C5D432C810F904.title: "&9Eye of Storm"
 	quest.30C9759AD5ED60C9.quest_desc: [
 		"&6Seats&r can be used to allow you or a mob to ride on a Contraption."
 		""
@@ -1927,6 +2046,9 @@
 	quest.3195A7AA874163CD.quest_desc: ["The &bEqual Distribution Card&f is an upgrade for storage cells that pre-allocates a certain amount of items that can be taken up by any individual type.\\n\\nThis behaviour is comparable to something like a Functional Storage drawer, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."]
 	quest.3195A7AA874163CD.quest_subtitle: "ME Storage &mCells&r Drawers"
 	quest.31A4BB6E2C1C1FA9.quest_subtitle: "Not repeatable"
+	quest.31BB7EB95CE73C1A.quest_desc: ["After defeating the &cUr-Ghast&r, you'll unlock the Snowy Forest biomes.\\n\\nThere are many creatures to fight, but to continue your progression, you'll need to kill the Alpha Yeti.\\n\\nYou can find the Alpha Yeti in a massive Yeti cave. Defeat it to move on."]
+	quest.31BB7EB95CE73C1A.quest_subtitle: "You had Snow idea"
+	quest.31BB7EB95CE73C1A.title: "To the Snow Biomes!"
 	quest.31DB2CD7ECC30BF9.quest_subtitle: "You can convert RF to the mod’s current energy system using the&6 Circuit Breaker.&r"
 	quest.322078F5AA954906.quest_desc: [
 		"Use a &6Schematic and Quill&r to save a build as a schematic file. "
@@ -2031,7 +2153,15 @@
 	quest.33628061006314AB.quest_desc: ["The &6upgrade base&r is the main thing needed for each upgrade that you can use within the mod, it is used to craft every single upgrade"]
 	quest.33628061006314AB.quest_subtitle: "Getting the most out of your backpack"
 	quest.33682F4B44950123.quest_desc: ["To gain further knowledge of spells, we'll need a specific type of magical wood! \\n\\nArchwood trees can be found in the overworld."]
+	quest.3371570F189DF994.quest_desc: ["The &6Scepter of Fortification&r summons shields around you for protection.\\n\\nTo recharge, combine with &6Golden Apples&r in a crafting grid."]
+	quest.3371570F189DF994.quest_subtitle: "Summons Shields"
+	quest.3371570F189DF994.title: "&6Scepter of Fortification"
 	quest.33ADE41526C39AFD.quest_desc: ["This behaviour is comparable to something like a Functional Storage drawer, wherein each compartment holds a set number of stacks as opposed to allowing items from one compartment to leak into the others and crowd other kinds of items out."]
+	quest.33B1D3FD4C0B5514.quest_desc: [
+		"The &e&lAncient Remnant&r is master of his domain, of &eSand&r. \\n\\nHe has 3,600 &4Hearts&r and is aided with a &eWadjet&r and a &eKobolediator&r. \\n\\nHe has a few moves and attacks! He can swing his bony tail at you, bite you, or he might stomp on the ground, producing Shockwaves. \\n\\nHe can also summon &eSandstorms&r with a mighty ROAR and even drop &eSand Traps&r on your head. \\n\\nAnother attack he may use to get closer to you is his charge. His charge will hurt you and your FPS as it destroys every Block in his path. \\n\\nHe does have a weakness, the very thing that ressurected him! If you hit his &eNecklace&r he will be knocked down for a little bit, giving you the perfect chance to strike him down and return him to the grave!"
+		"{image:atm:textures/questpics/cataclysm/cataclysm_remnant.png width:100 height:100 align:center}"
+	]
+	quest.33B1D3FD4C0B5514.title: "&e&lAncient Remnant&r"
 	quest.33D99402578E84FE.quest_desc: [
 		"&6The Detector&r monitors a specific resource in your storage network and emits a redstone signal based on its quantity. "
 		""
@@ -2050,6 +2180,8 @@
 	quest.34174F45D62D0D6E.quest_subtitle: "Craft any Iron Chest type."
 	quest.343AB719F81DFC63.quest_desc: ["This pupil is believed to have seen the ancient brewing recipes that were lost in time."]
 	quest.343AB719F81DFC63.quest_subtitle: " Craft it using the witch pupil"
+	quest.3459CAEB59CBD60E.quest_desc: ["Looks like someone flipped the ON switch this time! \\n\\n&4The Prowler&r is a miniboss guarding the &4Ancient Factory&r. He has 640 &4Hearts&r. \\n\\nHe has 3 attacks. The Saw for close up Enemies. And for farther Enemies he has Shoulder Missiles, similar to the WASW, and a Laser from his eye. \\n\\nOn death he'll drop Redstone and Iron. \\n(Tip he's also weak to the EMP attacks)"]
+	quest.3459CAEB59CBD60E.title: "&4The Prowler&r"
 	quest.3481C6DF7EF96590.quest_subtitle: "Not repeatable"
 	quest.3488B3847D0D01DC.quest_subtitle: "Craft any Netherite Chest type."
 	quest.34AB7EB1F6BF5457.quest_desc: ["Move your paddle, and don't let the ball get past you&f&9"]
@@ -2078,6 +2210,8 @@
 		"In its UI, the &6Postbox&r can be set to send-only mode, preventing it from receiving packages."
 	]
 	quest.350D1EDD54ABC16F.title: "Postbox"
+	quest.3531B28F14CF72A2.quest_desc: ["The first boss you'll have to kill on your adventure in the &9Twilight Forest&r can be found within the Courtyard.\\n\\nThe &2Naga&r is a green serpent made up of multiple segments, as you deal damage to it, it's segments will disappear.\\n\\nKilling the &2Naga&r will drop some nice items and grant you entry to the home of the next boss, the Lich."]
+	quest.3531B28F14CF72A2.title: "&2Evening The Scales"
 	quest.354794C26084872F.quest_desc: [
 		"&6Expure &rlets you take photos in a realistic and immersive way or even upload your own custom images!"
 		""
@@ -2193,6 +2327,8 @@
 		""
 		"You can now access storage wirelessly within the transmitter’s range."
 	]
+	quest.35E42F7925CA097A.quest_desc: ["&dVoid Cores&r are drops from the &dEnder Golem&r! \\n\\nThey are weapons, when you Right Click with them, &dVoid Runes&r will spawn from the ground. \\n\\n&dVoid Runes&r act like Evoker Fangs, they go in a line for about 10 Blocks in the direction you are using it toward. \\n\\nThey do about 3 and a half &4Hearts&r of damage for each time they hit a Mob. They also knockback Mobs which Evoker Fangs do not. \\n\\nThis can be used in Crafts for even more &4&lCataclysm&r Weapons!"]
+	quest.35E42F7925CA097A.title: "&dVoid Core"
 	quest.35FDE052B50EFAAF.quest_desc: ["The &bME Import Bus&f periodically sucks items in from whatever external storage the bus is facing. It can optionally be filtered to only take in certain items from said inventory."]
 	quest.36032C287CC77A74.quest_subtitle: "Mechanical Crafting"
 	quest.36081971EC8925F2.quest_subtitle: "Not repeatable"
@@ -2287,6 +2423,8 @@
 	]
 	quest.37D437BA68D6864C.title: "Craft a &2Solar Panel"
 	quest.37D5E493E9DB64D4.quest_subtitle: "Slowly replenishes hunger while walking on grass and grow plants after eating on grass"
+	quest.37E4DECFB6526969.quest_desc: ["The &3Soul Render&r is crafted from &3Cursium&r and Black Steel. \\n\\nIt being a massive weapon (as most in &4&lCataclysm&r are) it has big Range and a ton of Damage... but its special effects are even better! \\n\\nYou can use Right Click to be sent charging forward with the &3Soul Render&r. When you do, &3Phantom Halberds&r will drop from the sky where you went! You can also Shift Right Click to spawn &3Phantom Halberds&r all around you."]
+	quest.37E4DECFB6526969.title: "&3Soul Render"
 	quest.37F39A63C0C2934F.quest_desc: ["One of the last artifacts left behind by the Iceologers before they all suddenly vanished from the world"]
 	quest.37F39A63C0C2934F.quest_subtitle: "Found in Igloos"
 	quest.383DED27F9FC984B.quest_subtitle: "&6+15% Mana Regeneration"
@@ -2308,6 +2446,8 @@
 	]
 	quest.389858EF7FA936DC.quest_subtitle: "&aCardboard Armor is—you guessed it—armor made of Cardboard!&r"
 	quest.389858EF7FA936DC.title: "Cardboard Set"
+	quest.38ADDF7FF4E4892D.quest_desc: ["The &7Glass Sword&r deals 40 hearts of damage, but only has 1 durability.\\n\\nYou can make it indestructible if you want to use it.\\n\\nThese are rarely found in loot chests in the &bAurora Palace&r."]
+	quest.38ADDF7FF4E4892D.title: "&7Glass Sword"
 	quest.38B254719B73C3C0.quest_desc: [
 		"&6Embroidery Thread&r is used to add custom artwork onto a blanket or even a banner on your bed."
 		""
@@ -2315,12 +2455,17 @@
 		""
 		"Each time you apply embroidery, some of the thread is consumed. Once the spool runs out, it can’t be used until refilled. Luckily, you can easily craft a damaged spool with fresh thread to top it up again."
 	]
+	quest.3908F7C80154D9CA.quest_desc: ["The &2Zombie Scepter&r exists because who doesn't want to summon their own &2Zombies&r?\\n\\nTo recharge, combine with &cRotten Flesh&r in a crafting grid."]
+	quest.3908F7C80154D9CA.quest_subtitle: "Summons Zombies"
+	quest.3908F7C80154D9CA.title: "&2Zombie Scepter"
 	quest.391E94F1938AC865.quest_subtitle: "&6+15% Spell Resistance"
 	quest.3921087D564A6659.quest_desc: [
 		"To create an &6Arcane Crystal Obelisk&r, place down an &2Arcane Polished Darkstone block&r, then place two &2Arcane Crystal Blocks&r on top of it."
 		""
 		"Right-click with &4Mundabitur Dust&r and you'll create the obelisk."
 	]
+	quest.392EAE8BE71510C1.quest_desc: ["The Barren Wasteland of the &5End&r now has 1 more resident. \\n\\nThe other being the &dEnder Dragon&r of course!"]
+	quest.392EAE8BE71510C1.title: "&5End&r: Land of 1 lonely boss"
 	quest.396DA8B3E8A23C6D.quest_subtitle: "Upgrades a Iron tier to gold tier."
 	quest.39AD4C222874D63F.quest_subtitle: "Increases the user's invulnerability frames after taking a hit (1s)"
 	quest.39EF0966EB556EF0.quest_desc: [
@@ -2336,6 +2481,8 @@
 	]
 	quest.3A227C6AE5CB2F32.quest_subtitle: "&l&eA fancy new-looking belt? Cool!&r&r"
 	quest.3A227C6AE5CB2F32.title: "Design and Decor"
+	quest.3A3ED88027331A6C.quest_desc: ["The &eCharm of Keeping III&r works the same as the other Charms of Keeping, but stops you from losing all of the stuff in your inventory."]
+	quest.3A3ED88027331A6C.title: "&eCharm of Keeping III"
 	quest.3AB3B4308FA14C9E.quest_desc: [
 		"To make Bauxite you must use &a5 Mechanical Crafters&r. There’s various ways you can do this such as using a Mechanical Arm to place the items in their correct slots. "
 		""
@@ -2365,6 +2512,8 @@
 	quest.3B42CCC19D23EC6D.quest_desc: ["The second tier of storage component, providing &e4096&f bytes of storage."]
 	quest.3B42CCC19D23EC6D.quest_subtitle: "x4"
 	quest.3B42CCC19D23EC6D.title: "4k Storage Component"
+	quest.3B577572FA7A413E.quest_desc: ["The &3Wrath of the &eDesert&r is a combination of the &3Cursed Bow&r and &eSandstorm in a Bottle&r. \\n\\nThis Bow doesn't shoot Arrows like normal, instead it will shoot &3Cursed &eSandstorms&r! \\n\\nThree of them to be exact! \\n\\nIt also doesn't need Arrows to shoot, which is also nice."]
+	quest.3B577572FA7A413E.title: "&3Wrath of the &eDesert"
 	quest.3B867B59524B97A5.quest_desc: [
 		"&aCables connect network devices in Refined Storage.&r"
 		""
@@ -2397,6 +2546,10 @@
 		""
 		"Additionally, the &6Storage Controller&r can connect wireless to any storage link within a &n&crange of 15 blocks.&r&r"
 	]
+	quest.3C0F8EB779E56F2A.quest_desc: ["Here's your Crab Claw from the Mob Vote! \\n\\nJust the Crab you need to kill is much bigger... and meaner... \\n\\nThe Chitin Claw is a Drop from the Clawdian. \\n\\nWhen worn you will get increased Block Reach and Entity Reach. So you can place Blocks farther and smack Mobs farther as well!"]
+	quest.3C0F8EB779E56F2A.title: "&9Chitin Claw"
+	quest.3C8724C3A9459507.quest_desc: ["Yeti Armor can be crafted with Alpha Yeti Fur."]
+	quest.3C8724C3A9459507.title: "Yeti Armor"
 	quest.3CA4542BF17DB864.quest_subtitle: "Enflamed Mandible can be dropped by Blazes when using the Ravaging enchantment on a hatchet."
 	quest.3CBDB45D65737212.quest_subtitle: "Found by stepping on Infested Sculk"
 	quest.3CE1281049B4B14B.quest_subtitle: "x16"
@@ -2410,6 +2563,8 @@
 		""
 		"There are tons of different sets you can choose from across various mods."
 	]
+	quest.3D29EF7F150F5334.quest_desc: ["The &3Ender Bow&r is found rarely in the &bAurora Palace&r.\\n\\nWhen an enemy is hit with an arrow from this bow, you will swap places with them. Be careful shooting things out of the sky!"]
+	quest.3D29EF7F150F5334.title: "&3Ender Bow"
 	quest.3D2DDC65DED45F4A.quest_desc: [
 		"The last piece of the puzzle for any large ME network is the &bME Controller&f."
 		""
@@ -2448,6 +2603,11 @@
 	]
 	quest.3D8B2D9B4488D1C4.quest_subtitle: "A Pain to Make..."
 	quest.3D93780758BA7194.quest_desc: ["Perhaps you can&b put these back together&r, or maybe make&o &6something else&r with it."]
+	quest.3DCF26B53AE1EBF6.quest_desc: ["Inside the &2Dark Forest&r, you'll find a structure that leads underground.\\n\\nTo enter, you'll need to place one of the boss trophies you've acquired on the nearby pedestal, don't worry about which one you place, you can pick it back up.\\n\\nOn the 3rd layer, you'll find the Knight Phantoms. Defeat these to unlock the next boss."]
+	quest.3DCF26B53AE1EBF6.quest_subtitle: "The Darkest of Forests"
+	quest.3DCF26B53AE1EBF6.title: "&2The Dark Forest"
+	quest.3DD71B6C4B80FB44.quest_desc: ["The &3Eye of Curse&r will lead you to the &3Frosted Prison&r to fight the &3&lMaledictus&r."]
+	quest.3DD71B6C4B80FB44.title: "&3Eye of Curse"
 	quest.3DD814B346F1B543.quest_desc: [
 		"{image:kubejs:textures/familiars/cleric.png width:96 height:100 align:center}"
 		"&l&6Battle:&r&r specialized in holy magic, his main role is supporting but he can also cast powerful holy spells to purify enemies."
@@ -2493,6 +2653,8 @@
 	]
 	quest.3E6E9C53FBE836FB.quest_subtitle: "Making Spells"
 	quest.3E7413B4D1A55B58.quest_subtitle: "Craft any Golden Shulker Box type."
+	quest.3E8C7D92F99496BE.quest_desc: ["The &5Eye of Abyss&r will take you to the &5Sunken City&r to fight the &5&lLeviathan&r."]
+	quest.3E8C7D92F99496BE.title: "&5Eye of Abyss&r"
 	quest.3E9FA4241DD2A49F.quest_desc: [
 		"Items are not the only things that can be stored in ME cells. &bME Fluid Storage Cells&f can store liquids such as water, lava and any variety of modded oils and fuels, just to give a few examples."
 		""
@@ -2533,6 +2695,8 @@
 	quest.401AFF46C83AAEB8.title: "You Need a Mint!"
 	quest.401C9B25D2B7B49F.quest_desc: ["Remembrance of the past lives of those who live in death"]
 	quest.401C9B25D2B7B49F.quest_subtitle: " Craft it using an Undead Soul"
+	quest.40258842B0359A2D.quest_desc: ["&6Ironwood Armor&r can be crafted using &6Ironwood&r and comes automatically enchanted."]
+	quest.40258842B0359A2D.title: "&6Ironwood Armor"
 	quest.40270C32F09AD402.quest_desc: [
 		"&6&lWelcome to Create!"
 		""
@@ -2613,6 +2777,12 @@
 		"  - Mark whill be drawn with leftmost chalk in order sneaking"
 		"  - You can draw glowing mark with Chalk Box by adding glowing items in a spacial slot."
 	]
+	quest.4193303999597249.quest_desc: [
+		"The &9Twilight Forest&r is a mod that adds the Twilight Forest dimension to the game. This dimension is filled with brand new items, biomes, mobs and bosses!\\n\\nTo create the portal to get to the &9Twilight Forest&r, make a 2x2 hole in the ground and fill it with water. Surround the edges of the hole with flowers, and throw a Diamond into the water.\\n\\nAssuming you did it correctly, Thor will give you a sign and the portal will activate.\\n"
+		"{image:atm:textures/questpics/gettingstarted/twilight_portal.png width:100 height:100 align:center fit:true}"
+	]
+	quest.4193303999597249.quest_subtitle: "Enter the Twilight Forest"
+	quest.4193303999597249.title: "Welcome to the &9Twilight Forest&r!"
 	quest.419A16655447AA92.quest_subtitle: "Provides an infinite night vision effect"
 	quest.419FB723D9EE7EFB.quest_desc: [
 		"&6Autocrafting Upgrade&r automatically starts an autocrafting task when a required resource is missing from the network."
@@ -2623,6 +2793,8 @@
 	quest.41A0BE357C8A74E1.quest_desc: ["The &9Alchemical Sourcelink&r produces Source from adjacent potion jars. \\n\\nThe amount of source varies per potion and complexity."]
 	quest.41A0BE357C8A74E1.quest_subtitle: "Power through Potions"
 	quest.41E439ED3FAAAA94.quest_subtitle: "Craft any Netherite Shulker Box type."
+	quest.420158B1736A1354.quest_desc: ["...is not implemented.\\n\\nInstead, head to the giant castle in the Final Plateau and grab some door blocks!\\n\\nThere is a Kobold that spawns in as a \"placeholder\" but you will get nothing from killing it."]
+	quest.420158B1736A1354.title: "&cThe Final Boss"
 	quest.4229C599AF11A4F4.quest_desc: [
 		"&l&6Windmill Sails&r&r generate power when attached to a rotating structure on a Windmill Bearing, offering the same efficiency as Wool blocks. A minimum of 8 sails is required to start rotation."
 		""
@@ -2662,6 +2834,8 @@
 		""
 		"You can use a &bGlow Ink Sac&r to make it shine, and there’s even a glass variant where the photograph fully covers the space, making the frame itself invisible."
 	]
+	quest.43A5B83862D9E94C.quest_desc: ["The &bEye of Flame&r will take you to the &bBurning Arena&r to fight the &b&lIgnis&r."]
+	quest.43A5B83862D9E94C.title: "&bEye of Flame&r"
 	quest.43B06E3FFE5FE8EB.quest_subtitle: "Harness the power of the &dshadows&r. Increased &dshadow magic spell power&r or &darmor&r."
 	quest.43B06E3FFE5FE8EB.title: "&d&lSchool of Ender"
 	quest.43E5907E27844D18.quest_desc: [
@@ -2701,6 +2875,8 @@
 		""
 		"It lets you craft items using resources from the network quickly and conveniently."
 	]
+	quest.445C9117198936B6.quest_desc: ["The &4Wither Assault Shoulder Weapon (W.A.S.W.)&r is the last weapon you can make from &4Witherite&r. \\n\\nIt has 2 different projectiles it can shoot: &4Wither Missiles&r and &4Wither Howitzers&r. \\n\\nThe &4Wither Missiles&r shoot from just Holding Right Click, and will Damage whatever gets hit by them, with low cooldown. \\n\\nThe &4Wither Howitzers&r are fired when you Shift Hold Right Click, they damage a bigger area and leave an area of Wither Effect, that damages whatever walks in it. They have much longer cooldown though."]
+	quest.445C9117198936B6.title: "&4W.A.S.W. (Wither Assault Shoulder Weapon)"
 	quest.448A757527C81698.quest_desc: [
 		"&6Stack Upgrade&r increases how many items a device transfers per tick."
 		""
@@ -2751,6 +2927,11 @@
 	quest.4597D3B3BDC2BED5.quest_desc: ["The &bMolecular Assembler&f is AE2's equivalent of an automatic crafting table, required to fulfil any and all &ecrafting&f pattern jobs.\\n\\nMolecular Assemblers are capable of transferring power and channels to other ME devices connected to it, but will not themselves take up a channel. Up to 6 MAs can be connected to a single Pattern Provider (if employed) to allow for more crafts to be done in parallel.\\n\\nMAs also each have their own dedicated slot for a single crafting pattern, allowing them to function standalone when powered. When operated in this way, any matching items inserted into the MA will be automatically crafted into the result of the pattern."]
 	quest.45A294917808368D.quest_subtitle: "Replaces blocks from your offhand instead."
 	quest.45BE2DE3977F53E9.quest_subtitle: "You can repeat as many times you want!"
+	quest.45FBEABEBA7CC09E.quest_desc: [
+		"Who knows what happened to bring this &5City&r under the &9Water&r, but clearly it is! You'll easily notice it by the Stone Bricks sticking out of the &9Water&r. \\n\\nThe first and biggest room is the City Center, the giant dome! This is where the &5Altar of the Abyss&r is. \\n\\nOff of the rooms you'll find hallways which lead to other buildings in the &5City&r. Prisons holding &5Coralussus&r and even Treasure Rooms holding tons of precious Loot! \\n\\nAll around the &5City&r you will find its inhabitants, the &5Deeplings&r. "
+		"{image:atm:textures/questpics/cataclysm/cataclysm_city.png width:200 height:100 align:center}"
+	]
+	quest.45FBEABEBA7CC09E.title: "&5Sunken City&r: Home of &5&lThe Leviathan&r"
 	quest.460A8F17F3ED6CAF.quest_desc: ["There comes a point in any playthrough of a large modpack where even the highest standard tier of storage cell doesn't cut it for the amount of items and resources that you may be accumulating.\\n\\nThis is where the &dMEGA Cells&f add-on comes in, extending the available tiers of storage into the megabyte territory. The first of these new tiers is given by the &b1M MEGA Storage Component&f, providing 1024 &okilo&rbytes, or &e1048576&f bytes, of storage."]
 	quest.460A8F17F3ED6CAF.quest_subtitle: "The first MEGAbyte."
 	quest.460A8F17F3ED6CAF.title: "1M Storage Component"
@@ -2771,7 +2952,14 @@
 		"A sheared lotus flower will not grow anymore and won't drop any &bbleachdew!&r"
 	]
 	quest.4626F4A23540DD3E.title: "Bleachdew and Lotus Flower"
+	quest.462D173D576A8D91.quest_desc: ["&eAncient Metal&r is a Drop from pretty much everything within the &eCursed Pyramid&r! \\n\\nLike other Ingots it can be Crafted from Nuggets or Blocks and vice versa. \\n\\nYou can use it to make &eBone Reptile Armor&r or the &eAncient Spear&r."]
+	quest.462D173D576A8D91.title: "&eAncient Metal"
+	quest.465B08461B460DAC.quest_desc: ["&dEndermaptera&r live around the &dRuined Citadel&r. \\n\\nThey have 8 &4Hearts&r and only a basic attack of gnawing at you. \\n\\nIf they gnaw at you too much they might break their jaws, to which they won't drop on death anymore. \\n\\nSo make sure to kill them quickly if you want those &dVoid Jaws&r!"]
+	quest.465B08461B460DAC.quest_subtitle: "End Cockroaches"
+	quest.465B08461B460DAC.title: "&dEndermaptera"
 	quest.465B9A805BA57898.quest_subtitle: "Obtained from market with magic coins"
+	quest.4665E6FD0AAED164.quest_desc: ["The &fCharm of Keeping II&r works the same as the &6Charm of Keeping I&r but stops you from losing the stuff in your hotbar when you die too."]
+	quest.4665E6FD0AAED164.title: "&fCharm of Keeping II"
 	quest.466F43B18F0D1B7E.quest_desc: [
 		"You will need a special furnace to convert the block into an ingot: a &4Clibano Furnace&r from &6Forbidden Arcanus.&r"
 		""
@@ -2779,6 +2967,8 @@
 		"{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"1DB562D431DB8D96\" } }"
 	]
 	quest.46BFA878FE03C07E.quest_subtitle: "Craft any Iron Limited Barrel I type."
+	quest.46CC8E7ED59F51D2.quest_desc: ["&5Tidal Claws&r are a confirmed drop from &5&lThe Leviathan&r. \\n\\nIt has two modes, attack and grapple. Attack is with Left Click, Grapple is with Right Click. \\n\\nWhen you use its attack it will launch the claw and go through max of 5 mobs. Dealing damage and giving &5Abyssal Curse&r which will continue to damage them. \\n\\nThe grapple instead will latch on to whatever is in range and pull you toward it. \\n\\nThere's no durability so enjoy it forever!"]
+	quest.46CC8E7ED59F51D2.title: "&5Tidal Claws"
 	quest.4706B7F09A2BFC25.quest_subtitle: "nipa farm"
 	quest.474856183F5F8BE8.quest_desc: ["Rotates blocks and mobs standing on it"]
 	quest.478DE12D3EF8C22A.quest_desc: [
@@ -2858,6 +3048,8 @@
 	quest.4919AEB1300D63B7.quest_subtitle: "From previous chapter"
 	quest.496C8280CF77787E.quest_subtitle: "Use coarse dirt to make mud."
 	quest.4980B1E559CB90C6.quest_subtitle: "Upgrades a Diamond tier to netherite tier."
+	quest.49EE6D2A3684A510.quest_desc: ["The &bIce bow&r can be found randomly in loot chests, it will inflict Slowness III for 10 seconds on hit."]
+	quest.49EE6D2A3684A510.title: "&bIce Bow"
 	quest.4A1D33BF381320FD.quest_subtitle: "Affinity Rings are randomly generated as loot, and will boost the level of a select spell by one. This effect can stack. Spell can be set in the Arcane Anvil using a scroll."
 	quest.4A23A110747B9775.quest_subtitle: "Not repeatable"
 	quest.4A4514326874FFB4.quest_desc: ["Captures small mobs like chickens"]
@@ -2938,6 +3130,9 @@
 	]
 	quest.4B6BE37E7C57BD00.title: "Film rolls "
 	quest.4B76FE0348DB0E45.quest_desc: ["The Quantum Bridge Card is an alternate method to get wireless interdimensional access to your Applied Energistics system. You will need a Quantum Bridge connected at your base and a Quantum Bridge Card in your terminal. These tunnels are then bound together with a Quantum Entangled Singularity to gain access wherever you go."]
+	quest.4B95D48D7525FFAD.quest_desc: ["It's time to go to the &2Swamps&r! In the &2Swamps&r, you'll find an odd-looking hill with an entrance on top. This is the &cMinoshroom Labyrinth&r!\\n\\nInside, you'll fight several new enemies that can drop &eMaze Map Focus&r. This is needed to make a &eMaze Map&r.\\n\\nThis is a special map that will map your way around the &cMinoshroom Labyrinth&r. Minimaps have no power here.\\n\\nYou can also find several loot rooms with special loot for the Maze!"]
+	quest.4B95D48D7525FFAD.quest_subtitle: "Where's Shrek?"
+	quest.4B95D48D7525FFAD.title: "&2To the Swamps!"
 	quest.4BA1C262BA0B26C7.quest_subtitle: "Meat Scrap can be dropped by Ravagers when using the Ravaging enchantment on a hatchet."
 	quest.4BB82F98EE45B740.quest_desc: [
 		"The &6train observer&r will look at a specific part of the train track and detect when a train is crossing that specific section of track. It will give out a redstone signal when it detects a train going over that piece of track"
@@ -2994,6 +3189,8 @@
 		"You'll typically want to mass produce these, and the way to do so is to make a &bFluix Crystal&f by throwing &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r and &eRedstone&f together in a pool of water. This will give you a &eFluix Crystal&r which you can turn to dust in an Inscriber."
 	]
 	quest.4BF0BB763BFFACF0.title: "Fluix"
+	quest.4BF5EB050EC14C80.quest_desc: ["&4The Watchers&r... well they watch the &4Ancient Factory&r. They'll attack anything they see (Player wise) with their 'fricken laser beams!' and Blades if they are close enough. \\n\\nThey have 12 and a half &4Hearts&r, can fly, and are weak to EMP attacks as well. \\n\\nLike &4The Prowler&r they drop redstone and iron on death."]
+	quest.4BF5EB050EC14C80.title: "&4The Watchers&r"
 	quest.4C185EEB22774B36.quest_desc: [
 		"The &6&lDepot&r&r is used to hold items sationarily. Items can be right-clicked onto or inserted into a Depot. When placed on a Depot, a Mechanical Press will interact with the items just as it would on a Mechanical Belt. Items can also be bulk blasted on a Depot."
 		""
@@ -3031,6 +3228,8 @@
 	]
 	quest.4CCA16E6E4070E37.quest_subtitle: "Explore the moon"
 	quest.4CCAD1EBB977DF2E.quest_subtitle: "Press CTRL while airborne to perform a short and slow glide"
+	quest.4CCEC13CC5A5772D.quest_desc: ["There's 3 Pets from &4&lCataclysm&r the &eModern Remnant&r, &5Baby Leviathan&r, and &4Netherite Ministrosity&r! \\n\\nBoth the &eModern Remnant&r and &4Netherite Ministrosity&r can be placed in Buckets. \\n\\nThe &5Baby Leviathan&r will need a Water Bucket."]
+	quest.4CCEC13CC5A5772D.title: "Here hold this!"
 	quest.4CED308848726E28.quest_desc: [
 		"Using EITHER the &6Magnet Upgrade&r or the &6Pickup Upgrade&r, you can make it so any item you pick up goes straight into your backpack!"
 		""
@@ -3040,6 +3239,8 @@
 	quest.4D221F2C2507A130.quest_subtitle: "Obtained from market with magic coins"
 	quest.4D308AD544372410.quest_subtitle: "When used for Upgrade: &6+5% Lightning Spell Power"
 	quest.4D38017F83D30E13.quest_subtitle: "Damages attackers similar to the Thorns enchantment"
+	quest.4D4AB60B3B1CD437.quest_desc: ["From the scales of the &2Naga&r, you can craft some armor.\\n\\nThe armor isn't very strong, but it looks nice."]
+	quest.4D4AB60B3B1CD437.title: "&2Naga Scale Armor"
 	quest.4D5E1FD50E1F0F37.quest_desc: [
 		"&eThe logic gauge&r allows transferring redstone data through their connections. "
 		""
@@ -3047,7 +3248,14 @@
 		""
 		"&oExample: You have two redstone signals coming into the gauge, and your logic gate is set to \"AND\", it will only output redstone if ALL the inputs are on.&r"
 	]
+	quest.4D644A9829C240CB.quest_desc: ["You like the &b&lIgnis'&r shield? Well you can make 1 of your own with &bIgnitium&r. \\n\\nThe &bBulwark of the Flame&r can be used like a normal Shield but also has a special effect. \\n\\nWhen Holding Right Click and Shift, letting go will let you charge at whatever is infront of you, like how goats do. \\n\\nWhatever gets hit will take Damage and if pinched against a wall will also get stunned. \\n\\nDefinitely nice to have around!"]
+	quest.4D644A9829C240CB.title: "&bBulwark of the Flame"
+	quest.4D822D92492E1F53.quest_desc: ["The &3Aptrgangr&r is the mini boss within the &3Frosted Prison&r. \\n\\nThey have 800 &4Hearts&r and will attack you with their giant Axe. \\n\\nThey can swing their Axe like normal, or they might smash it on the ground near you. When they do that, lasers will spawn damaging all in their path. They also have a charge attack similar to the &eKobolediator&r! \\n\\nOn death they will drop Black Steel Ingots and Nuggets, and Rotten Flesh and Bones."]
+	quest.4D822D92492E1F53.title: "&3Aptrgangr"
 	quest.4D82E252D1E6B5B6.quest_subtitle: "Not repeatable"
+	quest.4DA0725E089D7C91.quest_desc: ["Find the &cQ&6u&ee&2s&3t&9i&5n&cg &6R&ea&2m&r, for it bestows wealth to those who give it &cR&6a&ei&2n&3b&9o&5w &6W&eo&2o&3l&r (16 colors).\\n\\nHint: There's a Dispenser above your head in the ruins where the Ram is. It might prove useful."]
+	quest.4DA0725E089D7C91.quest_subtitle: "Quests?"
+	quest.4DA0725E089D7C91.title: "&cR&6a&em&2i&3f&9i&5c&ca&6t&ei&2o&3n"
 	quest.4DA92919147B3E18.quest_desc: [
 		"The &a&lBlaze Enchanter&r&r functions like an Enchanting Table. To activate you need to pump liquid experience into the Blaze Enchanter."
 		""
@@ -3099,6 +3307,8 @@
 	]
 	quest.4E22392BDC9FF135.quest_subtitle: "Craft any Netherite Barrel type."
 	quest.4E256AAA75ECF41E.quest_desc: ["After defeating the &0Wither&r, use the &eNether Star&r to craft a &cBeacon&r and place it to claim your reward."]
+	quest.4E2C589C7638390F.quest_desc: ["The &3Cursed Bow&r works similar to a Bow with the Multishot Enchantment! \\n\\nWith normal Arrows, it will shoot 3 at a time! With special Arrows it will only shoot 2. \\n\\nI wonder if you can Enchant it with Multishot as well?"]
+	quest.4E2C589C7638390F.title: "&3Cursed Bow"
 	quest.4E2CDE150137F5E9.quest_desc: [
 		"To make it, combine a &bRunic Tablet&r with a &cEmpowered Remnant&r in a Smithing Table."
 		""
@@ -3181,7 +3391,14 @@
 	]
 	quest.4EE191C96F7DE687.quest_subtitle: "v1.4.1"
 	quest.4EE191C96F7DE687.title: "&l&cLIST OF KNOWN ISSUES (PLEASE READ!)&r&r"
+	quest.4F66DF6B494BEFF3.quest_desc: ["Combining a &8Raven Feather&r with &eTorchberries&r and &6Glowstone&r will give you a &eMagic Map Focus&r."]
+	quest.4F66DF6B494BEFF3.title: "&eMagic Map Focus"
 	quest.4F734FC470276106.quest_subtitle: "Applies a temporary haste effect after eating food"
+	quest.4FA156C383C9C438.quest_desc: ["&eKoboletons&r are mini Dino Skeletons who serve the &e&lAncient Remnant&r. \\n\\nThey only have 12 and a half &4Hearts&r and attack you with their Khopesh. \\n\\nThey can drop their weapon, along with their Bones, and Ancient Metal Nuggets."]
+	quest.4FA156C383C9C438.quest_subtitle: "Mini Dinos!"
+	quest.4FA156C383C9C438.title: "&eKoboletons"
+	quest.4FA7774D89171BB3.quest_desc: ["Want another pet from &4&lCataclysm&r? Then the Remnant Skull is what you need! \\n\\nIt's a confirmed drop from the &eAncient Remnant&r and when used will spawn a Modern Revenant. \\n\\nThis one is much smaller and nicer than the &eAncient&r one. You can tame it by feeding it a Sniffer Egg then it will act like a dog. \\n\\nAttacking what attacks you or what you attack. It also has 3 modes: follow, wander, and stay. Follow it will... well follow you. Wander will have it walking around a certain area. And stay will have it lay down in one spot. \\n\\nThey have 2700 &4Hearts&r and I've learned you can feed them &eKoboleton Bones&r to heal them! \\n\\nEnjoy your new dino!"]
+	quest.4FA7774D89171BB3.title: "What shall not be named for my crashing reasons"
 	quest.4FDAFBD64AA710A1.quest_subtitle: "Increases experience dropped by mobs"
 	quest.4FE2B38F21E965E8.quest_subtitle: "x3"
 	quest.4FF456152213D0AF.title: "&dVoidwalker Outfit"
@@ -3207,6 +3424,11 @@
 	quest.50A74C04350493E0.quest_subtitle: "&6+15% Cooldown Reduction"
 	quest.50B4EEBAF5CF3122.quest_desc: ["This eye is believed to have given our ancestors the knowledge of Redstone"]
 	quest.50B4EEBAF5CF3122.quest_subtitle: "Found in Jungle Pyramids"
+	quest.50C9CB8FB16E453D.quest_desc: [
+		"The &bBurning Arena&r is a giant Colosseum-esque Arena within the &4Nether&r. \\nYou'll arrive at the peaceful but hot 1st floor, on the 2nd floor you'll find &b|gnited Revenants&r which you'll need to kill for &bBurning Ashes&r. \\n\\nWhich can then be used on the 3rd floor, in the Altar to summon the &b&lIgnis&r! \\n\\nOh yeah and if you're looking for Loot, check above the 3rd floor!"
+		"{image:atm:textures/questpics/cataclysm/cataclysm_arena.png width:200 height:100 align:center}"
+	]
+	quest.50C9CB8FB16E453D.title: "&bBurning Arena&r: Home of the &b&lIgnis&r"
 	quest.50CDAAB5AECA6B27.quest_subtitle: "opcional"
 	quest.50E7A4D14F2C485A.quest_subtitle: "Not repeatable"
 	quest.5114FEE11E7030C9.quest_subtitle: "-20% Fuel requirement. "
@@ -3244,6 +3466,8 @@
 	quest.51A57E142C686C8F.quest_desc: ["The fifth and final MEGA tier of storage component, providing &e268435456&f (262144k) bytes of storage."]
 	quest.51A57E142C686C8F.quest_subtitle: "x4^4"
 	quest.51A57E142C686C8F.title: "256M Storage Component"
+	quest.51BC981AB4CFAD95.quest_desc: ["The Mazebreaker is a special pickaxe that is rarely found in Labyrinths.\\n\\nThis pickaxe will take 1 damage when breaking Maze Walls, instead of the 16 damage for all other pickaxes!"]
+	quest.51BC981AB4CFAD95.quest_subtitle: "Trapped Chamber, do not enter?"
 	quest.51DE3157DE3E57B8.quest_desc: [
 		"Storage is nice and all that, but what good is a storage system if it's clogged up with raw materials needing to be crafted and processed into something and you're still stuck with having to do so manually? "
 		""
@@ -3334,6 +3558,11 @@
 		""
 		"&aToggling Visibility:&r Right-click a storage or Controller to toggle the visibility of locks and item counts."
 	]
+	quest.53154550397E9704.quest_desc: [
+		"The &c&lNetherite Monstrosity&r lives up to his name, he's a beast of &cNetherite &fand &cLava&r. \\n\\nHe can have up to 48,000 &4Hearts&r but when I first met him he was only at around 9,500 &4Hearts&r. He will regenerate &4Hearts&r when no Player is nearby.\\n\\nHe has a few Melee attacks like smacking you with his massive arms and ground pounding on you. He can also throw blocks in the Air causing a Shockwave. \\n\\nIf you get farther from him he might charge at you or leap at you. Honestly he looks like he weighs 100 Tons, I wouldn't want him doing either to me! \\n\\nThe worst of his attacks are definitely the Ranged ones though... he can shoot &cMagma Balls&r at you and where they drop, &cLava&r will spawn. He can also shoot &cFireballs&r from his hands, these will cause &cFire Spouts&r to come out of the ground."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_monstrosity.png width:100 height:100 align:center}"
+	]
+	quest.53154550397E9704.title: "&c&lNetherite Monstrosity&r"
 	quest.5391C1240C677127.quest_subtitle: "When used for Upgrade: &6+5% Cooldown Reduction"
 	quest.5399B06BD0D95CAE.quest_desc: [
 		"&cThe Warden&r is a terrifying boss that spawns naturally in the Deep Dark biome when you trigger too many Sculk Shriekers."
@@ -3349,6 +3578,9 @@
 		"&l&a📝Tip:&r&r &oYou can buy a map in the Market to locate one - &eAncient City&r.&r"
 	]
 	quest.5399B06BD0D95CAE.quest_subtitle: "☠ Tier 1"
+	quest.53A79338994088FD.quest_desc: ["The &dTri-Bow&r is dropped from the &3Snow Queen&r, it can shoot 3 Arrows at the same time, while only using 1."]
+	quest.53A79338994088FD.quest_subtitle: "From a Lynel?"
+	quest.53A79338994088FD.title: "&dTri-Bow"
 	quest.53C9B66BEC667ED0.quest_desc: [
 		"&bIron's Spells 'n Spellbooks&r is a magic mod focused around exploring the world to find magic scrolls in order to cast fantastical magics. "
 		""
@@ -3474,10 +3706,15 @@
 		"https://discord.gg/pkEvhgByPw"
 	]
 	quest.5525E70F7FBDBD92.title: "&6Your feedback is important :)"
+	quest.55278DDC31951DA5.quest_desc: ["I guess the &3Draugrs&r really wanted to keep the &3Cursed Tombstone&r safe because they Locked it! \\n\\nThe &3Door of Seal&r, yeah a really creative name, blocks us from getting to it. We'll need a &3Strange Key&r to open it. \\n\\nAgain, they really want it locked up because they gave the &3Strange Key&r to the &3Aptrgangr&r. Only the toughest guys in the &3Frosted Prison&r who are still alive!"]
+	quest.55278DDC31951DA5.quest_subtitle: "Unlocking access to the Maledictus"
+	quest.55278DDC31951DA5.title: "&3Strange Key"
 	quest.5534C553D15CD96B.quest_desc: ["The &6Item Drain&r has the ability to extract liquid from a container and temporarily store it until it is piped out into another container."]
 	quest.5590204A473913AC.quest_subtitle: "Automatically smelts mined ores"
 	quest.561A753B404A8C0A.quest_subtitle: "Not repeatable"
 	quest.56487ACFC2360FE0.title: "&6Paladin Outfit"
+	quest.565376084F05ED6E.quest_desc: ["The Dimension known for housing the piglins and blazes and wither skeletons, now houses 2 more bosses to fight!"]
+	quest.565376084F05ED6E.title: "&4Nether&r: Land of 2 bosses"
 	quest.5690FCED46349207.quest_desc: [
 		"Please visit &6magic chapter Ars Nouveau&r to learn how to use &cEnchanting Apparatus&r"
 		""
@@ -3485,6 +3722,11 @@
 	]
 	quest.569EEAB237D75495.quest_subtitle: "Not repeatable"
 	quest.56F1F049F20B29A7.title: "&aArchevoker Outfit"
+	quest.573DD5834B321D0A.quest_desc: [
+		"The &9Acropolis&r is a giant city in the Clouds above the vast &9Oceans&r. (Yet I somehow didn't see it the first time). \\n\\nIt is made of &9Azure Seastone&r, &3Prismarine&r, and &9Water&r! Yes, lots and lots and lots of &9Water&r! \\n\\nIt is based off Greek Architecture, with lots of different floors and gardens and even arenas. \\n\\nAll around it will spawn &9Octohosts&r, &9Urchinkin&r, &9Cindaria&r, &9Hippotamus&r, and &9Clawdian&r! As well as a few very unfortunate &9Ocean&r Mobs. \\n\\nHidden throughout the Architecture you'll find Chests and rare Blocks like Diamond Blocks and Sponges!"
+		"{image:atm:textures/questpics/cataclysm/cataclysm_acropolis.png width:200 height:100 align:center}"
+	]
+	quest.573DD5834B321D0A.title: "&9Acropolis&f: Home of &9&lScylla"
 	quest.574BACFBD270FD8F.quest_desc: [
 		"If you need to integrate storage from different areas into your main system, the &6Storage Link&r is your solution."
 		""
@@ -3492,11 +3734,15 @@
 		""
 		"By right-clicking the &dController&r with the &bTool&r and then the Link, you seamlessly connect separate storage units into one cohesive network."
 	]
+	quest.575E405B270BBCBC.quest_desc: ["In the &9Twilight Forest&r, there are a bunch of new creatures to discover.\\n\\nOne of the worst of these creatures is the Cicada. I suggest killing this for this, but killing any Twilight Forest mob will work."]
+	quest.575E405B270BBCBC.title: "The Silence of the Forest"
 	quest.5766C8B9E850C186.quest_desc: [
 		"To create one of the main crafting items in Ars, the &9Source Gem&r, we'll need to make an &6Imbuement Chamber&r. \\n\\nThe Imbuement Chamber requires Source to imbue items. It produces a small amount of Source by itself, but can also use Source Jars as a power source. \\n\\nSeveral recipes also require Arcane Pedestals to be placed around it as well.\\n"
 		"{image:atm:textures/questpics/ars/imbuement.png width:200 height:150 align:1}"
 	]
 	quest.5766C8B9E850C186.quest_subtitle: "Creating Source Gems"
+	quest.57940981E8DE55D4.quest_desc: ["It's easy to get lost in the &9Twilight Forest&r. In your travels, you'll run into &5Obsidian Pillars&r.\\n\\nThese pillars will have &8Ravens&r around them. Kill them and they'll drop their feathers, which you can use to create a map for the &9Twilight Forest&r!"]
+	quest.57940981E8DE55D4.title: "&8Raven Feathers"
 	quest.57FCF653EDA81DE0.quest_subtitle: "use a beacon to convert it"
 	quest.580F889F027A87FE.quest_desc: [
 		"The &bME IO Port&f allows for the contents of an ME network's storage to be quickly rearranged between different storage media such as ME cells and external containers connected to storage buses."
@@ -3515,6 +3761,9 @@
 	]
 	quest.583EBA8354586BFD.quest_subtitle: "&d☠ Tier 5"
 	quest.5841D16B410B3D41.quest_subtitle: "Ghast Tendril can be dropped by Ghasts when using the Ravaging enchantment on a hatchet."
+	quest.58BD1063A19777DC.quest_desc: ["Once you've unlocked the &2Highland&r biome, head over and find some Trolls to kill.\\n\\nThey can drop some &9Magic Beans&r. You'll also find chests that give you Uberus Soil, which is needed to grow the Magi Beans."]
+	quest.58BD1063A19777DC.quest_subtitle: "Where's Jack?"
+	quest.58BD1063A19777DC.title: "Visiting the Giants"
 	quest.58D9CE68661256C8.quest_desc: [
 		"The &l&6Encased Chain Drive&r&r is a block used to transfer rotational power, similar to a Mechanical Belt, but with more flexibility in layout."
 		""
@@ -3659,6 +3908,8 @@
 	quest.5BC526ACC0046B20.quest_subtitle: "Backs on Backs on Backs"
 	quest.5BCF209E014D37E6.quest_desc: ["The &bME Smart Cable&f and &bDense Smart Cable&f function identically to the covered cables in terms of channel distribution, but will also visibly display the amount of channels they are using as coloured lines along themselves."]
 	quest.5BCF209E014D37E6.title: "Advanced Cabling"
+	quest.5BD22081ED81BCC6.quest_desc: ["&9Urchinkin&r are small pests who for some reason live in &9Acropolis&r. \\n\\nThey have 6 &4Hearts&r with no Armor. Thankfully pretty weak. \\n\\nThey have a few Attacks, if they are near you they will Hit you. If there is some distance they will roll at you. When they roll, tons of their &9Spikes&r will be shot out, doing Damage to anyone they hit! \\n\\nOn death they won't Drop anything unique. Besides more &9Spikes&r to Damage you, that's all."]
+	quest.5BD22081ED81BCC6.title: "&9Urchinkin"
 	quest.5BF082062143531B.title: "&2Plagued Outfit"
 	quest.5C22E3103544B120.quest_desc: ["To connect the vast majority of your ME network together, you will need some cable. &eME Glass Cable&f is the first and most basic kind of cable, and you'll be making this all throughout as the first step towards crafting the other kinds of cable.\\n\\nBoth glass cables and their &ecovered&f counterpart can carry up to 8 channels along a single section of cabling. Unlike glass cables, covered cables can subsequently be crafted into &edense&f covered cables, capable of carrying up to 32 channels. However, most 'multipart' devices such as buses and terminals cannot be directly attached to dense cables, requiring normal-width cables to form a connection instead.\\n\\nAll cables can also be crafted with dye to colour them. Uncoloured ('Fluix') cables can connect to any other colour of cable, but otherwise differently-coloured cables will never connect to one another."]
 	quest.5C22E3103544B120.title: "Basic Cabling"
@@ -3667,6 +3918,10 @@
 	quest.5C3FF43CF16BCF30.quest_subtitle: "Formerly \"Arcane Stones\""
 	quest.5C3FF43CF16BCF30.title: "Sourcestone"
 	quest.5C63E2E0D537CF6B.quest_subtitle: "+50 max mana, when equipped tamed familiars that fall below 25% health willl get invisibility effect, crafted."
+	quest.5C6C4AD0F60BECCA.quest_desc: ["The &eKhopesh&r is the Weapon and Drop of &eKoboletons&r. \\n\\nIt does the same damage as an Iron Sword but can't be Enchanted or Repaired. \\n\\nGuess they didn't plan on you using them that much..."]
+	quest.5C6C4AD0F60BECCA.title: "&eKhopesh"
+	quest.5CBA8C89FE717B9C.quest_desc: ["With a &8Giant's Pickaxe&r, you'll want to head back to Troll Caves to find &5Giant Obsidian&r.\\n\\nUse the &8Giant's Pickaxe&r to break it, and you'll find some loot. Acquire the &6Lamp of Cinders&r to continue."]
+	quest.5CBA8C89FE717B9C.title: "&6Lamp of Cinders"
 	quest.5CD8D169181C7339.quest_desc: ["These last three items are more or less some extra toys provided by AE2 and don't necessarily fit under any of these quest trees.\\n\\nThe &bCharged Staff&f is just a simple powered staff which deals 3 hearts of damage and consumes 300AE per hit. It also uses pre-1.9 combat mechanics, meaning that you can spam-click with this like in the good old days.\\n\\nThe &bEntropy Manipulator&f, when &oused&r on certain blocks in the world, will smelt them in-place, such as sand to glass and metal ores to metal ingots. If not, it will simply light a fire on the block.\\n\\nFinally, the &bMatter Cannon&f functions similarly to the Color Applicator as a dedicated cell for holding 'ammo' items such as Matter Balls and iron/gold nuggets, which can then be fired out to deal damage to mobs or break blocks. Heavier 'ammo'Matter Balls in a Matter Cannon can be substituted with &bPaint Balls&f, which will apply a paint splatter effect on the face of whatever block being fired at. &bLumen Paint Balls&f are a variant of paint balls exclusively used by the Matter Cannon, whose paint splatters also give off some light once present in the world."]
 	quest.5CD8D169181C7339.quest_subtitle: "Too hot for the ATF"
 	quest.5CD8D169181C7339.title: "The... Weapons?"
@@ -3721,6 +3976,8 @@
 	]
 	quest.5D6271AF25237B2E.title: "Weapons"
 	quest.5D6FDF6682B47167.quest_subtitle: "Dimmed Scale can be dropped by Endermen, Endermites, and the Ender Dragon when using the Ravaging enchantment on a hatchet."
+	quest.5D74D73092ACD2F2.quest_desc: ["&5Coral Golems&r spawn within the &5Sunken City&r. \\n\\nThey are similar to their bigger counterparts: &5Coralssus&r but have less &4Hearts&r at 110 and can't be ridden by &5Deeplings&r. \\n\\nThey have more attacks than their counterparts though! Like jumping at you and smashing the ground next to you. And it can smack you. \\n\\nOn death they will drop Crystallized Coral Fragments, which can be crafted into Crystallized Coral. Those can be made into the &5Abyssal Sacrifice&r."]
+	quest.5D74D73092ACD2F2.title: "&5Coral Golem"
 	quest.5D859F65BB6BA3E0.quest_desc: ["Uses &dTelejuice&r to toggle a custom portal in the area on and off"]
 	quest.5D94118C96E07BAA.title: "&2Venomous Outfit"
 	quest.5E08A9D0D45010CE.quest_desc: [
@@ -3750,6 +4007,8 @@
 		""
 		"For fluids, 1 byte equals 8 buckets (8000mb)."
 	]
+	quest.5E3263ACE170A8E3.quest_desc: ["The &dGauntlet of &eMaelstorm&r is made with the &dGauntlet of Guard&r and &eSandstorm in a Bottle&r in a &4Mechanical Fusion Anvil&r. \\n\\nThis one is unique from all Weapons I've seen from &4&lCataclysm&r. \\n\\nWhen you Hold Right Click, a &dVoid &eVortex&r will spawn where you are aiming. \\n\\nThe &dVoid &eVortex&r will suck in all Entities nearby, then after a few seconds, it will close and explode! Dealing Damage to all near it."]
+	quest.5E3263ACE170A8E3.title: "&dGauntlet of &eMaelstorm"
 	quest.5E6585F7627247E3.quest_desc: ["When applied as an upgrade to any supported device such as an Interface or Export Bus, the &bCrafting Card&f allows the device in question to automatically send out its own crafting requests for a required (filtered) item. Crafting CPUs can be set to respond only to these requests to prevent taking up CPUs meant for player-requested crafts.\\n\\nWhen the &eLevel Emitter&f is upgraded with the Crafting Card, it can be configured to emit redstone in order to directly facilitate in crafting, by emitting a signal either &owhile&r a crafting job for its given item is detected or specifically &oto&r craft the item. The latter would apply for cases where the only thing needed to make a given item is a redstone signal, without even requiring a crafting pattern."]
 	quest.5E6585F7627247E3.quest_subtitle: "Automation in upgrade form!"
 	quest.5E7E35CCAF1C88EE.quest_desc: ["The &bME Import Bus&f periodically sucks items in from whatever external storage the bus is facing. It can optionally be filtered to only take in certain items from said inventory."]
@@ -3785,6 +4044,9 @@
 	quest.5EC30214D9EE2A0C.title: "&2&lSchool of Nature"
 	quest.5EC521DA8FF06758.quest_desc: ["A powerful yet destructive artifact; the Piglins swore to protect it at the cost of their lives"]
 	quest.5EC521DA8FF06758.quest_subtitle: "Found in Bastions treasure chest"
+	quest.5EDB5A2D744CE415.quest_desc: ["The &4Laser Gatling&r is a weapon you can make from &4Witherite&r. \\n\\nBy using Redstone in your inventory, you can shoot Lasers which start fires and do 3 and a half &4Hearts&r of damage. \\n\\nIt shoots 50 Lasers per 1 redstone which I think is a good deal."]
+	quest.5EDB5A2D744CE415.quest_subtitle: "Straight outta Fallout"
+	quest.5EDB5A2D744CE415.title: "&4Laser Gatling"
 	quest.5EE5A4AA72E10A32.quest_subtitle: "Raw Polar Bear Meat can be dropped by Polar Bears when using the Ravaging enchantment on a hatchet."
 	quest.5F56892CD904C40F.quest_desc: ["The fifth and final AE2-standard tier of storage component, providing &e262144&f bytes of storage."]
 	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
@@ -3828,6 +4090,8 @@
 	]
 	quest.5FA9D6B1B66399AC.quest_subtitle: "Crafting... on the go!"
 	quest.5FA9D6B1B66399AC.title: "Workstation Upgrades"
+	quest.5FBA199E0B7F1585.quest_desc: ["The &9Octohost&r is actually 2 Mobs working together! To Kill you! \\n\\nIt has the &9Symbiocto&r which controls the &9Drowned Host&r. \\n\\n&9Symbiocto&r has 8 &4Hearts&r and no Armor. When on its own, it will just Shoot &0Ink&r at you. On Death they will Drop &0Ink Sacs&r. \\n\\nThe &9Drowned Host&r acts like a normal &9Drowned&r. They have 10 &4Hearts&r as well as 2 Armor Points. &9Drowned Host&r can Spawn with Armor and Weapons which they can use. \\n\\nWhen together, they will use their Attacks on you at the same time. The &9Symbiocto&r will Shoot you with &0Ink&r while the &9Drowned Host&r will use Weapons or Fists to Hit you."]
+	quest.5FBA199E0B7F1585.title: "&9Octohost"
 	quest.5FCFD038804EFBF7.quest_desc: [
 		"&cThe Obsidilith&r can be found in the &eObsidilith Arena&r, located along the rivers of the &dEternal Starlight Dimension&r."
 		""
@@ -3850,10 +4114,15 @@
 		"&l&a📝Tip:&r&r &oYou can buy a map in the Market to locate one -&e Acropolis&r.&r"
 	]
 	quest.5FDAADD20C6A6DC7.quest_subtitle: "&3☠ Tier 6"
+	quest.5FE4DAE8F41B1437.quest_desc: ["The &cOre Magnet&r that can pull up anything with Ore in name, except Coal.\\n\\nThis can be found in &2Hollow Hill&r chests."]
+	quest.5FE4DAE8F41B1437.title: "&cOre Magnet"
 	quest.5FE710403BE1AAF5.quest_subtitle: "right click into a tamed familiar to boost his armor permanently, limit 10 per familiar, dropped from Ancient Knights."
+	quest.604F2B68B27885BF.quest_desc: ["There are a lot of different foods you can make from the &9Twilight Forest&r!\\n\\nTry them all!"]
+	quest.604F2B68B27885BF.title: "Fancy Noms"
 	quest.607047A3D380D423.quest_subtitle: "Shrinks the wearer to half their size."
 	quest.6073AB1A816E845F.quest_subtitle: "Harness the power of &cfire&r. Increased &cfire spell power&r or &carmor&r."
 	quest.6073AB1A816E845F.title: "&c&lSchool of Fire"
+	quest.607D592CE102C82E.title: "Knightmetal Tools"
 	quest.607E3A4AEEA46A98.quest_desc: [
 		"With the 1k Storage Component, you can now craft yourself a 1k ME Item Storage Cell to start your digital item storage system. You'll most likely want the majority of your storage to be for items, so you'll probably want to make a few &bME Item Storage Cells&f."
 		""
@@ -3873,7 +4142,11 @@
 		"&o&7There is also an alternative recipe using compacting if you are having problems running it the intended way on a server.&r&r"
 	]
 	quest.60B9F9AD8F49371D.quest_subtitle: "Grants temporary fire resistance when touching lava/fire"
+	quest.60FC2DAEA954A849.quest_desc: ["The &6Moonworm Queen&r is like a torch launcher. It launches &eMoonworms&r at the targeted block, which light up the block similar to a torch.\\n\\nThese can be found in some &2Hollow Hill&r and &eLich Tower&r loot chests."]
+	quest.60FC2DAEA954A849.title: "&6Moonworm Queen"
 	quest.60FC4ADEFBA29C6D.quest_desc: [""]
+	quest.610F9E9D0B5131C7.quest_desc: ["The &6Charm of Keeping I&r will prevent you from losing the items in your main hand and off-hand, as well as any armor you're wearing when you die."]
+	quest.610F9E9D0B5131C7.title: "&6Charm of Keeping I"
 	quest.6139EF0E79D14AF4.quest_desc: [
 		"&6Disk Interface &rallows you to transfers items between storage disks and the network."
 		"Previously called Disk Manipulator."
@@ -3936,6 +4209,8 @@
 		"These collected addresses can then be used to auto-complete address fields in other UIs."
 	]
 	quest.619A108A6BC00D4F.quest_subtitle: " Bought from the market using boss tokens"
+	quest.62089E9E6D596DA7.quest_desc: ["&3The &bImmolator&r is an &3Annihilator&r upgraded with an &bIgnitium Ingot&r within the &4Mechanical Fusion Anvil&r. \\n\\nThese do more Damage to Mobs with &bBlazing Brand&r afflicted on them, so &bBlazing Grips&r work pretty well with it! \\n\\nIf you have &3The &bImmolator&r in each Hand, you can Hold right Click to summon a &bFlame Strike&r beneath you. This will Damage all Mobs in it and explode when done as a final farewell!"]
+	quest.62089E9E6D596DA7.title: "&3The &bImmolator"
 	quest.624E99A4E08167EA.quest_desc: ["Hold the relic in your hand and get hit by the &6Warden's Sonic Boom.&r"]
 	quest.6275FB1DFD4AE02A.quest_subtitle: "Obtained from market with engineer tokens"
 	quest.627A25524F94FB34.quest_desc: [
@@ -3950,6 +4225,8 @@
 	quest.627A25524F94FB34.title: "&aAlshanex's Familiars&r"
 	quest.629831A093BC1F03.quest_subtitle: "Melee attacks have a chance to inflict Wither."
 	quest.62B11024B2C49C0C.quest_subtitle: "-20% Engine power, -75% fuel requirement."
+	quest.62C32905C33E2D88.quest_desc: ["The &dEye of Void&r will take you to the &dRuined Citadel&r to fight the &d&lEnder Guardian&r."]
+	quest.62C32905C33E2D88.title: "&dEye of Void&r"
 	quest.62C8A74B9C0AC8A4.quest_desc: [
 		"&l&o&cHIGHLY RECOMMEND&r checking the Ponder (Pressing W) of &6&lBlaze Enchanter&r&r and &6&lBlaze Forger&r&r for a better understanding.&r&r"
 		""
@@ -3971,7 +4248,11 @@
 		""
 		"While in this mode, make sure to place a block on top of the Blaze Forger and place a Lightning Rod on a block beside it. Super Enchanting Mode attracts Lightning Strikes."
 	]
+	quest.62DF58D36B739EA0.quest_desc: ["The &eWadjet&r is similar to the &eKobolediator&r as it lies within the &eCursed Pyramid&r waiting for a Player to come near. \\n\\nThe &eWadjet&r has 1050 &4Hearts&r and thankfully won't give you Mining Fatigue! \\nShe has many attacks, the most basic is when you are close she will swing her weapon at you. If you get farther she might throw a Sandstorm at you or drop Sand Blocks from the roof on top of you. \\n\\nI'm going to be honest, I don't know which attack is worse! \\n\\nOn death they will only drop Ancient Metal Ingots."]
+	quest.62DF58D36B739EA0.title: "&eWadjet"
 	quest.630BDF564F7516D7.quest_desc: ["To enable wireless network access, create the &eME Wireless Access Point&r. It allows access to the network via a wireless terminal, with range determined by the number of &aWireless Boosters&r inserted."]
+	quest.631796E7615C04FA.quest_desc: ["The &2Amethyst Crab&r lives in the Lush Caves with the Axolotls. \\n\\nIt has 2800 &4Hearts&r and is initially neutral. That means it won't attack first but it will hit you back. \\n\\nIt has a few attacks one being just smacking you with its claws. It can also throw Amethysts at you and burrow under the ground. \\n\\nOn death it'll drop its meat and shells. Its meat can be blessed in an Altar of Amethyst to be better. The Shells can be crafted together to make Bloom Stone Pauldrons which have similar stats to Netherite Chestplate but can do similar abilities as the &2Crab&r itself."]
+	quest.631796E7615C04FA.title: "&2Amethyst Crab&r"
 	quest.632BC46928CC9A8C.quest_desc: ["The &9Enchanter's Mirror&r will apply a self spell when used. \\n\\nSpells cast with this mirror are discounted and gain additional bonus duration. \\n\\nTo apply a spell, use a Scribe's table. Create a spell without using a form."]
 	quest.632E2AD859CE0BDE.quest_desc: [
 		"The &6&lWindmill Bearing&r&r is a block used for passive power generation."
@@ -4045,6 +4326,8 @@
 	quest.64D0E66CB4FBEC82.quest_subtitle: "Our First Spellbook"
 	quest.64D0E66CB4FBEC82.title: "Spell Books"
 	quest.64D7956A3E6681A5.quest_subtitle: "You already know how to make sulfur don't you?"
+	quest.655FF7295B688354.quest_desc: ["The &9Clawdian&r is the miniboss of &9Acropolis&r. \\n\\nThey are huge lobsters who hold an even bigger Axe! \\n\\nThey have 225 &4Hearts&r and 12 Armor Points. \\n\\nThey like to use their Axe and Feet to Attack you. From swinging their Axe at you to do moderate Damage. To smashing the ground with an Axe to unleash a Shockwave. To stomping on the ground to unleash an even bigger Shockwave and &9Waves&r at you! \\n\\nIf you get too far they'll charge after you, Breaking Blocks in their way! \\n\\nIf you can Kill one, they'll Drop their &9Claw&r! Kinda graphic but thankfully it's just fantasy violence!"]
+	quest.655FF7295B688354.title: "&9Clawdian"
 	quest.65663D9E051280F2.quest_subtitle: "Increases the speed of ridden mounts"
 	quest.660C3D5CB407247F.quest_desc: [
 		"&l&cCheck Your Keybinds!&r&r"
@@ -4136,6 +4419,13 @@
 	quest.67FA8896AD563A77.title: "&eWaystones"
 	quest.681E258AB577FF73.quest_subtitle: " Increases Lure and Luck of the Sea by 1 level"
 	quest.6831FF0CBA2E0FD2.quest_subtitle: "Not repeatable"
+	quest.683C260C854C5AA3.quest_desc: ["The &4Mechanical Fusion Anvil&r will be needed to make combinations of &4&lCataclysm&r Items. \\n\\nYou can place it down like a normal Anvil, but this one doesn't have Durability... thankfully! \\n\\nCheck JEI for Recipes, you place 1 Item in the Left Slot and the other in the Middle Slot to get the final product in the Right Slot."]
+	quest.683C260C854C5AA3.title: "&4Mechanical Fusion Anvil"
+	quest.688C911ECFB2F134.quest_desc: ["Within the &2Dark Forest&r, you'll find the &8Dark Tower&r.\\n\\nTo enter, look for the reappearing blocks at the base. Find your way through the maze all the way to the final floor to fight the &cUr-Ghast&r.\\n\\nThe &cUr-Ghast&r is recommended to kill with a ranged weapon. There are 4 Ghast traps found on the boss floor, which can be used to damage the &cUr-Ghast&r.\\n\\nThese are charged with &cGhastling&r kills, then activating with Redstone. You don't have to use them, but they can prove useful."]
+	quest.688C911ECFB2F134.quest_subtitle: "Dark Carmonite Tower"
+	quest.688C911ECFB2F134.title: "&cTears of Fire"
+	quest.689F32883C4E9502.quest_desc: ["&4&lCataclsym&r is a mod which adds new bosses, dungeons, and of course loot! \\n\\nThere is no certain pattern of which bosses to kill first, but some are stronger than others, and some give loot that will help against the others. \\n\\nCheck out the Eyes to find the specific Structures you'll need to locate!"]
+	quest.689F32883C4E9502.title: "&4&lCataclysm"
 	quest.68B0B3DAF1145191.quest_desc: ["Two of the very first things you will need to get started in AE2 are the &bCharger&f and the &bInscriber&f.\\n\\nThe &bCharger&f, when supplied with power, will take &eCertus Quartz Crystals&r and charge them. These &eCharged Certus Crystals&r can then be used in the production of &eFluix&f, another important resource in the mod. It can also be used to charge any item that stores power.\\n\\nThe &bInscriber&f can be used to turn the various quartz crystals in AE2 into their dust form, but more importantly is used to fabricate special &ePrinted Circuits&f and &eProcessors&f, as will become clearer in the next quest."]
 	quest.68B0B3DAF1145191.quest_subtitle: "First Things First"
 	quest.68B0B3DAF1145191.title: "First Things First"
@@ -4155,12 +4445,16 @@
 	]
 	quest.692D79D601534A2E.quest_subtitle: "Tame one Summoner Familiar"
 	quest.692D79D601534A2E.title: "Summoner Familiar"
+	quest.69439426534EBDC4.quest_desc: ["&bBlazing Grips&r are another Item we can make with &bIgnitium&r! \\n\\nIt is a Curios Item that goes on your Hands. \\n\\nWhen worn, all attacks have a chance of giving the recipient &bBlazing Brand&r. \\n\\nI don't really know what it does, but it sucks to get from the &b&lIgnis&r."]
+	quest.69439426534EBDC4.title: "&bBlazing Grips"
 	quest.694646586C18C609.quest_desc: ["&6The Rover&r is a land vehicle that can drive on rough terrain of moons and planets. It's very fast, has an inventory for&9 eight items&r, and has two seats for multiple riders. To use it, fill it with fuel by shift-clicking and placing &aastral fuel buckets&r in the left input slot."]
 	quest.69590A923D5ED05A.quest_desc: [
 		"&6Ladder Tools&r is used to make bunk ladders, just right click to open the GUI."
 		""
 		"In the GUI provide a block that will set the texture used"
 	]
+	quest.696A33E7D91A487E.quest_desc: ["&9Cindaria&r are Jellyfish/Human Mobs that protect &9Acropolis&r. They are Greenish/Purple-ish and transparent. \\n\\nThey have 60 &4Hearts&r with no Armor. \\n\\nThey also wield what looks like an Umbrella but is actually a deadly Weaon! \\n\\nIf you are too close, they'll swing their Weapon to Hit you with it. If you are farther, they will Shoot a &9Lightning Spear&r at you. \\n\\n&9Lightning Spears&r bounce off Walls, thankfully the &9Acropolis&r doesn't have many of those! \\n\\nOn Death, the &9Cindaria&r will Drop &9Lacrima&r."]
+	quest.696A33E7D91A487E.title: "&9Cindaria"
 	quest.69B7DE2283B4EE6C.quest_desc: ["The &bCrafting Co-Processing Unit&f helps speed up crafting jobs by allowing pattern providers to either send items out to their connected devices faster or to work concurrently to make multiple required ingredients.\\n\\nThe base AE2 co-processor provides one co-processor 'thread' to assist this, while the co-processing unit from &dMEGA Cells&f provides 4 threads in a single such block."]
 	quest.69B7DE2283B4EE6C.quest_subtitle: "Download more CPU cores"
 	quest.69E26E48222CEC01.quest_subtitle: "Rolling"
@@ -4196,6 +4490,8 @@
 	quest.6B511C8B572E8940.quest_desc: ["In the bottom left of your screen, you'll see a bar. This bar is your mana pool! \\n\\nThere are several ways to increase your mana pool, or increase the efficiency of your spells as you progress through the mod. Upgrading your spellbook can also increase your mana!"]
 	quest.6B511C8B572E8940.quest_subtitle: "Mage Power"
 	quest.6B511C8B572E8940.title: "Mana"
+	quest.6B5BC33667C782EC.quest_desc: ["The &dEnder Golem&r keeps guard of the &dRuined Citadel&r, well multiple of them do. \\n\\nTechnically you don't need to fight them to fight the &dEnder Guardian&r but you definitely should to get the &dVoid Core&r. \\n\\nThe &dEnder Golem&r has 5250 &4Hearts&r and will regenerate them when left alone. \\n\\nHe has a few attacks like being able to punch you and smashing the ground. When he smashing the ground, &dVoid Runes&r will spawn, hurting any Player or Mob that touches them."]
+	quest.6B5BC33667C782EC.title: "&dEnder Golem&r"
 	quest.6B7CFD3808AB7DB1.title: "&cAdvanced Pyromancer Outfit"
 	quest.6B95EF7446936BCD.quest_subtitle: "You can repeat as many times you want!"
 	quest.6B9E13665837ECA1.quest_desc: [
@@ -4212,6 +4508,8 @@
 		"&l&a📝Tip:&r&r &oYou can buy a map in the Market to locate one -&e Void Blossom&r.&r"
 	]
 	quest.6BAC0A0F663D5B1F.quest_subtitle: "&d☠ Tier 5"
+	quest.6BC3CF8937DEDE89.quest_desc: ["Combine an &cInfernal Forge&r with a &dVoid Core&r to make the &dVoid &cForge&r! \\n\\nIt is still a Pickaxe, with same Mining Tier and Speed. \\n\\nJust now we can Right Click with it, on the ground to summon &dVoid Runes&r in a fan shape, to hurt all Mobs with it. \\n\\nThey really don't focus much on the Pickaxe part do they?"]
+	quest.6BC3CF8937DEDE89.title: "&dVoid &cForge"
 	quest.6BF73E8BF5844527.quest_desc: [
 		"&6Comforts&r is a mod that adds sleeping bags and hammocks to Minecraft. These items can be used just like beds except they do not set a player's spawn point on use, safely preserving a player's spawn point at their home base."
 		""
@@ -4255,6 +4553,11 @@
 		"Andesite Casing and Brass Casing can be applied to any segment of a Belt for aesthetic purposes."
 	]
 	quest.6C90039BB1651603.quest_subtitle: "When used for Upgrade: &6+5% Holy Spell Power"
+	quest.6CB1BFBA10DF24E4.quest_desc: ["Using the &cScepter of Life Draining&r, you can drain the life of your enemies!\\n\\nTo recharge the scepter, combine it with &cFermented Spider Eyes&r in a crafting grid."]
+	quest.6CB1BFBA10DF24E4.quest_subtitle: "Drains Life"
+	quest.6CB1BFBA10DF24E4.title: "&cScepter of Life Draining"
+	quest.6CB8D3919B16784B.quest_desc: ["&9Ceraunus&r is the Anchor Weapon &9&lScylla&r herself uses! \\n\\nWith just 2 &9Essence of the Storm&r and 3 &9Lacrima&r we can Craft it! Just in a different order than you would for &9Astrape&r. \\n\\nYou can swing the Anchor around like a Mace, with a very long delay. Or use it for special attacks! \\n\\nHold Right Click to toss the Anchor in front of you. When it hits a Mob, it will Damage them and hit them back. \\n\\nYou can also Hold Shift Right Click to instead of throwing the Anchor, you throw &9Waves&r in an array in front of you!"]
+	quest.6CB8D3919B16784B.title: "&9Ceraunus"
 	quest.6CE8C3410296E977.quest_desc: [
 		"You can't breathe on the Moon without &3Oxygen&r. Actually, you can't breathe anywhere without &3Oxygen&r. Guess what the &9Moon&r doesn't have?"
 		""
@@ -4332,6 +4635,8 @@
 		""
 		"It controls what passes through—like energy, storage, security, and autocrafting—from its input sides to the output. When pass-through is off, you can fine-tune what gets shared."
 	]
+	quest.6E08D4E6BC3FB99F.quest_desc: ["The &5Deeplings&r are an ancient race of sea monsters who live and guard the &5Sunken City&r. They have their own rankings: Anglers, Brutes, Priests, and Warlocks. \\n\\n&5Deeplings&r are the most basic, only having 13 &4Hearts&r and a Coral Spear. \\n\\n&5Deepling Anglers&r are the next ones, they have 15 &4Hearts&r and hold a Fishing Rod with a &5Lionfish&r attached. The &5Lionfish&r will attack you and give you Poison, they have 6 &4Hearts&r. \\n\\n&5Deepling Brutes&r have 60 &4Hearts&r and hold a Coral Bardiche, which they will use to charge at you in the Water. \\n\\n&5Deepling Warlocks &fand &5Priests&r both have 45 &4Hearts&r and both hold Athame. The &5Priests&r have a ranged attack they can use, while &5Warlocks&r do not!"]
+	quest.6E08D4E6BC3FB99F.title: "&5Deeplings&r"
 	quest.6E0E13806F388D7E.quest_desc: ["Welcome to &aArs Nouveau&f! \\n\\nArs Nouveau is a magic mod that allows you to create custom spells with the different Glyphs made within the mod!"]
 	quest.6E0E13806F388D7E.title: "Welcome to &aArs Nouveau&f!"
 	quest.6E15447FC3D678E0.quest_desc: ["The &bFuzzy Card&f allows a filtered item to be matched regardless of any (NBT) metadata such as damage or enchantments, while the &bInverter Card&f toggles the filter on such buses from being a whitelist to being a blacklist."]
@@ -4379,6 +4684,9 @@
 	]
 	quest.6E8031A380EB37C8.quest_subtitle: "Inscribing spells"
 	quest.6E98473128936047.quest_subtitle: "Lets you move freely in water. You’ll sink and can take fall damage."
+	quest.6ED61438A8A1EAA4.quest_desc: ["Witherite is a drop from &4The Harbinger&r, it will always drop 1 block which can be made into 9 ingots. \\n\\nWitherite is used to craft 3 Weapons and the &4Mechanical Fusion Anvil&r which can be used to combine &4&lCataclysm&r Items!"]
+	quest.6ED61438A8A1EAA4.quest_subtitle: "= Witherite"
+	quest.6ED61438A8A1EAA4.title: "Wither plus Netherite = ...?"
 	quest.6F3602F5600A6221.quest_desc: ["Tier 3 Glyphs require 10 levels of experience to be made. \\n\\nThey also require an &6Archmage Spell Book&r."]
 	quest.6F3D0A248B5A9CA2.quest_desc: [
 		"&bSpatial Storage Cells&f are used to hold one defined volume each, and come in three different capacities allowing for a maximum of 2x2x2, 16x16x16 and 128x128x128 blocks' worth of space. "
@@ -4388,6 +4696,8 @@
 		"From then on, any blocks contained either within the cell's region of space or in an SCS with the same size as the one used for the initial encoding can be moved back into the overworld or into the spatial dimension respectively. If there are blocks both within the spatial region and within the SCS, these will simply swap places accordingly."
 	]
 	quest.6F3D0A248B5A9CA2.title: "Spatial Storage Cell"
+	quest.6F67079A453DAABE.quest_desc: ["The &cCharm of Life I&r is a single-use item that will prevent death. Instead of dying, the charm will be consumed and you'll be given health regen for a short period of time.\\n\\nThese can be found in loot chests."]
+	quest.6F67079A453DAABE.title: "&cCharm of Life I"
 	quest.6F8A1655E91E7E89.quest_desc: [
 		"The &bQuartz Cutting Knife&f, like the wrench, comes in both nether and certus quartz flavours and is a useful crafting tool to have on hand."
 		""
@@ -4402,6 +4712,10 @@
 		"This can be useful for situations where a block can be processed simply by placing it and breaking it with a certain tool."
 	]
 	quest.6FBCDEA419DB1D37.quest_subtitle: "GET OUT"
+	quest.6FC4146E534C51DA.quest_desc: ["You can combine a Netherite Upgrade Template, a Netherite Helmet, and a &cMonstrous Horn&r to make the &cMonstrous Helm&r. \\n\\nIt has the same stats but when you're at half health it'll Knockback everything close to you and increase defense stats."]
+	quest.6FC4146E534C51DA.title: "&cMonstrous Helm"
+	quest.6FD41DF7704466A4.quest_desc: ["Defeating the Alpha Yeti unlocks the &9Glacier&r biome. Here, you'll find cute little Penguins and the &3Snow Queen&r.\\n\\nAt the top of the &bAurora Palace&r, the &3Snow Queen&r will summon Ice crystals to protect herself.\\n\\nShe'll also slam &3Ice&r down that can destroy the floor and deal massive damage.\\n\\nYou'll only be able to hit her top half, as she's protected by &3Ice&r.\\n\\nAfter defeating the &3Snow Queen&r, you'll unlock access to the &2Highlands&r."]
+	quest.6FD41DF7704466A4.title: "&bClear Skies"
 	quest.6FEBA486156AA0CA.quest_desc: [
 		"The &6&lHand Crank&r&r produces a modest amount of Rotational Force through your direct input."
 		""
@@ -4414,6 +4728,9 @@
 		""
 		"Look in the &eShopping&r tab on the left menu to see the &bExplorer Maps&r available for you to buy. Some maps cannot be bought and must be obtained through quests."
 	]
+	quest.7026E46FD8B3A81D.quest_desc: ["The &9Hydra&r is the infamous multi-headed beast from Greek Mythology.\\n\\nRanged attacks aren't as effective, meaning you'll need to get up close and personal.\\n\\nOnce defeated, you'll be able to find the next boss in the &2Dark Forest&r."]
+	quest.7026E46FD8B3A81D.quest_subtitle: "The Firey Swamp"
+	quest.7026E46FD8B3A81D.title: "&9Hydra Slayer"
 	quest.703CC46FAC00A5D9.title: "&6Collect All the Artifacts"
 	quest.703D0E0BD4F9DC4F.quest_subtitle: "Craft any Gold Limited Barrel I type."
 	quest.704435187B4BD245.quest_desc: [
@@ -4431,6 +4748,11 @@
 		""
 		"&d@aquatic&r"
 	]
+	quest.70CDA5F1593DB4B2.quest_desc: [
+		"&eThe Cursed Pyramid&r spawns in deserts and it's very hard to miss. A massive pyramid with huge pillars by the entrance. \\n\\nEnter within and you will find traps all around, &eKoboletons&r, and mini-bosses! \\n\\nDon't worry there's also Chests, Pots, and even Suspicious Sand which you will need for the..."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_pyramid.png width:200 height:100 align:center}"
+	]
+	quest.70CDA5F1593DB4B2.title: "&eCursed Pyramid&r: Home of &e&lAncient Remnant&r"
 	quest.70D34C00E2006C09.quest_desc: [
 		"In short, this allows you to combine up to 3 light ray beams and outputs a much faster beam. To  transform the combined beam into rotational power, you’ll need to use the Heavy Optical Receptor."
 		""
@@ -4449,6 +4771,11 @@
 		"and they'll need to be repaired."
 	]
 	quest.70FA406AD3A8A7A9.title: "Candle golem"
+	quest.71055E7BBB337C4D.quest_desc: [
+		"The &3&lMaledictus&r can be brought back from Valhalla or whatever the Norse version of Hell is, by Right Clicking the &3Cursed Tombstone&r. \\n\\nHe has 50,400 &4Hearts&r and massive Wings. \\n\\nHe will swing at you with his 2 &3Annihilators&r and can even ground pound you with them, making a Shockwave of course! \\n\\nHis Wings allow him to manevure and do many more attacks. He can charge at you, breaking all Blocks in his way or even dodge attacks! \\n\\nHe can fly into the air and from there can either shoot at you with his &3Cursed Bow&r or drop down with his &3Soul Render&r. The &3Cursed Bow&r will shoot 4 Arrows at you. With his &3Soul Render&r he will bring a shower of &3Phantom Halberds&r down on you."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_maledictus.png width:125 height:100 align:center}"
+	]
+	quest.71055E7BBB337C4D.title: "&3&lMaledictus"
 	quest.7124A562FDF1A9A5.quest_desc: [
 		"The &l&6Mechanical Crafters&r&r automate the item crafting process. Some recipies may requiere the Mechanical Crafter to be crafted such as the Crushing Wheels."
 		""
@@ -4477,6 +4804,11 @@
 		"&eThe Tangled Heart&r is a mini-boss that assists the &cLunar Monstrosity&r. While not very strong, it can be annoying—its attacks inflict poison."
 	]
 	quest.712E35EA760A9452.quest_subtitle: "&4☠ Tier 3"
+	quest.713006AB89E43C6D.quest_desc: [
+		"The tippy top of the massive &9Acropolis&r is where the &9&lScylla&r will spawn. Like the &d&lEnder Guardian&r you just need to be near to Spawn here. \\n\\nShe is one of the smallest Bosses in &4&lCataclsym&r only being around 3 Blocks Tall. As well as right now, she has 390 &4Hearts&r and 12 Armor Points. Don't worry, she'll be Buffed very soon! \\n\\nDon't let her Size or lack of &6&lATM10&r Buffs let you underestimate her, she has some of the most Attacks of all Bosses here. \\n\\nShe can use her &9Anchor&r, &9Ceranus&r, to pull you closer to her from far away, or simply swing it at you to deal a ton of Damage! \\n\\nShe can toss &9Lightning Spears&r at you from her Back or from Clouds. Even leaping into the Air and Jumping back down to bring &9Lightning Strikes&r all around where she Hit. \\n\\nThat's not even it! She also has control over &9Water&r allowing her to send &9Waves&r at you or even summon &9Water Snakes&r to Bite you! \\n\\nWhen slayed, she will Drop the usual Boss Gear, as well as &9Lacrima&r and &9Essence of the Storm&r."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_scylla.png width:100 height:100 align:center}"
+	]
+	quest.713006AB89E43C6D.title: "&9&lScylla"
 	quest.71482AB41A355486.quest_desc: ["Throw an ender pearl at the tip of a &5Myalite Crystal&r and travel through it. "]
 	quest.71482AB41A355486.quest_subtitle: "If you can..."
 	quest.71482AB41A355486.title: "Chase Me!"
@@ -4544,6 +4876,8 @@
 		"You can also press &bR&r and &bU&r while hovering over any item to see their Recipe and Uses"
 	]
 	quest.7261FED43BDDEFA8.title: "Portable Inventory"
+	quest.7270FA5C48AF7280.quest_desc: ["&3Cursium Armor&r is an upgrade to Netherite Armor. Combine Netherite Gear, with a &3Cursium Ingot&r, and a &3Cursium Upgrade Template&r. You can Craft those don't worry! \\n\\nThe &3Cursium Helmet&r can be used with the Key: C to see Mobs through Blocks! Like the Spectral Eye. \\n\\nThe &3Cursium Chestplate&r works as a built in Totem of Undying. After you die you will be saved. It has a 6 minute Cooldown though... \\n\\nThe &3Cursium Leggings&r are working with propability... not sure how that works in &2&lMinecraft&r though! \\n\\nThe &3Cursium Boots&r allow you to get sent backwards in a leap with the Key: V. They also reduce Fall Damage but a lot (but not completely!)"]
+	quest.7270FA5C48AF7280.title: "&3Cursed Armor"
 	quest.72A389F374C87353.quest_desc: [
 		"&cThe Harbinger&r is a boss found in an &eAncient Factory&r deep underground in the Overworld."
 		""
@@ -4562,6 +4896,8 @@
 		"The portal frame can be many different sizes, but most go with the basic \"Door\" shape. This is a hollow 4x5 shape using a minimum of 10 Obsidian. You don't have to use Obsidian for the corners, just the portal frame itself!"
 	]
 	quest.72A5DEFDD0F3470D.title: "&cTo The Nether!&r"
+	quest.730AF9210F00018E.quest_desc: ["The &bDiamond Minotaur Axe&r is dropped by the &cMinoshroom&r. It deals more damage when the user is sprinting."]
+	quest.730AF9210F00018E.title: "&bMinotaur Axe"
 	quest.731C3214BB61FDAE.quest_desc: ["Found underground in the &aOverworld&r."]
 	quest.731C3214BB61FDAE.quest_subtitle: "Kill the warden"
 	quest.732543EAB9ADB411.quest_desc: [
@@ -4692,6 +5028,11 @@
 	]
 	quest.745FD767F2A543A5.title: "Film Development"
 	quest.746AE4CA7CE83847.quest_subtitle: "x8"
+	quest.746DE905D45A396C.quest_desc: [
+		"&5&lThe Leviathan&r is the reason people fear the Ocean. \\n\\nShe has 30,000 &4Hearts&r, sharp teeth, and strong tentacles and is invincible outside of &9Water&r. \\n\\nShe has a huge array of powers she will use against you. She can summon underwater &5Mines&r, shoot a Godzilla like &5Atomic Beam&r, and even just chomp on you. \\n\\nThe worst comes from the &5vortexs&r though! And I don't mean the &6&lATM Dev&r! \\n\\nShe can use her tentacles to break open a &5Water Vortex&r which will suck in all Entities nearby as bait for her. She can also summon &5Lasers&r from &5vortexs&r on the Ocean floor which will shoot upward. \\n\\nOnce you bring her beneath half &4Health&r she will become enraged! When enraged she will use her &5Lasers&r much more than before and attack relentlessly until the Oceans only have one being swimming in them."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_leviathan.png width:100 height:100 align:center}"
+	]
+	quest.746DE905D45A396C.title: "&5&lThe Leviathan&r"
 	quest.746F82D541EBA386.quest_desc: [
 		"After defeating the &dEnder Dragon&r, explore the Outer End Islands to find &9End Cities.&r"
 		""
@@ -4710,6 +5051,11 @@
 		""
 		"You can also recharge it, by holding coal and water in your off-hand while using the drill."
 	]
+	quest.747B62A955D0C629.quest_desc: [
+		"&4The Ancient Factory&r lies deep underground in the &2Overworld&r. \\n\\nYou'll find many Redstone Items like Levers, Powered Rails, and EMPs... I wonder if those will be useful soon? \\n\\nYou'll also find some Redstone Machines trying to kill you! Like the &4Watchers &fand &4Prowlers&r! \\n\\nEven with the danger there's still tons of Loot and Blocks you can steal from here, especially Redstone."
+		"{image:atm:textures/questpics/cataclysm/cataclysm_factory.png width:200 height:100 align:center}"
+	]
+	quest.747B62A955D0C629.title: "&4Ancient Factory&r: Home of &4&lThe Harbinger&r"
 	quest.7495FD1A88E6A10B.quest_desc: [
 		"&n&6The Deployer&r&r is essential for automation, used in multi-step crafts and contraptions. "
 		""
@@ -4717,6 +5063,8 @@
 		""
 		"Deployers can right- or left-click blocks or entities, allowing them to shear sheep, milk cow, place blocks and more."
 	]
+	quest.74ACCEB6DC9EF6F7.quest_desc: ["The &dVoid &4Assault Shoulder Weapon &d(V.&4A.S.W.)&r is just like the Wither version but better! \\n\\nNow it only shoots &dVoid &4Howitzers&r which will do more Damage and cause &dVoid Runes&r to come out of the ground, in the area the &4Howitzer&r hit. \\n\\nJust at the cost of the long cooldown, but we've got time to wait. \\n\\nIt can crafted by combining the &4W.A.S.W.&r and a &dVoid Core&r in the &4Mechanical Infusion Anvil&r."]
+	quest.74ACCEB6DC9EF6F7.title: "&dV.&4A.S.W. &d(Void &4Assault Shoulder Weapon)"
 	quest.74AD39A0B9CB46CF.quest_subtitle: "Better Elytra!"
 	quest.74C84002EB8E230E.quest_desc: [
 		"You can attach a &aHypercube Block&r to the &eentrance&r, then &eright-click&r with another &aHypercube Block &rto start drawing the tube path, similar to how you lay train tracks."
@@ -4727,6 +5075,9 @@
 	quest.74FC0DDDB91DB172.quest_desc: ["To make life that much easier, AE2 provides a whole suite of devices for the manipulation of ME data, i.e. moving stored items around the world.\\n\\nThe &bME Interface&f is one of these devices. As an input device, the Interface allows any item/fluid/etc to be piped externally through it, which is then automatically stored in the ME Network that the interface is connected to.\\n\\nAs an output device, the Interface can be configured to keep a certain available amount of a stored item in stock, from the ME network to its own internal inventory. This allows items to then be received by some external source like another player or some pipe."]
 	quest.74FC0DDDB91DB172.quest_subtitle: "OI, OI, OI!"
 	quest.74FC0DDDB91DB172.title: "The IO"
+	quest.7509E4093010EA4C.quest_desc: ["The &aSeeker Bow&r is dropped from the &3Snow Queen&r, it can shoot Arrows that home in on your targets. No more missing!"]
+	quest.7509E4093010EA4C.quest_subtitle: "Bad Aim?"
+	quest.7509E4093010EA4C.title: "&aSeeker Bow"
 	quest.753831874D7C3BC8.quest_desc: [
 		"The &bCrafting Monitor&f displays the overall item being crafted, along with the remaining quantity of that item still being crafted."
 		""
@@ -4764,6 +5115,8 @@
 	quest.76D595EF8B7A90E1.title: "&aAdvanced Archevoker Outfit"
 	quest.77145113CD5B26FB.quest_desc: ["Source Berries produce more Source than other sources. \\n\\nThis will also convert grass or dirt into Mycelium in a 3x3 area around it. It will also grow mushrooms around it if the space is empty."]
 	quest.77145113CD5B26FB.quest_subtitle: "Generates Source from Nearby Food"
+	quest.775AB10F8196F27B.quest_desc: ["The &4Eye of Mech&r will take you to the &4Ancient Factory&r to fight &4&lThe Harbinger&r."]
+	quest.775AB10F8196F27B.title: "&4Eye of Mech&r"
 	quest.779E68DD0A0F8483.quest_subtitle: "Can be crafted in the Alchemist Cauldron using an Echo Shard and a Mundane Potion."
 	quest.77A0F8AC2BF086C5.quest_desc: [
 		"The &6&lHose Pulley&r&r lowers a hose to drain or fill large bodies of fluid."
@@ -4831,6 +5184,8 @@
 		"However, None-player Conductors can play every Whistle."
 	]
 	quest.78CCC3928AD94E59.quest_subtitle: "Not repeatable"
+	quest.78CE2ECEF0B651DA.quest_desc: ["Found in the &bAurora Palace&r, the &3Ice Sword&r will give enemies &bFrosted&r for 10 seconds when damaged."]
+	quest.78CE2ECEF0B651DA.title: "&3Ice Sword"
 	quest.78DFD8815E2AE291.quest_subtitle: "Does not get consumed when eaten, meaning it's an infinite food source."
 	quest.78E34F3F9A19F275.quest_subtitle: "Gives you water breathing"
 	quest.78F35B052FE44F4A.quest_desc: [
@@ -4909,6 +5264,11 @@
 	]
 	quest.7AAC9B89708E9C7E.quest_subtitle: "+50% Takeoff speed."
 	quest.7AC7072BAD19700C.quest_subtitle: "Obtained from market with apprentice tokens"
+	quest.7AED8FD7FB023AD8.quest_desc: ["To power up &4&lThe Harbinger&r you'll need a Nether Star, which you get from killing the Wither. \\n\\nIt's a &2&lVanilla&r mechanic I shouldn't have to explain. \\n\\nPlus it's in Chapter 1."]
+	quest.7AED8FD7FB023AD8.quest_subtitle: "Powering The Harbinger"
+	quest.7AED8FD7FB023AD8.title: "Nether Star"
+	quest.7AEE4BE3AB41ED3E.quest_desc: ["Just combine an &bIgnitium Chestplate&r with an Elytra... that simple!"]
+	quest.7AEE4BE3AB41ED3E.title: "&bIgnitium Elytra Chestplate"
 	quest.7B09AFE245BA7808.quest_desc: [
 		""
 		"{image:kubejs:textures/familiars/archmage.png width:100 height:51 align:center}"
@@ -4938,6 +5298,8 @@
 		"> &6And more!"
 	]
 	quest.7B42482FC8EEA8F8.quest_subtitle: "Not repeatable"
+	quest.7B4A687EB505C2FF.quest_desc: ["&cCarminite Builders&r, when powered with a Redstone signal, will generate temporary blocks in the direction the signal came from.\\n\\nThe &cCarminite Reactor&r will convert nearby Obsidian and Netherack into &eFalse Gold&r and &3False Diamond&r. After a short period of time, this will suck up nearby blocks and explode, creating &cCarminite Ghastlings&r around it."]
+	quest.7B4A687EB505C2FF.title: "&cCarmanite Builders \\& Reactors"
 	quest.7B7D1F0CB326B28F.quest_desc: ["The &bME IO Port&f allows for the contents of an ME network's storage to be quickly rearranged between different storage media such as ME cells and external containers connected to storage buses.\\n\\nWhen a cell is inserted in an input slot on the left, the IO Port can be toggled to either empty the cell out into other ME storages or fill the (ideally, partitioned) cell with certain items spread out across other storages."]
 	quest.7B7D1F0CB326B28F.quest_subtitle: "Defragmentation"
 	quest.7B838BCF530692EB.quest_desc: [
@@ -4983,7 +5345,11 @@
 	]
 	quest.7C3B4C2C5210096F.quest_subtitle: "Again? What?"
 	quest.7C3B4C2C5210096F.title: "&3Visit the dimension: &0Deeper and Darker"
+	quest.7C848C7011726470.quest_desc: ["The &cEye of Monstrous&r will take you to the &cSoul BlackSmith&r to fight the &c&lNetherite Monstrousity&r."]
+	quest.7C848C7011726470.title: "&cEye of Monstrous&r"
 	quest.7C8FD4693FE20947.quest_desc: ["Safes are harder to break shulker boxes that can be only be opened by the player who placed them."]
+	quest.7CBEBBCB9D95D11A.quest_desc: ["The &5Abyssal Egg&r is also a drop from &5&lThe Leviathan&r, because apparently you killed a pregnant one. \\n\\nPlace the &5Egg&r down, then wait awhile and you'll have your own baby &5Leviathan&r. \\n\\nOnce its hatched you can feed it a ton of Tropical Fish to tame it. \\n\\nThe &5baby&r has 2400 &4Hearts&r and can heal by feeding it Tropical Fish. \\n\\nOnce tamed, like the &eModern Remnant&r it can be set with Shift Right Click to follow or stay or wander."]
+	quest.7CBEBBCB9D95D11A.title: "Abyssal Egg"
 	quest.7CC7FD9C32B77B35.quest_subtitle: "Not repeatable"
 	quest.7D080D777F9AADCA.quest_desc: [
 		"&6The Lunar Monstrosity&r can be found in the &bCursed Garden&r, which appears as a large maze."
@@ -5006,6 +5372,11 @@
 		""
 		"When crafted it will be white, but can be quickly recolored with a single dye, or by using a combination of dyes you have four thousand and ninety six colors available. You can also wash off the dye by clicking on a filled Cauldron."
 	]
+	quest.7D57A14810BC0CBE.quest_desc: [
+		"Once you use the &bBurning Ashes&r on the &bAlter of Flame&r you'll get the &b&lIgnis&r. \\nHe has 11,250 &4Hearts&r and has a massive &bSword &fand &bShield&r. \\n\\nThe &bShield&r will block damage you give and the &bSword&r can be used to slice and stab you. Once stabbed, you can't move, you can only attack. \\n\\nHe can also pounce on you, when he does, he will slam his &bShield&r down, making a Shockwave which will toss Blocks and you into the Air. He can do the same with his &bSword&r just without the need to pounce. \\n\\nAnother attack he has is &bFireballs&r. He will throw 3 &bFireballs&r into the Air, then they will be sent flying toward you! Hit them back at him as if they were a Ghast Fireball. \\n\\nOnce you beat his &4Health&r to around 7,500 &4Hearts&r he will change colors to a &bLight Blue color&r. Now he will Attack quicker, deal more Damage, and get Lifesteal. \\n\\nHis &bFireballs&r will also not be able to be reflected and he can now make different types of Shockwaves!"
+		"{image:atm:textures/questpics/cataclysm/cataclysm_ignis.png width:100 height:100 align:center}"
+	]
+	quest.7D57A14810BC0CBE.title: "&b&lIgnis&r"
 	quest.7DA8BD4034753FBD.quest_desc: [
 		"In order to locate the bosses in this dimension, you'll need a &6Seeking Eye&r. They work similarly to Ender Pearls."
 		""
@@ -5061,6 +5432,9 @@
 	]
 	quest.7EFBAF3E281D2EBE.quest_subtitle: "The spare chest"
 	quest.7F1AB8E8DA7BFD77.quest_subtitle: "Adds a looting effect to killed mobs"
+	quest.7F4963FCAE5337EC.quest_desc: ["Because just fighting the &b&lIgnis&r isn't hard enough, you'll have to fight the &bIgnited Revenant&r first to get &bBurning Ashes&r. \\n\\nOnce you have them, use them on the Altar of Fire to summon the &b&lIgnis&r."]
+	quest.7F4963FCAE5337EC.quest_subtitle: "Relighting the Ignis"
+	quest.7F4963FCAE5337EC.title: "&bBurning Ashes"
 	quest.7F4C5837BB28BDFC.quest_desc: [
 		"&l&6Zultanite&r&r forms in various colors, determined by the color of the liquefied resin that comes into contact with Lava. Each color corresponds to a different variant of the Zultanite block."
 		""
@@ -5109,11 +5483,13 @@
 	reward_table.173F5B7A61A12D48.title: "teste"
 	task.01FD75641E5EA5E4.title: "Mana"
 	task.02603EEC37FE0012.title: "Glass Cable"
+	task.0303CDB18BBD9575.title: "AllRightsReserved"
 	task.03EB390E79866058.title: "Sourcestones"
 	task.071621FAD0117C3E.title: "Click to Acknowledge"
 	task.08DA73B1AC17E5F5.title: "Crafting Storage"
 	task.0A88BBBA01BD37FD.title: "Click to Acknowledge"
 	task.0B18DCF021EC9073.title: "ME Interface"
+	task.0B7F934439806558.title: "AllRightsReserved"
 	task.0BEEDF43E748F047.title: "Dense Covered Cable"
 	task.0E6876A34D1975EB.title: "AllRightsReserved"
 	task.0F3183766102B3CA.title: "Click to Acknowledge"
