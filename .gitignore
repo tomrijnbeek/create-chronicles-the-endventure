@@ -30,6 +30,7 @@ win_event*
 
 .curseclient
 command_history.txt
+emi.json
 minecraftinstance.json
 patchouli_data.json
 user-prefs.json
