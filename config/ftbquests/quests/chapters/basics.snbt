@@ -1184,7 +1184,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "3B5D861C94C5BE56"
-				item: { count: 1, id: "solcarrot:food_book" }
+				item: { components: { "ftbquests:missing_item": "solcarrot:food_book" }, count: 1, id: "ftbquests:missing_item" }
 				type: "item"
 			}]
 			x: -8.0d

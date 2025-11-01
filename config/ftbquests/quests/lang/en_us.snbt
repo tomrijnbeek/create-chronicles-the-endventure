@@ -4013,16 +4013,6 @@
 		"Unlike the Copper Boots, Netherite Boots allow ascending in Lava by holding the jump key."
 	]
 	quest.6144BAFB1269A066.title: "Netherite Diving Set"
-	quest.61666195C2F437BA.quest_desc: [
-		"&6The Jetpack&r is a great early game flight. "
-		""
-		"There are 4 types of Jetpack: &dCopper, Andesite, Brass and Netherite. &r"
-		""
-		"Each Jetpack uses Fuel to function which is Water, Lava or both at the same time. "
-		""
-		"To Fill your Jetpacks with Water or Lava first place your Jetpack on your Off-Hand (shield icon) then select a bucket with Water/Lava and press Q to drop the bucket, it will fill the Jetpack in your off-hand. &aIdeally you'll want to use the Fueling Tank and the Filling Tank.&r"
-	]
-	quest.61666195C2F437BA.title: "&6Jetpacks"
 	quest.61742FBBD1E5D42F.quest_desc: [
 		"The &bEqual Distribution Card&f is an upgrade for storage cells that pre-allocates a certain amount of items that can be taken up by any individual type."
 		""
@@ -4576,15 +4566,6 @@
 		"You can get a Blank Rune by defeating the &6Dead King&r or wiping an Inscribed Rune with a Shriving Stone."
 	]
 	quest.704CCA2CEAB23B4D.quest_desc: ["Before lighting the portal, you must first remove all &3Sculk Veins &rfrom the inner frame. After the frame is cleared, you can right click it with the &bHeart of The Deep &rthat you got earlier from killing The Warden."]
-	quest.70723616C803AE96.quest_desc: [
-		"&bCreate: Aquatic Ambitions&r is an addon for the Create mod that introduces ocean-inspired machines, production lines, and mechanics."
-		""
-		"One of the key blocks is the &3Conduit Cage&r, it’s used for &9Fan Conduit Channeling&r, acting as a compact alternative to the traditional prismarine ring. To activate it, you’ll need to pump water from below the cage."
-		""
-		"Additionally, Dead Coral can be revived through channeling and later harvested automatically using Harvesters."
-		""
-		"&d@aquatic&r"
-	]
 	quest.70CDA5F1593DB4B2.quest_desc: [
 		"&eThe Cursed Pyramid&r spawns in deserts and it's very hard to miss. A massive pyramid with huge pillars by the entrance. \\n\\nEnter within and you will find traps all around, &eKoboletons&r, and mini-bosses! \\n\\nDon't worry there's also Chests, Pots, and even Suspicious Sand which you will need for the..."
 		"{image:atm:textures/questpics/cataclysm/cataclysm_pyramid.png width:200 height:100 align:center}"

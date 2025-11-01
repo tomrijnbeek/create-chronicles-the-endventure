@@ -1,4 +1,7 @@
 {
+	quest.00636250856E1C3D.quest_desc: [ ]
+	quest.00636250856E1C3D.quest_subtitle: ""
+	quest.00636250856E1C3D.title: ""
 	quest.02E09ED80689775A.quest_desc: [
 		"One of the most basic farms is a &l&aKelp farm,&r&r to have a healthy supply of Kelp to make &0&lMechanical Belts.&r&r"
 		""
@@ -219,6 +222,9 @@
 		""
 		"A Display Link can be connected to show precise stress values (SU) on a Display Board."
 	]
+	quest.15477C83455EDAB7.quest_desc: [ ]
+	quest.15477C83455EDAB7.quest_subtitle: ""
+	quest.15477C83455EDAB7.title: ""
 	quest.1605A9755E36BD61.quest_desc: [
 		"The &6&lRope Pulley&r&r is a block used to build vertical-moving Contraptions, often for excavation or elevator-like systems."
 		""
@@ -861,16 +867,6 @@
 		"Unlike the Copper Boots, Netherite Boots allow ascending in Lava by holding the jump key."
 	]
 	quest.6144BAFB1269A066.title: "Netherite Diving Set"
-	quest.61666195C2F437BA.quest_desc: [
-		"&6The Jetpack&r is a great early game flight. "
-		""
-		"There are 4 types of Jetpack: &dCopper, Andesite, Brass and Netherite. &r"
-		""
-		"Each Jetpack uses Fuel to function which is Water, Lava or both at the same time. "
-		""
-		"To Fill your Jetpacks with Water or Lava first place your Jetpack on your Off-Hand (shield icon) then select a bucket with Water/Lava and press Q to drop the bucket, it will fill the Jetpack in your off-hand. &aIdeally you'll want to use the Fueling Tank and the Filling Tank.&r"
-	]
-	quest.61666195C2F437BA.title: "&6Jetpacks"
 	quest.618CDE98123F2697.quest_desc: [
 		"&6Package Frogports&r are used to transfer Cardboard Packages to and from &eChain Conveyors.&r"
 		""
@@ -994,15 +990,6 @@
 		"Right-click and hold to spin the crank counter-clockwise, or hold Shift and right-click to reverse the rotation."
 		""
 		"The Hand Crank operates at a fixed speed of 32 RPM."
-	]
-	quest.70723616C803AE96.quest_desc: [
-		"&bCreate: Aquatic Ambitions&r is an addon for the Create mod that introduces ocean-inspired machines, production lines, and mechanics."
-		""
-		"One of the key blocks is the &3Conduit Cage&r, it’s used for &9Fan Conduit Channeling&r, acting as a compact alternative to the traditional prismarine ring. To activate it, you’ll need to pump water from below the cage."
-		""
-		"Additionally, Dead Coral can be revived through channeling and later harvested automatically using Harvesters."
-		""
-		"&d@aquatic&r"
 	]
 	quest.7124A562FDF1A9A5.quest_desc: [
 		"The &l&6Mechanical Crafters&r&r automate the item crafting process. Some recipies may requiere the Mechanical Crafter to be crafted such as the Crushing Wheels."

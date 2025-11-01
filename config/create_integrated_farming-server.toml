@@ -47,3 +47,15 @@
 	#When enabled, falls back to vanilla Create behaviour.
 	#When disabled, seated leashable entity can be dismounted by lead.
 	leashedEntitySitsAutomatically = false
+	#.
+	#The amount of Inventory Slot that the Chicken Roost has available.
+	#[@cui:RequiresReload:server]
+	# Default: 9
+	# Range: 1 ~ 27
+	roostingInventorySlotCount = 9
+	#.
+	#The amount of items per Inventory slot that the Chicken Roost can hold.
+	#[@cui:RequiresReload:server]
+	# Default: 1
+	# Range: 1 ~ 16
+	roostingInventorySlotSize = 1
