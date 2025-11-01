@@ -7,12 +7,15 @@
 /data
 /defaultconfigs
 /downloads
+/dynamic-data-pack-cache
+/dynamic-resource-pack-cache
 /fancymenu_data
 /journeymap
 /kiwipacks
 /local
 /logs
 /patchouli_books
+/resourcepacks
 /saves
 /screenshots
 /waypoints

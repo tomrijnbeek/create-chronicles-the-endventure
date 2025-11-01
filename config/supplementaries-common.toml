@@ -594,10 +594,8 @@
 	# Default: 1.0
 	# Range: 0.0 ~ 10.0
 	red_merchant_spawn_multiplier = 1.0
-	#Creates a creative tab full of filled jars
-	jar_tab = false
-	#Save generated resources to disk in a 'debug' folder in your game directory. Mainly for debug purposes but can be used to generate assets in all wood types for your mods :0
-	debug_save_dynamic_pack = false
+	#Allowed Values: ALWAYS, CACHED, CACHED_ZIPPED, NEVER
+	dynamic_assets_generation_mode = "CACHED"
 
 #Vanilla tweaks
 [tweaks]
@@ -708,7 +706,7 @@
 	[tweaks.bad_luck_tweaks]
 		#Hit a void cat, get the unluck
 		cat_unluck = true
-		#If you have unluck you are more likely to get hit by a lighting
+		#If you have unluck you are more likely to get hit by a lighting. Holding a lightning rod also causes this
 		lightning_unluck = true
 
 	[tweaks.item_lore]
