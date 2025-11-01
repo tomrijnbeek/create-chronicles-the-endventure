@@ -878,18 +878,9 @@
 			id: "703CC46FAC00A5D9"
 			rewards: [
 				{
-					id: "7F32D3E50A6E4C37"
-					item: {
-						count: 1
-						id: "kubejs:heart_container"
-					}
-					type: "item"
-				}
-				{
-					count: 2
 					id: "34BB3953AD5FB159"
 					item: {
-						count: 1
+						count: 10
 						id: "create:experience_nugget"
 					}
 					type: "item"

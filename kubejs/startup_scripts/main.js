@@ -35,11 +35,6 @@ function applyModifiers(event, itemId, slot, attributes) {
 StartupEvents.registry('item', event => {
   event.create('chromatic_compound').rarity("EPIC")
 
-  event.create('heart_container')
-    .displayName("§6Heart Container")
-    .rarity("EPIC")
-    .tooltip('§7Permanently increases your maximum health by §c+1 Heart§7.')
-
   //Farmer's Stuff
   event.create('incomplete_barbecue_stick')
   event.create('incomplete_cod_roll')

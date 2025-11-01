@@ -2571,17 +2571,9 @@
 			id: "2A9E9448684CE833"
 			rewards: [
 				{
-					id: "0C60ACC6B887D77F"
-					item: {
-						count: 1
-						id: "kubejs:heart_container"
-					}
-					type: "item"
-				}
-				{
 					id: "5BA33B2417504A53"
 					item: {
-						count: 1
+						count: 10
 						id: "create:experience_nugget"
 					}
 					type: "item"
