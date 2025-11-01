@@ -15,7 +15,6 @@ ServerEvents.recipes((event) => {
     event.recipes.createMixing(('9x minecraft:gunpowder'),['minecraft:wither_rose','biomeswevegone:blue_glowcane_powder','biomeswevegone:red_glowcane_powder','biomeswevegone:green_glowcane_powder','biomeswevegone:yellow_glowcane_powder']).superheated()
     event.recipes.createMixing(('minecraft:lapis_lazuli'),['minecraft:glowstone_dust','minecraft:blue_dye','amethyst_shard',Fluid.of("create_enchantment_industry:experience", 100)]).superheated()
     event.recipes.createMixing(('minecraft:ender_pearl'),[Fluid.of("createaddition:bioethanol", 250),'createaddition:biomass_pellet','createaddition:biomass_pellet','createaddition:biomass_pellet','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_crystals']).superheated()
-    event.recipes.createMixing("kubejs:chromatic_compound", [ "#c:dusts/glowstone","#c:dusts/glowstone","#c:dusts/glowstone","create:cinder_flour","create:cinder_flour","create:cinder_flour", "create:powdered_obsidian","create:powdered_obsidian","create:polished_rose_quartz"]).superheated();
     event.recipes.createMixing(('createaddition:electrum_ingot'),['minecraft:gold_ingot',"#c:dusts/glowstone","#c:gems/quartz"]).heated()
 
     // Deploy

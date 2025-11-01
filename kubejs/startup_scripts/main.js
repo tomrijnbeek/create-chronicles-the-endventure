@@ -33,8 +33,6 @@ function applyModifiers(event, itemId, slot, attributes) {
 }
 
 StartupEvents.registry('item', event => {
-  event.create('chromatic_compound').rarity("EPIC")
-
   //Farmer's Stuff
   event.create('incomplete_barbecue_stick')
   event.create('incomplete_cod_roll')
