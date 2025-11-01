@@ -1,0 +1,9 @@
+["golden tools"]
+	#Sets golden tools mining level (accepted values: wood, stone, iron) (default = iron)
+	mining_level = "iron"
+	#Time it takes (in ticks) for golden tools to regain 1 durability when in main-hand (range 20-72000, 0 to disable auto-repair) (default = 60)
+	tool_repair_rate = 60.0
+
+["golden armor"]
+	#Time it takes (in ticks) for golden armor pieces to regain 1 durability when worn (range 20-72000, 0 to disable auto-repair) (default = 180)
+	armor_repair_rate = 180.0
