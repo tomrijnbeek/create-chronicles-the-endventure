@@ -54,11 +54,6 @@
     "modId": "another_furniture",
     "version": "4.0.0"
   },
-  "appleskin-neoforge-mc1.21-3.0.7.jar": {
-    "jarName": "appleskin-neoforge-mc1.21-3.0.7.jar",
-    "modId": "appleskin",
-    "version": "3.0.7+mc1.21"
-  },
   "architectury-13.0.8-neoforge.jar": {
     "jarName": "architectury-13.0.8-neoforge.jar",
     "modId": "architectury",
@@ -1160,11 +1155,6 @@
     "jarName": "sodiumoptionsapi-neoforge-1.0.10-1.21.1.jar",
     "modId": "sodiumoptionsapi",
     "version": "1.0.10"
-  },
-  "solcarrot-1.21.1-1.16.5.jar": {
-    "jarName": "solcarrot-1.21.1-1.16.5.jar",
-    "modId": "solcarrot",
-    "version": "1.16.5"
   },
   "sootychimneys-neoforge-1.3.3.jar": {
     "jarName": "sootychimneys-neoforge-1.3.3.jar",
