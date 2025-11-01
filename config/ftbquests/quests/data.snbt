@@ -13,10 +13,7 @@
 	grid_scale: 0.5d
 	hide_excluded_quests: false
 	icon: {
-		components: {
-			"ftbquests:missing_item": "kubejs:cursed_eye_fragment_core"
-		}
-		id: "ftbquests:missing_item"
+		id: "arts_and_crafts:orange_paintbrush"
 	}
 	lock_message: ""
 	loot_crate_no_drop: {

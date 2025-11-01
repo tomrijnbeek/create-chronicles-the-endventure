@@ -11,24 +11,6 @@
 		""
 		"It can be powered by &credstone&r for remote activation and is even placeable in boats and minecarts for creative, dynamic shots!"
 	]
-	quest.03880BADF1C08707.quest_desc: [
-		"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
-		""
-		"&3Build to Me:&r Build from the block  and blockface you're looking at to the players current position. This is the only mode that does not use the Range modifier, as it always builds to the player's current position."
-		""
-		"&3Vertical Column:&r Build a vertical column of blocks of height equal to the range modifier.  If you look at the Top of a blockface it builds up, bottom of the blockface it builds down, and side of a blockface builds half of the blocks above, and half below."
-		""
-		"&3Horizontal Column:&r Otherwise known as a row. Builds Horizontally away from the blockface you're looking at.  If you look at the top/bottom of a block, it builds in the direction your player is looking."
-		""
-		"&3Vertical Wall:&r Builds a wall of size Range x Range (Example: &63x3&r, &65x5&r, etc). Like the vertical column, looking at the top of a block builds up, bottom of a block builds down, and middle of a block builds around it."
-		""
-		"&3Horizontal Wall&r: Builds a wall of blocks towards the player off of the blockface the player is looking at. If looking at the top/bottom of a block, it builds around that block."
-		""
-		"&3Stairs&r: Will build a set of stairs. If the block you are looking at is above you, the stairs will be built downwards and towards the player. If the block you look at is below you, they are built upwards away from the player."
-		""
-		"&3Checkerboard&r: Otherwise known as the Torch mode, this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
-	]
-	quest.03880BADF1C08707.quest_subtitle: "The Building Gadget allows you to build structures using a set of different Building Modes."
 	quest.0475AEB443175059.quest_desc: [
 		"&dArmor Statues&r unlocks the full potential of armor stands. "
 		""
@@ -74,19 +56,6 @@
 		""
 		"-> &nColor prints&r need Cyan, Magenta, and Yellow Dyes in addition to Paper."
 	]
-	quest.0ADF7E30D7F5B61E.quest_desc: [
-		"&cThe electricity system in this mod is exclusively for its own components and cannot be used with other mods.&r"
-		""
-		"To start, you will need a &agenerator&r. Simply put &afuel&r in it, and it will start generating &cpower&r."
-		""
-		"Some machines require &cpower&r to work, so you need to use a &3wrench&r to connect a line from the generator to the machine you want to power."
-		""
-		"Keep in mind that this works like circuits. "
-		""
-		"For example, you can make a line like: Generator > Lightswitch > connect to other components."
-		""
-		"So power up your &6workbench&r and start crafting the amazing furniture to decorate your house!"
-	]
 	quest.0C4974DE21CEDF4B.quest_desc: [
 		"&6Archaeology&r allows players to uncover hidden items inside &eSuspicious Sand&r and &eSuspicious Gravel&r."
 		""
@@ -114,16 +83,6 @@
 	]
 	quest.0C49795E134A27E0.quest_subtitle: "Every great invention starts somewhere."
 	quest.0C49795E134A27E0.title: "&6A New Beginning"
-	quest.0CAD67E9B2DC3B59.quest_desc: [
-		"Experience the &6Refurbished MrCrayfish's Furniture&r Mod, and &afurnish&r your house with hundreds of new and original decorative and functional blocks. "
-		""
-		"Jump into new gameplay mechanics with its own electricity system to power appliances and electronics, including generators, light switches, lights, and more! "
-		""
-		"Enjoy a working mail delivery system that allows you to send and receive items into your own mailbox. "
-		""
-		"&d@refurbished&r"
-	]
-	quest.0CAD67E9B2DC3B59.title: "&6MrCrayfish's Refurbished"
 	quest.1045FB828F50B457.quest_desc: ["What could you do with this tools?"]
 	quest.1045FB828F50B457.title: "Let's Get Cooking"
 	quest.114173896E5DF62C.quest_desc: ["A &eCompass&r can be bound to a &3Lodestones&r with &7[&rRight-Click&7]&r, causing the needle to point towards it when in the same dimension."]
@@ -284,6 +243,13 @@
 	]
 	quest.261651FB7B600587.title: "Craft a Chest"
 	quest.266CCE96A4F2977B.quest_subtitle: "Place blocks behind the ones you're facing or in mid-air."
+	quest.267EE52B1D874F0D.quest_desc: [
+		"&6Dusty Decorations&r adds a variety of decorative items, mainly focused around rustic harbours."
+		""
+		"&d@dusty&r"
+	]
+	quest.267EE52B1D874F0D.quest_subtitle: ""
+	quest.267EE52B1D874F0D.title: "Dusty Decorations"
 	quest.27E86BC510D04D45.quest_desc: ["Bamboo spikes are useful traps to protect you base from mobs. They can be tipped with potion effects!"]
 	quest.28B245505F91D21C.quest_desc: [
 		"I’m going to assume you’ve been out mining, right?"
@@ -336,7 +302,6 @@
 		"&d@farmers&r"
 	]
 	quest.3171F1AE14E3C1ED.title: "&6Farmer's Delight"
-	quest.31DB2CD7ECC30BF9.quest_subtitle: "You can convert RF to the mod’s current energy system using the&6 Circuit Breaker.&r"
 	quest.32E0EEC3834F9846.quest_desc: ["&6Straw&r is an item which is made by either cutting plants with a &6knife&r on a Cutting Board, or harvesting plants with a &6knife&r."]
 	quest.354794C26084872F.quest_desc: [
 		"&6Expure &rlets you take photos in a realistic and immersive way or even upload your own custom images!"
@@ -412,21 +377,6 @@
 	]
 	quest.3E5AC888381F061B.title: "&6Handcrafted  Mod"
 	quest.40B15BEB0A7D4755.quest_desc: ["The Wrench is used to rotate blocks already placed in the world."]
-	quest.40DF2E8EAD1100B6.quest_desc: [
-		"The Template Manager is a block that enables you to save your copies forever. Place down the Template Manager and right click it. "
-		""
-		"In the left slot, place a Copy-Paste Gadget that has a copied build. Place a piece of vanilla paper in the right slot."
-		""
-		" You can type a name for the template you are about to create in the black bar at the top of the GUI. Now hit save. Your piece of paper will turn into a Template. "
-		""
-		"The Template will store the name you gave it, and the copied build that was in the Copy-Paste Gadget. Now, you can load any template onto your Copy-Paste Gadget by placing the gadget in the left slot, placing the template in the right slot, and clicking Load."
-		""
-		"A preview of what is currently loaded on the Copy-Paste Gadget can be seen on the left side of the GUI."
-		""
-		"If you press Copy, text will be copied to your clipboard that corresponds to creating a template for what is saved in the Copy-Paste Gadget. "
-		""
-		"You can send this text to anyone in the world and other people can copy it as well. With this text copied, you, or anyone with the copied text, can hit paste to create a template that is exactly the same as if you had followed the above process."
-	]
 	quest.419327E6573538F7.quest_desc: [
 		"Chalk allow you to draw marks for easier navigation in the caves or structures it comes in all colors."
 		""
@@ -447,16 +397,6 @@
 		"You can use a &bGlow Ink Sac&r to make it shine, and there’s even a glass variant where the photograph fully covers the space, making the frame itself invisible."
 	]
 	quest.44CFD2F48C7AA908.quest_desc: ["Tree Fertilizer can grow Saplings instantly regardless of their spacing conditions. "]
-	quest.4552515C89DFAA7B.quest_desc: [
-		"&3Wall&r - Exchanges in a Range x Range (Example: 3x3 or 5x5), around the block you're looking at. It will only exchange blocks that match the block you are looking at."
-		""
-		"&3Horizontal Column&r - Horizontal with respect to the players look vector. This will be a straight line typically left and right of the block you're looking at."
-		""
-		"&3Vertical Column&r - Vertical with respect to the players look vector. This will be a straight line typically up and down of the block you're looking at."
-		""
-		"&3Checkerboard&r - this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
-	]
-	quest.4552515C89DFAA7B.quest_subtitle: "The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
 	quest.45A294917808368D.quest_subtitle: "Replaces blocks from your offhand instead."
 	quest.4626F4A23540DD3E.quest_desc: [
 		"You can get &aLotus Pistils&r from the &bsniffer digging&r. You can place &aLotus Pistils on Lily Pads&r to start growing a &aLotus Flower!&r "
@@ -543,24 +483,6 @@
 		""
 		"Click to identify which power you have rolled."
 	]
-	quest.4ED711729D36110A.quest_desc: [
-		"Some of the functions of the Copy Paste Gadget are listed below."
-		""
-		"◘ Ability to copy large areas of blocks"
-		""
-		"◘ Visual Preview"
-		""
-		"◘ Visual Selection"
-		""
-		"◘ Ability to offset templates from the block you're looking at."
-		""
-		"◘ Ability to rotate templates"
-		""
-		"◘ Ability to copy Templates from other users using the&6&l &nTemplate Manager.&r&r&r"
-		""
-		"◘ Ability to undo your last build"
-	]
-	quest.4ED711729D36110A.quest_subtitle: "The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
 	quest.4ED95F3B0F17AEBA.quest_desc: [
 		"And finally you have your photograph, a captured moment in time! Now it's time to admire the result."
 		""
@@ -570,38 +492,7 @@
 		""
 		"Photographs can be stacked by right-clicking a Photograph or Stacked Photographs with another Photograph."
 	]
-	quest.4EE191C96F7DE687.quest_desc: [
-		"&aBefore posting, please check this list of known issues and possible workarounds.&r"
-		""
-		"-> [Multiplayer Only] The market does not hide the mod's original trades and seed tabs by default."
-		""
-		"-> Dropping Unique Simply Swords items into Refined Storage makes them unremovable."
-		""
-		"🛠 Workarounds:"
-		""
-		"If you're using RF Storage Disks:"
-		"Create an Interface block, enable Fuzzy Mode, and extract the weapon from there."
-		""
-		"If your RF system is connected to physical storage (e.g., Create Vaults):"
-		"Place a Funnel on the Vault and attach a Create Filter set to the specific sword."
-		"_____"
-		""
-		"&l&cKeep in mind that all of these bugs need to be fixed by the mod author, not the modpack itself."
-		"&r&r"
-	]
-	quest.4EE191C96F7DE687.quest_subtitle: "v1.4.1"
-	quest.4EE191C96F7DE687.title: "&l&cLIST OF KNOWN ISSUES (PLEASE READ!)&r&r"
 	quest.51E19ACD3F0994BE.quest_desc: ["&3Rich Farmland&r is immune to trampling and automatically bone-meals anything planted on it when hydrated, effectively doubling growing speed! It even works with Saplings!"]
-	quest.5525E70F7FBDBD92.quest_desc: [
-		"&aYour feedback and assistance are invaluable to improving this modpack.&r"
-		""
-		"For suggestions, bug reports, or if you're interested in contributing, please reach out to us on Discord. "
-		""
-		"Your support helps us make this modpack better for everyone!"
-		""
-		"https://discord.gg/pkEvhgByPw"
-	]
-	quest.5525E70F7FBDBD92.title: "&6Your feedback is important :)"
 	quest.597BBC9933D7BC9E.quest_desc: [
 		"Used to unlock lock blocks like &enetherite doors&r, &elock block&r or the &esafe&r. You can put it in any curios slot."
 		""
@@ -615,15 +506,6 @@
 	]
 	quest.5BAE6CD47D4ABF2D.quest_subtitle: "Create with style"
 	quest.5BAE6CD47D4ABF2D.title: "Decoration and Building Options."
-	quest.6144BBDCA3192593.quest_desc: [
-		"&6Building Gadgets&r mod allows you to create some cool gadgets to help you build big bases, or for clearing out large areas using the &dDestruction Gadget.&r"
-		""
-		""
-		"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
-		""
-		"&d@building&r"
-	]
-	quest.6144BBDCA3192593.title: "&6Building Gadgets"
 	quest.6275FB1DFD4AE02A.quest_subtitle: "Obtained from market with engineer tokens"
 	quest.640C3588E6BA8DF2.quest_desc: [
 		"Combat mechanics were altered by the &6Better Combat&r and &6Dodge Roll&r mod."

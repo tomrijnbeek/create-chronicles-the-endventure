@@ -579,22 +579,6 @@
 			y: 16.0d
 		}
 		{
-			dependencies: ["1F6BC8C2A5B8F9B2"]
-			icon: {
-				components: {
-					"ftbquests:icon": "kubejs:textures/font/icons/warn.png"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "5525E70F7FBDBD92"
-			tasks: [{
-				id: "0CBC9A977ED7A39C"
-				type: "checkmark"
-			}]
-			x: -34.5d
-			y: 16.0d
-		}
-		{
 			dependencies: ["7EF948B39FBEA377"]
 			id: "6BF73E8BF5844527"
 			rewards: [{
@@ -909,28 +893,6 @@
 			]
 			x: -9.0d
 			y: 16.1d
-		}
-		{
-			dependencies: ["5BAE6CD47D4ABF2D"]
-			id: "0CAD67E9B2DC3B59"
-			rewards: [{
-				id: "5695E0B24E93746C"
-				item: {
-					components: {
-						"ftbquests:missing_item": "refurbished_furniture:wrench"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "73C3D3A6CE522B19"
-				item: { components: { "ftbquests:missing_item": "refurbished_furniture:workbench" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 13.6d
 		}
 		{
 			dependencies: ["5BAE6CD47D4ABF2D"]
@@ -1454,39 +1416,6 @@
 			}]
 			x: -4.0d
 			y: 14.5d
-		}
-		{
-			dependencies: ["0CAD67E9B2DC3B59"]
-			id: "0ADF7E30D7F5B61E"
-			rewards: [{
-				id: "62B451B57B6D95A2"
-				item: {
-					components: {
-						"ftbquests:missing_item": "refurbished_furniture:oak_mail_box"
-					}
-					count: 1
-					id: "ftbquests:missing_item"
-				}
-				type: "item"
-			}]
-			tasks: [{
-				id: "5AC6A6DB3DEB7E3D"
-				item: { components: { "ftbquests:missing_item": "refurbished_furniture:light_electricity_generator" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 12.4d
-		}
-		{
-			dependencies: ["0ADF7E30D7F5B61E"]
-			id: "31DB2CD7ECC30BF9"
-			tasks: [{
-				id: "1EF67D0C964E0ABF"
-				item: { components: { "ftbquests:missing_item": "cfm_circuit_breaker:circuit_breaker" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -8.0d
-			y: 11.0d
 		}
 		{
 			dependencies: ["7AC7072BAD19700C"]
@@ -2328,86 +2257,6 @@
 			y: 15.100000000000001d
 		}
 		{
-			dependencies: ["6144BBDCA3192593"]
-			id: "03880BADF1C08707"
-			rewards: [{
-				id: "399B898B4384F298"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "69E997E52F506277"
-				item: { components: { "ftbquests:missing_item": "buildinggadgets2:gadget_building" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -21.0d
-			y: 14.5d
-		}
-		{
-			dependencies: ["03880BADF1C08707"]
-			id: "4ED711729D36110A"
-			rewards: [{
-				id: "64CFB2BE995D7C80"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "5892DA124105B721"
-				item: { components: { "ftbquests:missing_item": "buildinggadgets2:gadget_copy_paste" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -22.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["03880BADF1C08707"]
-			id: "4552515C89DFAA7B"
-			rewards: [{
-				id: "7B6F40FDD3AE8B52"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "40FB5525D8101139"
-				item: { components: { "ftbquests:missing_item": "buildinggadgets2:gadget_exchanging" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -20.0d
-			y: 13.0d
-		}
-		{
-			dependencies: ["4ED711729D36110A"]
-			id: "40DF2E8EAD1100B6"
-			rewards: [{
-				id: "6EF3A244EE529D60"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "6B93ACFCD720BAF4"
-				item: { components: { "ftbquests:missing_item": "buildinggadgets2:template_manager" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: -22.0d
-			y: 11.5d
-		}
-		{
-			dependencies: ["05B32DE12868C6DE"]
-			id: "6144BBDCA3192593"
-			rewards: [{
-				id: "546CEC5B4A67555B"
-				type: "xp"
-				xp: 10
-			}]
-			tasks: [{
-				id: "519058155DE1393D"
-				item: { components: { "patchouli:book": "buildinggadgets2:buildinggadgets2book" }, count: 1, id: "patchouli:guide_book" }
-				type: "item"
-			}]
-			x: -21.0d
-			y: 16.0d
-		}
-		{
 			dependencies: ["261651FB7B600587"]
 			id: "78F35B052FE44F4A"
 			rewards: [{
@@ -2503,20 +2352,20 @@
 			y: 13.5d
 		}
 		{
-			dependencies: ["5525E70F7FBDBD92"]
-			icon: {
-				components: {
-					"ftbquests:icon": "ftblibrary:icons/bug"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "4EE191C96F7DE687"
-			tasks: [{
-				id: "0603A97DE4567708"
-				type: "checkmark"
+			dependencies: ["5BAE6CD47D4ABF2D"]
+			id: "267EE52B1D874F0D"
+			rewards: [{
+				id: "0A8A40862A7AF3BD"
+				type: "xp"
+				xp: 100
 			}]
-			x: -34.5d
-			y: 14.5d
+			tasks: [{
+				id: "2D5C572698D12BCE"
+				item: { count: 1, id: "dustydecorations:anchor" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: 13.5d
 		}
 	]
 }

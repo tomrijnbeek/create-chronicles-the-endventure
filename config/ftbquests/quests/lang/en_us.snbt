@@ -9,7 +9,6 @@
 	chapter.53732D728CE0A308.title: "&aCreate"
 	chapter.59395B6806F2A98A.title: "&dCataclysm"
 	chapter.5A695917A1E23476.title: "&dGolem Overhaul"
-	chapter.66515D165B519FE2.title: "&eGame Discs"
 	chapter.699146B31CBD0538.title: "&aEnchantment Industry&r"
 	chapter.6AEDA2F9BEB57759.title: "&cArs Nouveau"
 	chapter.6EF23835B92B89EC.title: "&ePlushies"
@@ -22,7 +21,7 @@
 	chapter_group.58944126F4575319.title: "Others"
 	chapter_group.61769445B9D5700E.title: "Dimensions"
 	chapter_group.781F17A4DC3D0E66.title: "Create"
-	file.0000000000000001.title: "&e&lCreate Chronicles: &a&lThe Endventure"
+	file.0000000000000001.title: "&e&lCreate Chronicles: &a&lOrange-flavoured"
 	quest.00307A898A639191.quest_desc: ["This Quest has been authored by &6AllTheMods Staff&r, or a &2Community contributor&r for use in AllTheMods Modpacks.\\n\\nAs all &6AllTheMods&r packs are licensed under &eAll Rights Reserved&r, this Quest is not allowed to be used in any public packs not released by &6AllTheMods Team&r without explicit permission.\\n\\nThis quest is intentionally hidden, if you're seeing this, you're in editing mode."]
 	quest.0051AD1BF14F9EC9.quest_subtitle: "&6+10% Summon Damage"
 	quest.00611844AFD5C31E.quest_desc: ["While the Inscriber and Charger will natively accept RF/FE, the vast majority of an ME network uses its own dedicated power system called AE.\\n\\nRF/FE can be converted into the native AE at a ratio of 2:1 RF:AE, either directly through an ME Controller, or through the &bEnergy Acceptor&f, which can instead be connected to any part of the network."]
@@ -145,24 +144,6 @@
 	quest.02E09ED80689775A.quest_subtitle: "Step by step 101 - Kelp can be found on the ocean"
 	quest.02E09ED80689775A.title: "&l&aHow to make a kelp farm&r&r"
 	quest.037488EF1F3581CE.quest_desc: ["By default, an ME network on its own only has an internal buffer of 800AE without an ME Controller, with the controller adding an extra 8kAE per block. For large enough networks, this can be insufficient and may cause a network to power off intermittently when trying to recoup power for any connected devices.\\n\\nThe &bEnergy Cell&f allows for an ME network to hold significantly more energy, adding another 200kAE per regular Energy Cell and 1.6MAE per &bDense&f Energy Cell. These can also be placed anywhere in the network to provide the increased energy buffer."]
-	quest.03880BADF1C08707.quest_desc: [
-		"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
-		""
-		"&3Build to Me:&r Build from the block  and blockface you're looking at to the players current position. This is the only mode that does not use the Range modifier, as it always builds to the player's current position."
-		""
-		"&3Vertical Column:&r Build a vertical column of blocks of height equal to the range modifier.  If you look at the Top of a blockface it builds up, bottom of the blockface it builds down, and side of a blockface builds half of the blocks above, and half below."
-		""
-		"&3Horizontal Column:&r Otherwise known as a row. Builds Horizontally away from the blockface you're looking at.  If you look at the top/bottom of a block, it builds in the direction your player is looking."
-		""
-		"&3Vertical Wall:&r Builds a wall of size Range x Range (Example: &63x3&r, &65x5&r, etc). Like the vertical column, looking at the top of a block builds up, bottom of a block builds down, and middle of a block builds around it."
-		""
-		"&3Horizontal Wall&r: Builds a wall of blocks towards the player off of the blockface the player is looking at. If looking at the top/bottom of a block, it builds around that block."
-		""
-		"&3Stairs&r: Will build a set of stairs. If the block you are looking at is above you, the stairs will be built downwards and towards the player. If the block you look at is below you, they are built upwards away from the player."
-		""
-		"&3Checkerboard&r: Otherwise known as the Torch mode, this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
-	]
-	quest.03880BADF1C08707.quest_subtitle: "The Building Gadget allows you to build structures using a set of different Building Modes."
 	quest.03A09B606040AD2E.quest_subtitle: "Rare random drop from Blazes."
 	quest.03E6FA4DCB71162E.quest_desc: ["The &bColor Applicator&f is a chargeable tool that allows for in-world dyeing of cables. It functions more or less as a specialised &estorage cell&f to be loaded up with either vanilla dyes or &epaint balls&f for specific colours, along with &esnowballs&f to wash colours off and turn cables back to their Fluix variant.\\n\\nApplying colour to a cable uses 100AE of energy from its internal battery, for a total of 3400 cable segments in a single charge."]
 	quest.03E6FA4DCB71162E.title: "Color Applicator"
@@ -587,19 +568,6 @@
 		""
 		"-> &nColor prints&r need Cyan, Magenta, and Yellow Dyes in addition to Paper."
 	]
-	quest.0ADF7E30D7F5B61E.quest_desc: [
-		"&cThe electricity system in this mod is exclusively for its own components and cannot be used with other mods.&r"
-		""
-		"To start, you will need a &agenerator&r. Simply put &afuel&r in it, and it will start generating &cpower&r."
-		""
-		"Some machines require &cpower&r to work, so you need to use a &3wrench&r to connect a line from the generator to the machine you want to power."
-		""
-		"Keep in mind that this works like circuits. "
-		""
-		"For example, you can make a line like: Generator > Lightswitch > connect to other components."
-		""
-		"So power up your &6workbench&r and start crafting the amazing furniture to decorate your house!"
-	]
 	quest.0B218DD73FE8D985.quest_desc: ["If you did that last quest correctly, you should have turned that singularity into a pair of &bQuantum Entangled Singularities&f. These new singularities are used to link together a ring-shaped device known as a &eQuantum Network Bridge&f.\\n\\nWhen two of these individual rings have been linked using the Quantum Entangled Singularities and jumpstarted with some AE power (e.g. an energy cell), an ME network can be expanded wirelessly on the other side of the bridge, across either long distances or even dimensions."]
 	quest.0B218DD73FE8D985.title: "Quantum Network Bridge"
 	quest.0B7F2B63D867D221.quest_desc: ["To find these we'll need a little archeology! \\n\\nIn the giant shaft you'll take to get to the &e&lAncient Remnant&r, there are 3 rooms on the sides of it. \\n\\n2 of these rooms have Suspicious Sand which you can use a Brush on to get Loot! Including the &eNecklace of Desert&r. \\nThen, Right Click the &e&lAncient Remnant&r with the &eNecklace of Desert&r to resurect it!"]
@@ -642,16 +610,6 @@
 	quest.0C49795E134A27E0.title: "&6A New Beginning"
 	quest.0C61389C18B4A2B4.quest_desc: ["A holy talisman said to protect its owner from bad luck"]
 	quest.0C61389C18B4A2B4.quest_subtitle: "Buy it from a master cleric"
-	quest.0CAD67E9B2DC3B59.quest_desc: [
-		"Experience the &6Refurbished MrCrayfish's Furniture&r Mod, and &afurnish&r your house with hundreds of new and original decorative and functional blocks. "
-		""
-		"Jump into new gameplay mechanics with its own electricity system to power appliances and electronics, including generators, light switches, lights, and more! "
-		""
-		"Enjoy a working mail delivery system that allows you to send and receive items into your own mailbox. "
-		""
-		"&d@refurbished&r"
-	]
-	quest.0CAD67E9B2DC3B59.title: "&6MrCrayfish's Refurbished"
 	quest.0CFFF58986CE7733.quest_subtitle: "you know how to make coal don't you? "
 	quest.0D02CCFCDC80B85B.quest_desc: [
 		"The &l&6Mechanical Saw&r&r uses rotational power to chop wood blocks directly in front of it."
@@ -1591,6 +1549,12 @@
 	]
 	quest.266448538B44953C.quest_subtitle: "Not repeatable"
 	quest.266CCE96A4F2977B.quest_subtitle: "Place blocks behind the ones you're facing or in mid-air."
+	quest.267EE52B1D874F0D.quest_desc: [
+		"&6Dusty Decorations&r adds a variety of decorative items, mainly focused around rustic harbours."
+		""
+		"&d@dusty&r"
+	]
+	quest.267EE52B1D874F0D.title: "Dusty Decorations"
 	quest.268C2A63C8ADA1CD.quest_desc: [
 		"&aSome spells are exclusive to the market and &r&ccannot be crafted or found in the world&r &aby any means. These are only obtainable by purchasing them in market:&r"
 		""
@@ -2033,7 +1997,6 @@
 	quest.31BB7EB95CE73C1A.quest_desc: ["After defeating the &cUr-Ghast&r, you'll unlock the Snowy Forest biomes.\\n\\nThere are many creatures to fight, but to continue your progression, you'll need to kill the Alpha Yeti.\\n\\nYou can find the Alpha Yeti in a massive Yeti cave. Defeat it to move on."]
 	quest.31BB7EB95CE73C1A.quest_subtitle: "You had Snow idea"
 	quest.31BB7EB95CE73C1A.title: "To the Snow Biomes!"
-	quest.31DB2CD7ECC30BF9.quest_subtitle: "You can convert RF to the mod’s current energy system using the&6 Circuit Breaker.&r"
 	quest.322078F5AA954906.quest_desc: [
 		"Use a &6Schematic and Quill&r to save a build as a schematic file. "
 		""
@@ -2718,21 +2681,6 @@
 	quest.40B15BEB0A7D4755.quest_desc: ["The Wrench is used to rotate blocks already placed in the world."]
 	quest.40BC67BDEE15D1DE.quest_desc: ["To create Source Gems, we'll need to put either Lapis or Amethyst Shards into the Imbuement Chamber. Over time, these will convert to Source Gems!"]
 	quest.40BC67BDEE15D1DE.title: "&5Source Gems"
-	quest.40DF2E8EAD1100B6.quest_desc: [
-		"The Template Manager is a block that enables you to save your copies forever. Place down the Template Manager and right click it. "
-		""
-		"In the left slot, place a Copy-Paste Gadget that has a copied build. Place a piece of vanilla paper in the right slot."
-		""
-		" You can type a name for the template you are about to create in the black bar at the top of the GUI. Now hit save. Your piece of paper will turn into a Template. "
-		""
-		"The Template will store the name you gave it, and the copied build that was in the Copy-Paste Gadget. Now, you can load any template onto your Copy-Paste Gadget by placing the gadget in the left slot, placing the template in the right slot, and clicking Load."
-		""
-		"A preview of what is currently loaded on the Copy-Paste Gadget can be seen on the left side of the GUI."
-		""
-		"If you press Copy, text will be copied to your clipboard that corresponds to creating a template for what is saved in the Copy-Paste Gadget. "
-		""
-		"You can send this text to anyone in the world and other people can copy it as well. With this text copied, you, or anyone with the copied text, can hit paste to create a template that is exactly the same as if you had followed the above process."
-	]
 	quest.40E256F7660DF8A9.quest_subtitle: "can be used to store and release multiple familiars at the same time, crafted."
 	quest.40EFE5B89FE6DBA1.quest_desc: [
 		"&l&6Andesite Tunnels&r&r and &l&6Brass Tunnels&r&r both act as decorative covers for Mechanical Belts, but they also provide functional utility—with Brass Tunnels offering more advanced capabilities."
@@ -2897,16 +2845,6 @@
 	]
 	quest.453F0E5926BA4AB1.quest_desc: ["{ \"text\": \"☞ Click here for more information.\", \"clickEvent\": { \"action\": \"change_page\", \"value\": \"7739373308A83503\" } }"]
 	quest.453F0E5926BA4AB1.quest_subtitle: "This can be found in blue skies dimension"
-	quest.4552515C89DFAA7B.quest_desc: [
-		"&3Wall&r - Exchanges in a Range x Range (Example: 3x3 or 5x5), around the block you're looking at. It will only exchange blocks that match the block you are looking at."
-		""
-		"&3Horizontal Column&r - Horizontal with respect to the players look vector. This will be a straight line typically left and right of the block you're looking at."
-		""
-		"&3Vertical Column&r - Vertical with respect to the players look vector. This will be a straight line typically up and down of the block you're looking at."
-		""
-		"&3Checkerboard&r - this mode will build in a checkered pattern allowing you to place in the pattern of &2[]&r-&2[]&r-&2[]&r-&2[]&r []: being blocks and -: being air."
-	]
-	quest.4552515C89DFAA7B.quest_subtitle: "The Exchanging Gadget provides basic exchanging abilities using a set of different Exchanging Modes."
 	quest.457DE8C154641437.quest_desc: ["The &9Ritual Brazier&r is used to cast rituals. It can also be used for decoration. If you want to light the Brazier, use a Light spell on it. \\n\\nTo perform rituals, you'll need Arcane Pedestals as well. As there are so many rituals to cast, make sure to check out each of them using the &6Worn Notebook&r! \\n\\nThis can be done by holding Ctrl on the Ritual Table while the book is in your inventory."]
 	quest.4597D3B3BDC2BED5.quest_desc: ["The &bMolecular Assembler&f is AE2's equivalent of an automatic crafting table, required to fulfil any and all &ecrafting&f pattern jobs.\\n\\nMolecular Assemblers are capable of transferring power and channels to other ME devices connected to it, but will not themselves take up a channel. Up to 6 MAs can be connected to a single Pattern Provider (if employed) to allow for more crafts to be done in parallel.\\n\\nMAs also each have their own dedicated slot for a single crafting pattern, allowing them to function standalone when powered. When operated in this way, any matching items inserted into the MA will be automatically crafted into the result of the pattern."]
 	quest.45A294917808368D.quest_subtitle: "Replaces blocks from your offhand instead."
@@ -3327,24 +3265,6 @@
 		""
 		"Another alternative is to set up an amethyst farm in your base without the need to find a cluster. You can use an&d amethyst golem&r from Ars Nouveau for this purpose."
 	]
-	quest.4ED711729D36110A.quest_desc: [
-		"Some of the functions of the Copy Paste Gadget are listed below."
-		""
-		"◘ Ability to copy large areas of blocks"
-		""
-		"◘ Visual Preview"
-		""
-		"◘ Visual Selection"
-		""
-		"◘ Ability to offset templates from the block you're looking at."
-		""
-		"◘ Ability to rotate templates"
-		""
-		"◘ Ability to copy Templates from other users using the&6&l &nTemplate Manager.&r&r&r"
-		""
-		"◘ Ability to undo your last build"
-	]
-	quest.4ED711729D36110A.quest_subtitle: "The Copy Paste Gadget allows you to select a large radius to copy and paste in a different location."
 	quest.4ED95F3B0F17AEBA.quest_desc: [
 		"And finally you have your photograph, a captured moment in time! Now it's time to admire the result."
 		""
@@ -3354,27 +3274,6 @@
 		""
 		"Photographs can be stacked by right-clicking a Photograph or Stacked Photographs with another Photograph."
 	]
-	quest.4EE191C96F7DE687.quest_desc: [
-		"&aBefore posting, please check this list of known issues and possible workarounds.&r"
-		""
-		"-> [Multiplayer Only] The market does not hide the mod's original trades and seed tabs by default."
-		""
-		"-> Dropping Unique Simply Swords items into Refined Storage makes them unremovable."
-		""
-		"🛠 Workarounds:"
-		""
-		"If you're using RF Storage Disks:"
-		"Create an Interface block, enable Fuzzy Mode, and extract the weapon from there."
-		""
-		"If your RF system is connected to physical storage (e.g., Create Vaults):"
-		"Place a Funnel on the Vault and attach a Create Filter set to the specific sword."
-		"_____"
-		""
-		"&l&cKeep in mind that all of these bugs need to be fixed by the mod author, not the modpack itself."
-		"&r&r"
-	]
-	quest.4EE191C96F7DE687.quest_subtitle: "v1.4.1"
-	quest.4EE191C96F7DE687.title: "&l&cLIST OF KNOWN ISSUES (PLEASE READ!)&r&r"
 	quest.4F66DF6B494BEFF3.quest_desc: ["Combining a &8Raven Feather&r with &eTorchberries&r and &6Glowstone&r will give you a &eMagic Map Focus&r."]
 	quest.4F66DF6B494BEFF3.title: "&eMagic Map Focus"
 	quest.4F734FC470276106.quest_subtitle: "Applies a temporary haste effect after eating food"
@@ -3680,16 +3579,6 @@
 		""
 		"The second function of a memory card is to link &eP2P tunnels&f together. When doing so, the P2P tunnel being linked will be assigned a unique ID, which is stored on the memory card for further linking."
 	]
-	quest.5525E70F7FBDBD92.quest_desc: [
-		"&aYour feedback and assistance are invaluable to improving this modpack.&r"
-		""
-		"For suggestions, bug reports, or if you're interested in contributing, please reach out to us on Discord. "
-		""
-		"Your support helps us make this modpack better for everyone!"
-		""
-		"https://discord.gg/pkEvhgByPw"
-	]
-	quest.5525E70F7FBDBD92.title: "&6Your feedback is important :)"
 	quest.55278DDC31951DA5.quest_desc: ["I guess the &3Draugrs&r really wanted to keep the &3Cursed Tombstone&r safe because they Locked it! \\n\\nThe &3Door of Seal&r, yeah a really creative name, blocks us from getting to it. We'll need a &3Strange Key&r to open it. \\n\\nAgain, they really want it locked up because they gave the &3Strange Key&r to the &3Aptrgangr&r. Only the toughest guys in the &3Frosted Prison&r who are still alive!"]
 	quest.55278DDC31951DA5.quest_subtitle: "Unlocking access to the Maledictus"
 	quest.55278DDC31951DA5.title: "&3Strange Key"
@@ -4124,15 +4013,6 @@
 		"Unlike the Copper Boots, Netherite Boots allow ascending in Lava by holding the jump key."
 	]
 	quest.6144BAFB1269A066.title: "Netherite Diving Set"
-	quest.6144BBDCA3192593.quest_desc: [
-		"&6Building Gadgets&r mod allows you to create some cool gadgets to help you build big bases, or for clearing out large areas using the &dDestruction Gadget.&r"
-		""
-		""
-		"&6&lNote:&r&r &oTo charge this Gadget you must use a Tesla Coil and have eletricity. &r"
-		""
-		"&d@building&r"
-	]
-	quest.6144BBDCA3192593.title: "&6Building Gadgets"
 	quest.61666195C2F437BA.quest_desc: [
 		"&6The Jetpack&r is a great early game flight. "
 		""
