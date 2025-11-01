@@ -55,15 +55,6 @@ ServerEvents.recipes(event => {
   });
 
   // Recipe conflicts
-  event.shaped('create_sa:vault_component', [
-      ' B ',
-      ' A ',
-      '   '
-  ], {
-      B: '#create:toolboxes',
-      A: 'create:item_vault',
-  })
-
   event.shaped('create_sa:small_filling_tank', [
       ' B ',
       ' A ',

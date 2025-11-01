@@ -4,7 +4,6 @@ const removeRecipesById = [
   'constructionstick:template_unbreakable',
   'multibeds:feather_pile',
 
-  'create_sa:block_picker_recipe',
   'create_aquatic_ambitions:crushing/prismarine_bricks_to_lapis_and_copper',
   'create_aquatic_ambitions:crushing/prismarine_to_lapis',
   'create_aquatic_ambitions:smelting/veridium',
@@ -21,7 +20,6 @@ const removeRecipesById = [
   'simplyswords:iron_spear',
   'simplyswords:gold_spear',
   'simplyswords:diamond_spear',
-  'create_sa:vault_component_recipe',
   'culturalrecipes:corn_dough',
   'farmersdelight:bread_from_smelting',
   'farmersdelight:bread_from_smoking',
