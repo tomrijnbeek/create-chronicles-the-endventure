@@ -20,3 +20,5 @@ z_fighting = ["ae2:cable_bus"]
 hidden_when_facaded = []
 #Whether the facade should be consumed when placed.
 consumeFacade = true
+#Whether new blocks for the config should be fetched from the network.
+auto_update_config = true

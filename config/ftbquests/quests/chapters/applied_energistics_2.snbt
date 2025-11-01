@@ -683,7 +683,7 @@
 			size: 1.5d
 			tasks: [{
 				id: "1ED54F5BAE0FADE8"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_1m" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "megacells:cell_component_1m" }
 				type: "item"
 			}]
 			x: 17.5d
@@ -707,7 +707,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "40B37486AA9DD419"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_4m" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "megacells:cell_component_4m" }
 				type: "item"
 			}]
 			x: 20.0d
@@ -731,7 +731,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "6E2955EC62EA1E37"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_16m" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "megacells:cell_component_16m" }
 				type: "item"
 			}]
 			x: 20.5d
@@ -755,7 +755,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "12DED6DF890F4A1A"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_64m" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "megacells:cell_component_64m" }
 				type: "item"
 			}]
 			x: 21.0d
@@ -779,7 +779,7 @@
 			shape: "diamond"
 			tasks: [{
 				id: "13AA316EA6E8CA30"
-				item: { components: { "ftbquests:missing_item": "megacells:cell_component_256m" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "megacells:cell_component_256m" }
 				type: "item"
 			}]
 			x: 20.5d
@@ -1911,7 +1911,7 @@
 			]
 			tasks: [{
 				id: "700381466CC95F2F"
-				item: { components: { "ftbquests:missing_item": "megacells:bulk_item_cell" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "megacells:bulk_item_cell" }
 				type: "item"
 			}]
 			x: 18.5d
