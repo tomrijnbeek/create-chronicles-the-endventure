@@ -114,22 +114,25 @@
 			optional: true
 			rewards: [
 				{
-					count: 3
-					id: "1985FEC75D5FCD1A"
-					item: {
-						components: {
-							"ftbquests:missing_item": "allthemodium:allthemodium_carrot"
-						}
-						count: 1
-						id: "ftbquests:missing_item"
-					}
-					random_bonus: 2
-					type: "item"
-				}
-				{
 					id: "2661628F6222794D"
 					type: "xp"
 					xp: 100
+				}
+				{
+					id: "66DE576110F20A59"
+					item: {
+						count: 1
+						id: "twilightdelight:torchberry_pie"
+					}
+					type: "item"
+				}
+				{
+					id: "6A5DF4BB93039243"
+					item: {
+						count: 1
+						id: "twilightdelight:aurora_pie"
+					}
+					type: "item"
 				}
 			]
 			shape: "diamond"

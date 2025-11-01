@@ -560,10 +560,9 @@
 	quest.6613D41573B7F0B9.quest_desc: [
 		"&aIn this pack, food is fundamental not just for survival, but for permanent health progression.&r"
 		""
-		"With &6The Spice of Life: Carrot Edition&r, the only way to increase your max health (aside from heart container) is by eating a wide variety of unique foods."
+		"With &6The Spice of Life: Valheim Reforged&r, the only way to increase your max health is by eating higher quality foods."
 		""
-		"The &aFood Book&r keeps track of how many different foods you’ve consumed."
-		"Hit specific milestones and you’ll gain up to &l&c26 extra hearts&r."
+		"You can have three meals active at a time, and they determine how many max hearts you have."
 	]
 	quest.6613D41573B7F0B9.quest_subtitle: "Welcome to a healthier and heartier adventure!"
 	quest.6613D41573B7F0B9.title: " &l&cThe True Path to More Hearts"

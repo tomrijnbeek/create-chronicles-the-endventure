@@ -47,32 +47,6 @@
 		""
 		"To place adjacent chassis that don't connect, use a &6&lSecondary Linear Chassis&r&r."
 	]
-	quest.0442F5FC0EC483BC.quest_desc: [
-		"&6Copycat Blocks&r are special blocks that can mimic the appearance and key properties such as hardness, required tool, blast resistance, and luminance of other blocks. "
-		""
-		"They are primarily used for &edecorative purposes, replicating the texture of another block while maintaining their own shape and size.&r"
-		""
-		"&nThere are two main ways to assign a texture to a Copycat Block:&r"
-		""
-		"&n&aPost-Placement Assignment:&r&r"
-		"Place the &6Copycat Block&r first with its default appearance. "
-		""
-		"Then, hold the block whose appearance you want to assign in your main (right) hand and &dright-click&r on the placed &6Copycat Block. &r"
-		""
-		"This will apply the texture and consume the decorative block."
-		""
-		"If the decorative block has multiple orientations or states—like logs or redstone lamps—you can &dright-click&r the &6Copycat Block&r again with the same item to cycle through those variations. "
-		""
-		"In this case, the item will not be consumed."
-		""
-		"&n&aSimultaneous Placement and Assignment:&r&r"
-		"Hold the desired decorative block in your off-hand while placing the &6Copycat Block&r with your main hand. "
-		""
-		"This will place the &6Copycat Block&r and assign its texture in a single step."
-		""
-		"&d@copy&r"
-	]
-	quest.0442F5FC0EC483BC.title: "&6Copycats+"
 	quest.045A217971DF1258.quest_desc: [
 		"The &6&lCrushing Wheels&r&r are an advanced alternative to the Millstone, used to process items using crushing recipes."
 		""
@@ -222,9 +196,6 @@
 		""
 		"A Display Link can be connected to show precise stress values (SU) on a Display Board."
 	]
-	quest.15477C83455EDAB7.quest_desc: [ ]
-	quest.15477C83455EDAB7.quest_subtitle: ""
-	quest.15477C83455EDAB7.title: ""
 	quest.1605A9755E36BD61.quest_desc: [
 		"The &6&lRope Pulley&r&r is a block used to build vertical-moving Contraptions, often for excavation or elevator-like systems."
 		""
@@ -375,6 +346,8 @@
 		""
 		"Like the regular version, the Sequenced Gearshift also responds to Redstone input to trigger or control its sequence."
 	]
+	quest.263AD6F95DF0632D.quest_subtitle: ""
+	quest.263AD6F95DF0632D.title: ""
 	quest.2843021F7F41ED01.quest_desc: [
 		"The &6&lChute&r&r can insert into or extract items from inventories located above or below them, as well as from Belts and Depots."
 		""

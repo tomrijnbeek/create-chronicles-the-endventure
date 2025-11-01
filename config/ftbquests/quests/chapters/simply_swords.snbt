@@ -91,16 +91,15 @@
 				id: "eternal_starlight:loot_bag"
 			}
 			id: "6C71E2ABAA99C005"
-			rewards: [
-				{
-					id: "69F59BB29506372C"
-					item: {
-						count: 10
-						id: "create:experience_nugget"
-					}
-					type: "item"
+			rewards: [{
+				count: 10
+				id: "69F59BB29506372C"
+				item: {
+					count: 1
+					id: "create:experience_nugget"
 				}
-			]
+				type: "item"
+			}]
 			shape: "hexagon"
 			size: 2.5d
 			tasks: [{

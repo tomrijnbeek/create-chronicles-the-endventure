@@ -1182,11 +1182,26 @@
 			}]
 			shape: "rsquare"
 			size: 1.5d
-			tasks: [{
-				id: "3B5D861C94C5BE56"
-				item: { components: { "ftbquests:missing_item": "solcarrot:food_book" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					advancement: "farmersdelight:main/get_fd_seed"
+					criterion: ""
+					id: "0E059ABD74309103"
+					type: "advancement"
+				}
+				{
+					advancement: "farmersdelight:main/place_campfire"
+					criterion: ""
+					id: "130982E0D0916E7D"
+					type: "advancement"
+				}
+				{
+					advancement: "farmersdelight:main/craft_knife"
+					criterion: ""
+					id: "4312FC45C695138E"
+					type: "advancement"
+				}
+			]
 			x: -8.0d
 			y: 18.0d
 		}
