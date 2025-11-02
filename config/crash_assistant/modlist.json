@@ -404,10 +404,10 @@
     "modId": "crash_assistant",
     "version": "1.10.18"
   },
-  "create-1.21.1-6.0.7.jar": {
-    "jarName": "create-1.21.1-6.0.7.jar",
+  "create-1.21.1-6.0.8.jar": {
+    "jarName": "create-1.21.1-6.0.8.jar",
     "modId": "create",
-    "version": "6.0.7"
+    "version": "6.0.8"
   },
   "create-central-kitchen-2.2.5.jar": {
     "jarName": "create-central-kitchen-2.2.5.jar",
@@ -571,6 +571,11 @@
     "jarName": "Design-n-Decor-1.21.1-2.1.0.jar",
     "modId": "dndecor",
     "version": "2.1.0"
+  },
+  "DistantHorizons-2.3.6-b-1.21.1-fabric-neoforge.jar": {
+    "jarName": "DistantHorizons-2.3.6-b-1.21.1-fabric-neoforge.jar",
+    "modId": "distanthorizons",
+    "version": "2.3.6-b"
   },
   "DnT-ancient-city-overhaul-v2 [NeoForge].jar": {
     "jarName": "DnT-ancient-city-overhaul-v2 [NeoForge].jar",
