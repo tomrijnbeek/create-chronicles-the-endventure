@@ -44,6 +44,7 @@ usernamecache.json
 /config/fabric/indigo-renderer.properties
 /config/sodium-fingerprint.json
 /config/sodium-options.json
+/config/structurify/structurify_backup_*.json
 
 # FTB Quests Lang Splitter
 # ignore original lang files like en_us.snbt
