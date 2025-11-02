@@ -1,6 +1,6 @@
 {
   "config_version": "2.0.3a",
-  "config_datetime": "2025-11-02_16-04-41",
+  "config_datetime": "2025-11-02_16-14-30",
   "general": {
     "disable_all_structures": false,
     "prevent_structure_overlap": false,
@@ -1498,7 +1498,7 @@
     },
     {
       "name": "ars_elemental:starbuncle_shrine",
-      "is_disabled": false,
+      "is_disabled": true,
       "whitelisted_biomes": [],
       "blacklisted_biomes": [],
       "step": "surface_structures",
