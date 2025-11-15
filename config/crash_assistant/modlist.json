@@ -717,6 +717,11 @@
     "modId": "extra_gauges",
     "version": "2.0.6"
   },
+  "FallingTree-1.21.1-1.21.1.11.jar": {
+    "jarName": "FallingTree-1.21.1-1.21.1.11.jar",
+    "modId": "fallingtree",
+    "version": "1.21.1.11"
+  },
   "fancymenu_neoforge_3.7.0_MC_1.21.1.jar": {
     "jarName": "fancymenu_neoforge_3.7.0_MC_1.21.1.jar",
     "modId": "fancymenu",
