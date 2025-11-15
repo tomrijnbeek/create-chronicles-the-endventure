@@ -438,6 +438,11 @@
     "modId": "create_sa",
     "version": "2.1.0."
   },
+  "create_aquatic_ambitions-1.21.1-2.0.2.jar": {
+    "jarName": "create_aquatic_ambitions-1.21.1-2.0.2.jar",
+    "modId": "create_aquatic_ambitions",
+    "version": "2.0.2"
+  },
   "create_cardboarded_conveynience-0.0.3b.jar": {
     "jarName": "create_cardboarded_conveynience-0.0.3b.jar",
     "modId": "create_cardboarded_conveynience",
