@@ -38,6 +38,7 @@ servers.dat_old
 user-prefs.json
 usercache.json
 usernamecache.json
+version.txt
 
 /config/ars_nouveau/search_index
 /config/bettercombat/client.json5
