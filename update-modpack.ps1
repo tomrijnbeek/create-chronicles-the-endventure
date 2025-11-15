@@ -1,99 +1,133 @@
-# --- Update Modpack Script ---
-# This script checks the latest GitHub release and installs it locally
+# update-modpack.ps1
+# Updater for tomrijnbeek/create-chronicles-the-endventure
+# Place this file in the same folder as version.txt and the mod directories.
+# The wrapper run-update.bat runs this script with ExecutionPolicy Bypass for one run.
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = 'Stop'
 
-Write-Host "=== Chronicles: Orange Flavoured Updater ==="
+function Write-Info { Write-Host "[*] $($args -join ' ')" }
+function Write-OK   { Write-Host "[OK] $($args -join ' ')" -ForegroundColor Green }
+function Write-Err  { Write-Host "[ERR] $($args -join ' ')" -ForegroundColor Red }
 
-# -------------------------------
+Write-Host "=== Chronicles: Orange-Flavoured Updater ==="
+
+# Use script folder as base (works when launched from .bat or double-clicked)
+$baseDir = Split-Path -Path $PSCommandPath -Parent
+if (-not $baseDir) { $baseDir = Get-Location }  # fallback for interactive runs
+Set-Location $baseDir
+
+Write-Info "Working directory: $baseDir"
+
 # 1. Read local version.txt
-# -------------------------------
-$versionFile = "version.txt"
-
+$versionFile = Join-Path $baseDir "version.txt"
 if (Test-Path $versionFile) {
-    $localVersion = Get-Content $versionFile -Raw
-    Write-Host "Current installed version: $localVersion"
+    $localVersion = (Get-Content $versionFile -Raw).Trim()
+    Write-Info "Current installed version: $localVersion"
 } else {
-    Write-Host "version.txt not found — assuming no version installed."
+    Write-Info "version.txt not found — assuming no version installed."
     $localVersion = ""
 }
 
-# -------------------------------
-# 2. Get latest GitHub release
-# -------------------------------
+# 2. Check latest release via GitHub API
 $repo = "tomrijnbeek/create-chronicles-the-endventure"
 $apiUrl = "https://api.github.com/repos/$repo/releases/latest"
+Write-Info "Checking GitHub for latest release..."
 
-Write-Host "Checking GitHub for latest release…"
-
-# GitHub API requires a User-Agent
-$latest = Invoke-RestMethod -Uri $apiUrl -Headers @{ "User-Agent" = "UpdaterScript" }
-
-$latestVersion = $latest.tag_name
-Write-Host "Latest release version: $latestVersion"
-
-# -------------------------------
-# 3. Compare versions
-# -------------------------------
-if ($localVersion -eq $latestVersion) {
-    Write-Host "You already have the latest version. No update needed."
-    Start-Sleep 3
-    exit
+try {
+    $latest = Invoke-RestMethod -Uri $apiUrl -Headers @{ "User-Agent" = "UpdaterScript" } -UseBasicParsing
+} catch {
+    Write-Err "Failed to query GitHub API: $_"
+    Read-Host "Press Enter to exit"
+    exit 1
 }
 
-Write-Host "Update available! Preparing to download…"
+$latestVersion = $latest.tag_name
+Write-Info "Latest release version: $latestVersion"
 
-# -------------------------------
-# 4. Download the release zip
-# -------------------------------
-$asset = $latest.assets | Where-Object { $_.name -like "artifacts-*.zip" }
+# 3. Compare versions
+if ($localVersion -eq $latestVersion) {
+    Write-OK "You already have the latest version ($localVersion). No update needed."
+    Read-Host "Press Enter to exit"
+    exit 0
+}
+
+Write-Info "Update available: $localVersion -> $latestVersion"
+
+# 4. Find and download the release zip (artifact name pattern artifacts-<tag>.zip)
+$asset = $latest.assets | Where-Object { $_.name -like "artifacts-*.zip" } | Select-Object -First 1
 
 if (-not $asset) {
-    Write-Host "ERROR: Could not find release artifact zip file!"
+    Write-Err "Could not find an asset named artifacts-*.zip in the latest release assets."
+    Read-Host "Press Enter to exit"
     exit 1
 }
 
 $downloadUrl = $asset.browser_download_url
-$zipFile = "update.zip"
+$zipFile = Join-Path $baseDir "update-${latestVersion}.zip"
 
-Write-Host "Downloading $($asset.name)…"
-Invoke-WebRequest -Uri $downloadUrl -OutFile $zipFile -Headers @{ "User-Agent" = "UpdaterScript" }
+Write-Info "Downloading $($asset.name) ..."
+try {
+    Invoke-WebRequest -Uri $downloadUrl -OutFile $zipFile -Headers @{ "User-Agent" = "UpdaterScript" }
+} catch {
+    Write-Err "Download failed: $_"
+    Read-Host "Press Enter to exit"
+    exit 1
+}
+Write-OK "Downloaded to $zipFile"
 
-Write-Host "Download complete."
-
-# -------------------------------
-# 5. Delete directories
-# -------------------------------
+# 5. Delete current contents of the directories kubejs, mods, shaderpacks
 $dirsToClear = @("kubejs", "mods", "shaderpacks")
 
 foreach ($d in $dirsToClear) {
-    if (Test-Path $d) {
-        Write-Host "Clearing directory: $d"
-        Remove-Item "$d/*" -Recurse -Force -ErrorAction SilentlyContinue
+    $full = Join-Path $baseDir $d
+    if (Test-Path $full) {
+        Write-Info "Clearing directory: $d"
+        try {
+            # Remove all files and subdirectories but keep the directory itself
+            Get-ChildItem -Path $full -Force -Recurse | Remove-Item -Force -Recurse -ErrorAction Stop
+            Write-OK "Cleared $d"
+        } catch {
+            Write-Err "Failed to clear $d: $_"
+            Read-Host "Press Enter to exit"
+            exit 1
+        }
+    } else {
+        Write-Info "Directory not found, skipping: $d"
     }
 }
 
-# -------------------------------
-# 6. Extract archive
-# -------------------------------
-Write-Host "Extracting update.zip…"
+# 6. Extract archive on top of current directory (this will restore kubejs, mods, shaderpacks, config, etc.)
+Write-Info "Extracting archive..."
+try {
+    # Expand-Archive will create files and overwrite existing ones when -Force used.
+    Expand-Archive -Path $zipFile -DestinationPath $baseDir -Force
+} catch {
+    Write-Err "Extraction failed: $_"
+    Read-Host "Press Enter to exit"
+    exit 1
+}
+Write-OK "Extraction complete."
 
-# Expand-Archive overwrites with -Force
-Expand-Archive -Path $zipFile -DestinationPath "." -Force
-
-Write-Host "Extraction complete."
-
-# -------------------------------
 # 7. Update version.txt
-# -------------------------------
-Write-Host "Updating version.txt…"
-Set-Content -Path $versionFile -Value $latestVersion
+Write-Info "Updating version.txt to $latestVersion"
+try {
+    Set-Content -Path $versionFile -Value $latestVersion -Encoding UTF8
+    Write-OK "version.txt updated"
+} catch {
+    Write-Err "Failed to write version.txt: $_"
+    Read-Host "Press Enter to exit"
+    exit 1
+}
 
-# -------------------------------
-# 8. Cleanup
-# -------------------------------
-Write-Host "Cleaning up…"
-Remove-Item $zipFile -Force
+# 8. Cleanup downloaded zip
+Write-Info "Cleaning up temporary files..."
+try {
+    Remove-Item -Path $zipFile -Force
+    Write-OK "Removed $zipFile"
+} catch {
+    Write-Err "Could not remove $zipFile: $_"
+    # Not fatal, continue
+}
 
 Write-Host "`n=== Update complete! Installed version $latestVersion ==="
-Start-Sleep 5
+Read-Host "Press Enter to close"
