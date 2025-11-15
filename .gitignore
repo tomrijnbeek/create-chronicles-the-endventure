@@ -1,8 +1,6 @@
 /.mixin.out
 /.persistent
 /.vscode
-/config/ars_nouveau/search_index
-/config/jei
 /crash-reports
 /data
 /defaultconfigs
@@ -19,6 +17,7 @@
 /saves
 /screenshots
 /waypoints
+/Distant_Horizons_server_data
 
 win_event*
 
@@ -32,19 +31,28 @@ win_event*
 command_history.txt
 emi.json
 minecraftinstance.json
+options.txt
 patchouli_data.json
+servers.dat
+servers.dat_old
 user-prefs.json
 usercache.json
 usernamecache.json
 
+/config/ars_nouveau/search_index
 /config/bettercombat/client.json5
 /config/combat_roll/client.json5
+/config/DistantHorizons.toml
 /config/iris.properties
+/config/jei
 /config/packetfixer.properties
 /config/fabric/indigo-renderer.properties
 /config/sodium-fingerprint.json
 /config/sodium-options.json
 /config/structurify/structurify_backup_*.json
+/config/MapTooltip/cache
+
+/shaderpacks/*.zip.txt
 
 # FTB Quests Lang Splitter
 # ignore original lang files like en_us.snbt
