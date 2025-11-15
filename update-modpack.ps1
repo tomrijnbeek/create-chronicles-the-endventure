@@ -79,9 +79,20 @@ foreach ($d in $dirsToClear) {
     if (Test-Path $full) {
         Write-Info "Clearing contents of: $d"
         try {
-            # Remove child items but keep the directory itself
-            Get-ChildItem -Path $full -Force -Recurse | Remove-Item -Force -Recurse -ErrorAction Stop
-            Write-OK "Cleared $d"
+            if ($d -ieq "shaderpacks") {
+                # Only remove .zip files; keep .zip.txt and other files/folders
+                $zips = Get-ChildItem -Path $full -Filter "*.zip" -File -Recurse -Force -ErrorAction Stop
+                if ($zips) {
+                    $zips | Remove-Item -Force -ErrorAction Stop
+                    Write-OK "Cleared .zip files in $d"
+                } else {
+                    Write-Info "No .zip files found in $d"
+                }
+            } else {
+                # Remove child items but keep the directory itself
+                Get-ChildItem -Path $full -Force -Recurse | Remove-Item -Force -Recurse -ErrorAction Stop
+                Write-OK "Cleared $d"
+            }
         } catch {
             Write-Err "Failed to clear ${d}: $($_.Exception.Message)"
             Read-Host "Press Enter to exit"
