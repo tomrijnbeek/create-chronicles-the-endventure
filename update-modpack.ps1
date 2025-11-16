@@ -63,8 +63,68 @@ $downloadUrl = $asset.browser_download_url
 $zipFile = Join-Path $baseDir ("update-" + $latestVersion + ".zip")
 
 Write-Info "Downloading asset: $($asset.name)"
+
+function Download-File {
+    param(
+        [Parameter(Mandatory=$true)] [string] $Url,
+        [Parameter(Mandatory=$true)] [string] $OutFile
+    )
+
+    # Try BITS first (often more reliable / resumable on Windows)
+    if (Get-Command Start-BitsTransfer -ErrorAction SilentlyContinue) {
+        try {
+            Write-Info "Using Start-BitsTransfer..."
+            # remove any existing partial file
+            if (Test-Path $OutFile) { Remove-Item -Path $OutFile -Force -ErrorAction SilentlyContinue }
+            Start-BitsTransfer -Source $Url -Destination $OutFile -DisplayName "ModpackDownload" -ErrorAction Stop
+            Write-OK "Downloaded to: $OutFile (via BITS)"
+            return $true
+        } catch {
+            Write-Info "Start-BitsTransfer failed, falling back: $($_.Exception.Message)"
+        }
+    } else {
+        Write-Info "Start-BitsTransfer not available, falling back to HttpClient."
+    }
+
+    # Fallback: streamed HttpClient download to avoid loading whole response in memory
+    try {
+        $start = Get-Date
+        $handler = New-Object System.Net.Http.HttpClientHandler
+        $handler.AutomaticDecompression = [System.Net.DecompressionMethods]::GZip -bor [System.Net.DecompressionMethods]::Deflate
+        $http = New-Object System.Net.Http.HttpClient($handler)
+        $http.DefaultRequestHeaders.UserAgent.ParseAdd("UpdaterScript")
+        $resp = $http.GetAsync($Url, [System.Net.Http.HttpCompletionOption]::ResponseHeadersRead).GetAwaiter().GetResult()
+        $resp.EnsureSuccessStatusCode()
+
+        $stream = $resp.Content.ReadAsStreamAsync().GetAwaiter().GetResult()
+        $fileStream = [System.IO.File]::Create($OutFile)
+        $buffer = New-Object byte[] 65536
+        $total = 0
+        while (($read = $stream.Read($buffer, 0, $buffer.Length)) -gt 0) {
+            $fileStream.Write($buffer, 0, $read)
+            $total += $read
+        }
+        $fileStream.Close()
+        $stream.Close()
+        $resp.Dispose()
+        $http.Dispose()
+
+        $elapsed = (Get-Date) - $start
+        $seconds = [Math]::Max($elapsed.TotalSeconds, 0.001)
+        $mbits = ($total * 8) / 1MB
+        $mbps = [Math]::Round($mbits / $seconds, 2)
+        Write-OK "Downloaded to: $OutFile (size: $([Math]::Round($total/1MB,2)) MB, avg: $mbps Mbit/s)"
+        return $true
+    } catch {
+        Write-Err "Download failed: $($_.Exception.Message)"
+        return $false
+    }
+}
+
 try {
-    Invoke-WebRequest -Uri $downloadUrl -OutFile $zipFile -Headers @{ "User-Agent" = "UpdaterScript" }
+    if (-not (Download-File -Url $downloadUrl -OutFile $zipFile)) {
+        throw "All download methods failed."
+    }
 } catch {
     Write-Err "Download failed: $($_.Exception.Message)"
     Read-Host "Press Enter to exit"
