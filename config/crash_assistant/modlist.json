@@ -389,6 +389,11 @@
     "modId": "cosmeticarmorreworked",
     "version": "1.21.1-v1-neoforge"
   },
+  "CosmeticArmours - 1.5.3.1 - 1.21.1 - NeoForge.jar": {
+    "jarName": "CosmeticArmours - 1.5.3.1 - 1.21.1 - NeoForge.jar",
+    "modId": "cosmeticarmoursmod",
+    "version": "1.5.3.0"
+  },
   "craftingtweaks-neoforge-1.21.1-21.1.6.jar": {
     "jarName": "craftingtweaks-neoforge-1.21.1-21.1.6.jar",
     "modId": "craftingtweaks",
@@ -507,6 +512,11 @@
     "jarName": "createnewbeg-0.1.0-1.21.1.jar",
     "modId": "createnewbeg",
     "version": "0.1.0"
+  },
+  "createstockbridge-1.21.1-0.1.6.jar": {
+    "jarName": "createstockbridge-1.21.1-0.1.6.jar",
+    "modId": "createstockbridge",
+    "version": "0.1.6"
   },
   "CreativeCore_NEOFORGE_v2.13.15_mc1.21.1.jar": {
     "jarName": "CreativeCore_NEOFORGE_v2.13.15_mc1.21.1.jar",
