@@ -10,7 +10,6 @@ const removeRecipesById = [
   'minecraft:andesite',
   'create:crushing/tuff_recycling',
   'create:crushing/tuff',
-  'create:crafting/kinetics/belt_connector',
 
   'bosses_of_mass_destruction:void_lily',
 
