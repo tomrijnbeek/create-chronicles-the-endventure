@@ -277,6 +277,13 @@
     "curseForgeHash": 1850182331,
     "modrinthHash": "c1c1d4859c7943c7d1c181c07fa7273a1d56df15"
   },
+  "beautify-neoforge-1.21.1-2.0.2.jar": {
+    "jarName": "beautify-neoforge-1.21.1-2.0.2.jar",
+    "modId": "beautify",
+    "version": "2.0.2",
+    "curseForgeHash": 2080289491,
+    "modrinthHash": "936dc981f243c4606376ba7d6f03798e0b5a6871"
+  },
   "bellsandwhistles-0.4.7-1.21.1.jar": {
     "jarName": "bellsandwhistles-0.4.7-1.21.1.jar",
     "modId": "bellsandwhistles",
@@ -578,12 +585,12 @@
     "curseForgeHash": 926555070,
     "modrinthHash": "8bb5bea9835d9c993648aee9c1c60510c3ad1b04"
   },
-  "create-1.21.1-6.0.9.jar": {
-    "jarName": "create-1.21.1-6.0.9.jar",
+  "create-1.21.1-6.0.8.jar": {
+    "jarName": "create-1.21.1-6.0.8.jar",
     "modId": "create",
-    "version": "6.0.9",
-    "curseForgeHash": 2157808772,
-    "modrinthHash": "bf08bf8980c080f42d6f644f4f44a725cf7c3be9"
+    "version": "6.0.8",
+    "curseForgeHash": 1522259746,
+    "modrinthHash": "eee603ac7b083c9cd3a8ded4d4e3ed1a9a836f96"
   },
   "create-central-kitchen-2.2.6.jar": {
     "jarName": "create-central-kitchen-2.2.6.jar",
@@ -827,6 +834,27 @@
     "version": "2.1.0",
     "curseForgeHash": 286186689,
     "modrinthHash": "6ff962a9c2e9cc9abdc6de0b01f834839ce7fed1"
+  },
+  "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar": {
+    "jarName": "DiagonalFences-v21.1.1-1.21.1-NeoForge.jar",
+    "modId": "diagonalfences",
+    "version": "21.1.1",
+    "curseForgeHash": 775284799,
+    "modrinthHash": "d77da342ec4fcdea694911cba068e310a0230621"
+  },
+  "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar": {
+    "jarName": "DiagonalWalls-v21.1.2-1.21.1-NeoForge.jar",
+    "modId": "diagonalwalls",
+    "version": "21.1.2",
+    "curseForgeHash": 3660372421,
+    "modrinthHash": "f2aed3ac68f5cc5e41ccc9d493f2706b0df53296"
+  },
+  "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar": {
+    "jarName": "DiagonalWindows-v21.1.1-1.21.1-NeoForge.jar",
+    "modId": "diagonalwindows",
+    "version": "21.1.1",
+    "curseForgeHash": 1779177131,
+    "modrinthHash": "a2d28a50756a297d77f0a0fb9a015f4c2c501700"
   },
   "DistantHorizons-2.4.5-b-1.21.1.jar": {
     "jarName": "DistantHorizons-2.4.5-b-1.21.1.jar",
@@ -1128,6 +1156,13 @@
     "version": "7.0.2",
     "curseForgeHash": 4148061765,
     "modrinthHash": "7279fc52c32a033acc2864a9bcb018b2e04bbd03"
+  },
+  "fetzisasiandeco-neoforge-1.7.2-1.21-beta.jar": {
+    "jarName": "fetzisasiandeco-neoforge-1.7.2-1.21-beta.jar",
+    "modId": "fetzisasiandeco",
+    "version": "1.7.2-beta",
+    "curseForgeHash": 4210281401,
+    "modrinthHash": "63e2092e7b5cee3e38c47e0a227c15be625afbf4"
   },
   "foodeffecttooltips+neoforge-1.21.1-1.4.0.jar": {
     "jarName": "foodeffecttooltips+neoforge-1.21.1-1.4.0.jar",
@@ -2247,6 +2282,13 @@
     "curseForgeHash": 3643301168,
     "modrinthHash": "1e987d711f5f0321f4b82b393e1a34202f69165b"
   },
+  "SubtleEffects-neoforge-1.21.1-1.13.2-hotfix.1.jar": {
+    "jarName": "SubtleEffects-neoforge-1.21.1-1.13.2-hotfix.1.jar",
+    "modId": "subtle_effects",
+    "version": "1.13.2-hotfix.1",
+    "curseForgeHash": 485751526,
+    "modrinthHash": "e80e1e6ba406e435412f81d918442f0ea2da8516"
+  },
   "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar": {
     "jarName": "supermartijn642configlib-1.1.8-neoforge-mc1.21.jar",
     "modId": "supermartijn642configlib",
@@ -2386,6 +2428,13 @@
     "version": "1.0.3",
     "curseForgeHash": 153679298,
     "modrinthHash": "f587626ba0b421f976f4bd1141bcdc3ca9d21abb"
+  },
+  "visuality-forge-2.1.0.jar": {
+    "jarName": "visuality-forge-2.1.0.jar",
+    "modId": "visuality",
+    "version": "2.1.0",
+    "curseForgeHash": 2147938298,
+    "modrinthHash": "b400034ca8affe8f30b21935ae4ef74b1cf2fa29"
   },
   "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar": {
     "jarName": "VisualWorkbench-v21.1.1-1.21.1-NeoForge.jar",
