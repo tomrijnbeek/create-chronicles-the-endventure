@@ -45,7 +45,7 @@ ServerEvents.recipes((event) => {
     event.recipes.createHaunting(["minecraft:wither_rose"],"minecraft:poppy");
     event.recipes.createHaunting(["minecraft:magma_cream"],"minecraft:slime_ball");
 
-    event.recipes.create.cutting(["snowball","snowball","snowball","snowball"],["minecraft:snow_block"]).id("endsnowball");
+    event.recipes.createCutting(["snowball","snowball","snowball","snowball"],["minecraft:snow_block"]).id("endsnowball");
 
     // FARMERS DELIGHT
     event.recipes.createMixing('farmersdelight:apple_pie',['minecraft:wheat','minecraft:wheat','minecraft:apple','minecraft:apple','minecraft:apple','minecraft:sugar','minecraft:sugar','farmersdelight:pie_crust'])
