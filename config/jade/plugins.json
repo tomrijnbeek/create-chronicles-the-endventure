@@ -117,6 +117,7 @@
     "hud.redstone": true
   },
   "twilightforest": {
+    "drying_rack": true,
     "chiseled_bookshelf_spawner": true,
     "quest_ram_wool": true
   },
@@ -125,9 +126,6 @@
   },
   "waystones": {
     "waystone": true
-  },
-  "corpse": {
-    "corpse": true
   },
   "multibeds": {
     "hud": true
