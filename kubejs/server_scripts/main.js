@@ -110,4 +110,13 @@ ServerEvents.recipes(event => {
   ], {
       A: 'minecraft:terracotta',
   })
+
+  event.shaped('minecraft:gilded_blackstone', [
+      'GGG',
+      'GBG',
+      'GGG'
+  ], {
+      B: 'minecraft:blackstone',
+      G: 'minecraft:gold_nugget'
+  })
 });
