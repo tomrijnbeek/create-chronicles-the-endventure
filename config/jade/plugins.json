@@ -83,6 +83,10 @@
     "block_properties": false,
     "mod_name": true
   },
+  "extendedae": {
+    "jade_chamber": true,
+    "jade_wireless": true
+  },
   "balm": {
     "jade": true
   },

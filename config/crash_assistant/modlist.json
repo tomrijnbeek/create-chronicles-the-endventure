@@ -1038,6 +1038,13 @@
     "curseForgeHash": 2682946500,
     "modrinthHash": "db03f4d015e69154a5f3861148f46065a9aecc6c"
   },
+  "ExtendedAE-1.21-2.2.30-neoforge.jar": {
+    "jarName": "ExtendedAE-1.21-2.2.30-neoforge.jar",
+    "modId": "extendedae",
+    "version": "1.21-2.2.30-neoforge",
+    "curseForgeHash": 1807133071,
+    "modrinthHash": "f1f6a705a97bf0f42eb323c43428b5a46ff2eea8"
+  },
   "extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar": {
     "jarName": "extra-mod-integrations-all-neoforge-1.0.3+1.21.1.jar",
     "modId": "extra_mod_integrations",
@@ -1981,6 +1988,13 @@
     "curseForgeHash": 3015809808,
     "modrinthHash": "d112cd308091f217b1dd0e78966489d66f987e93"
   },
+  "polylib-2100.1.0-build.183-neoforge.jar": {
+    "jarName": "polylib-2100.1.0-build.183-neoforge.jar",
+    "modId": "polylib",
+    "version": "2100.1.0-build.183",
+    "curseForgeHash": 68824125,
+    "modrinthHash": "2e77cd8a795c3171d8327e6b1f1b6413565c8da1"
+  },
   "prickle-neoforge-1.21.1-21.1.11.jar": {
     "jarName": "prickle-neoforge-1.21.1-21.1.11.jar",
     "modId": "prickle",
@@ -2099,6 +2113,13 @@
     "version": "1.21.1-1.1",
     "curseForgeHash": 267868437,
     "modrinthHash": "0eb37edb7f54b0a1790ce0c40f92fd86e3adaa1b"
+  },
+  "shrink-2.0.1.47-neoforge.jar": {
+    "jarName": "shrink-2.0.1.47-neoforge.jar",
+    "modId": "shrink",
+    "version": "2.0.1.47",
+    "curseForgeHash": 1087700708,
+    "modrinthHash": "17407b525c0c70a0f6f03a08024a14058f645d01"
   },
   "silent-lib-1.21.1-neoforge-10.5.1.jar": {
     "jarName": "silent-lib-1.21.1-neoforge-10.5.1.jar",
