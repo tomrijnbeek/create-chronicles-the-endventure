@@ -1,0 +1,10 @@
+var allMods = ModListUtils.getCurrentModList(true);
+var mods = allMods.stream().toMap(m -> m.modId, m -> m);
+
+var m_optifine = mods.get("optifine");
+if (m_optifine != null) {
+    var warn = Startup.addCrashWarning("If you are seeing this, you have manually added the <strong>Optifine mod</strong> to the modpack. The <strong>Optifine</strong> mod is completely unnecessary. This pack uses Sodium.");
+    warn.withModActions(m_optifine);
+    Startup.markForCrash();
+}
+
