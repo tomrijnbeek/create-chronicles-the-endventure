@@ -33,21 +33,21 @@ function applyModifiers(event, itemId, slot, attributes) {
 }
 
 StartupEvents.registry('item', event => {
-  //Farmer's Stuff
-  event.create('incomplete_barbecue_stick')
-  event.create('incomplete_cod_roll')
-  event.create('incomplete_kelp_roll')
-  event.create('incomplete_melon_popsicle')
-  event.create('incomplete_mutton_wrap')
-  event.create('incomplete_salmon_roll')
-  event.create('incomplete_stuffed_potato')
-  event.create('incomplete_bacon_and_eggs')
-  event.create('incomplete_grilled_salmon')
-  event.create('incomplete_rice_roll_medley_block')
-  event.create('incomplete_roast_chicken_block')
-  event.create('incomplete_roasted_mutton_chops')
-  event.create('incomplete_shepherds_pie_block')
-  event.create('incomplete_steak_and_potatoes')
+  // Farmer's Stuff
+  event.create('incomplete_barbecue_stick', 'create:sequenced_assembly')
+  event.create('incomplete_cod_roll', 'create:sequenced_assembly')
+  event.create('incomplete_kelp_roll', 'create:sequenced_assembly')
+  event.create('incomplete_melon_popsicle', 'create:sequenced_assembly')
+  event.create('incomplete_mutton_wrap', 'create:sequenced_assembly')
+  event.create('incomplete_salmon_roll', 'create:sequenced_assembly')
+  event.create('incomplete_stuffed_potato', 'create:sequenced_assembly')
+  event.create('incomplete_bacon_and_eggs', 'create:sequenced_assembly')
+  event.create('incomplete_grilled_salmon', 'create:sequenced_assembly')
+  event.create('incomplete_rice_roll_medley_block', 'create:sequenced_assembly')
+  event.create('incomplete_roast_chicken_block', 'create:sequenced_assembly')
+  event.create('incomplete_roasted_mutton_chops', 'create:sequenced_assembly')
+  event.create('incomplete_shepherds_pie_block', 'create:sequenced_assembly')
+  event.create('incomplete_steak_and_potatoes', 'create:sequenced_assembly')
 })
 
 StartupEvents.registry("block", (event) => {

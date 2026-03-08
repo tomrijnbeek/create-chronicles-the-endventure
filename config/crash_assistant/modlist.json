@@ -1498,6 +1498,13 @@
     "curseForgeHash": 1356655026,
     "modrinthHash": "a8b9f1233336ca9fe4702bc2cc5a6f97ad5e3b65"
   },
+  "kubejs-create-neoforge-2101.3.1-build.18.jar": {
+    "jarName": "kubejs-create-neoforge-2101.3.1-build.18.jar",
+    "modId": "kubejs_create",
+    "version": "2101.3.1-build.18",
+    "curseForgeHash": 652828790,
+    "modrinthHash": "d4dce8f82f2d37545f085522a782c1bfda222154"
+  },
   "kubejs-neoforge-2101.7.2-build.348.jar": {
     "jarName": "kubejs-neoforge-2101.7.2-build.348.jar",
     "modId": "kubejs",

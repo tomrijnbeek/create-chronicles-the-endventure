@@ -1,213 +1,258 @@
 // priority: 1
 
 ServerEvents.recipes((event) => {
-    // THIS LINE IS IMPORTANT!
-    // IT MUST BE THE FIRST LINE IN THE EVENT HANDLER
-    addCreateRecipeHandler(event);
-    //Sandpaper = grindstone recipes
-    event.recipes.createSandpaperPolishing(["minecraft:leather"],"minecraft:rotten_flesh")
+    // Temporary helper methods until https://github.com/KubeJS-Mods/KubeJS/issues/1086 is fixed
+    const createTaggedDeploy = (outputItem, applyToItem, appliedItemTag) => {
+        return event.custom({
+            type: "create:deploying",
+            ingredients: [
+                { item: applyToItem },
+                { tag: appliedItemTag }
+            ],
+            results: [
+                { id: outputItem }
+            ]
+        })
+    }
 
-    //Mixing
-    event.recipes.createMixing("culturaldelights:corn_dough", ["culturaldelights:corn_cob","culturaldelights:corn_cob","culturaldelights:corn_cob", Fluid.of("water", 250)])
-    event.recipes.createMixing('2x minecraft:dirt',['minecraft:mud','minecraft:gravel','minecraft:clay_ball'])
-    event.recipes.createMixing(('minecraft:warped_nylium'),['minecraft:netherrack','minecraft:warped_fungus'])
-    event.recipes.createMixing(('minecraft:crimson_nylium'),['minecraft:netherrack','minecraft:crimson_fungus'])
-    event.recipes.createMixing(('9x minecraft:gunpowder'),['minecraft:wither_rose','biomeswevegone:blue_glowcane_powder','biomeswevegone:red_glowcane_powder','biomeswevegone:green_glowcane_powder','biomeswevegone:yellow_glowcane_powder']).superheated()
-    event.recipes.createMixing(('minecraft:lapis_lazuli'),['minecraft:glowstone_dust','minecraft:blue_dye','amethyst_shard',Fluid.of("create_enchantment_industry:experience", 100)]).superheated()
-    event.recipes.createMixing(('minecraft:ender_pearl'),[Fluid.of("createaddition:bioethanol", 250),'createaddition:biomass_pellet','createaddition:biomass_pellet','createaddition:biomass_pellet','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_crystals']).superheated()
-    event.recipes.createMixing(('createaddition:electrum_ingot'),['minecraft:gold_ingot',"#c:dusts/glowstone","#c:gems/quartz"]).heated()
+    // Sandpaper = grindstone recipes
+    event.recipes.create.sandpaper_polishing(["minecraft:leather"],"minecraft:rotten_flesh")
+
+    // Mixing
+    event.recipes.create.mixing("culturaldelights:corn_dough", ["culturaldelights:corn_cob","culturaldelights:corn_cob","culturaldelights:corn_cob", Fluid.of("water", 250)])
+    event.recipes.create.mixing('2x minecraft:dirt',['minecraft:mud','minecraft:gravel','minecraft:clay_ball'])
+    event.recipes.create.mixing(('minecraft:warped_nylium'),['minecraft:netherrack','minecraft:warped_fungus'])
+    event.recipes.create.mixing(('minecraft:crimson_nylium'),['minecraft:netherrack','minecraft:crimson_fungus'])
+    event.recipes.create.mixing(('9x minecraft:gunpowder'),['minecraft:wither_rose','biomeswevegone:blue_glowcane_powder','biomeswevegone:red_glowcane_powder','biomeswevegone:green_glowcane_powder','biomeswevegone:yellow_glowcane_powder']).superheated()
+    event.recipes.create.mixing(('minecraft:lapis_lazuli'),['minecraft:glowstone_dust','minecraft:blue_dye','amethyst_shard',Fluid.of("create_enchantment_industry:experience", 100)]).superheated()
+    event.recipes.create.mixing(('minecraft:ender_pearl'),[Fluid.of("createaddition:bioethanol", 250),'createaddition:biomass_pellet','createaddition:biomass_pellet','createaddition:biomass_pellet','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_shard','minecraft:prismarine_crystals']).superheated()
+    event.recipes.create.mixing(('createaddition:electrum_ingot'),['minecraft:gold_ingot',"#c:dusts/glowstone","#c:gems/quartz"]).heated()
+    event.recipes.create.mixing("extendedae:entro_ingot", ["extendedae:entro_dust", "minecraft:gold_ingot", "minecraft:lapis_lazuli", Fluid.of("water", 100)])
+    event.recipes.create.mixing("extendedae:entro_ingot", ["extendedae:entro_dust", "ae2:fluix_crystal", Fluid.of("water", 100)])
 
     // Deploy
-    event.recipes.createDeploying('minecraft:shroomlight', ['minecraft:glowstone', '#c:mushrooms'])
-    event.recipes.createDeploying('minecraft:glow_ink_sac', ['minecraft:ink_sac', 'minecraft:glow_berries'])
-
+    //event.recipes.create.deploying('minecraft:shroomlight', ['minecraft:glowstone', '#c:mushrooms'])
+    createTaggedDeploy('minecraft:shroomlight', 'minecraft:glowstone', 'c:mushrooms');
+    event.recipes.create.deploying('minecraft:glow_ink_sac', ['minecraft:ink_sac', 'minecraft:glow_berries'])
 
     // Compacting
-    event.recipes.createCompacting('minecraft:ink_sac', ['minecraft:dried_kelp', 'minecraft:black_dye'])
-    event.recipes.createCompacting('minecraft:moss_block', ['minecraft:cobblestone','minecraft:cobblestone','minecraft:cobblestone','minecraft:vine'])
-    event.recipes.createCompacting('minecraft:coal', ['minecraft:charcoal','minecraft:charcoal','minecraft:charcoal','minecraft:charcoal',Fluid.of("lava", 250)])
-    event.recipes.createCompacting(withChance("minecraft:amethyst_shard", 0.25), ['minecraft:iron_nugget','minecraft:iron_nugget','minecraft:iron_nugget','minecraft:quartz',Fluid.of("lava", 250)]).superheated()
-    event.recipes.createCompacting('minecraft:shulker_shell', ['create:sturdy_sheet','minecraft:popped_chorus_fruit', 'minecraft:popped_chorus_fruit','minecraft:popped_chorus_fruit','minecraft:popped_chorus_fruit'])
-    event.recipes.createCompacting(('minecraft:tuff'),['minecraft:andesite',"minecraft:cobblestone",Fluid.of("lava", 250)])
+    event.recipes.create.compacting('minecraft:ink_sac', ['minecraft:dried_kelp', 'minecraft:black_dye'])
+    event.recipes.create.compacting('minecraft:moss_block', ['minecraft:cobblestone','minecraft:cobblestone','minecraft:cobblestone','minecraft:vine'])
+    event.recipes.create.compacting('minecraft:coal', ['minecraft:charcoal','minecraft:charcoal','minecraft:charcoal','minecraft:charcoal',Fluid.of("lava", 250)])
+    event.recipes.create.compacting(CreateItem.of("minecraft:amethyst_shard", 0.25), ['minecraft:iron_nugget','minecraft:iron_nugget','minecraft:iron_nugget','minecraft:quartz',Fluid.of("lava", 250)]).superheated()
+    event.recipes.create.compacting('minecraft:shulker_shell', ['create:sturdy_sheet','minecraft:popped_chorus_fruit', 'minecraft:popped_chorus_fruit','minecraft:popped_chorus_fruit','minecraft:popped_chorus_fruit'])
+    event.recipes.create.compacting(('minecraft:tuff'),['minecraft:andesite',"minecraft:cobblestone",Fluid.of("lava", 250)])
 
     // Crushing
-    event.recipes.createCrushing([
-       withChance("minecraft:glowstone_dust", 0.25),
-       withChance("minecraft:glowstone_dust", 0.10)
+    event.recipes.create.crushing([
+       CreateItem.of("minecraft:glowstone_dust", 0.25),
+       CreateItem.of("minecraft:glowstone_dust", 0.10)
     ], 'minecraft:soul_sand').processingTime(100)
 
+    // Milling
+    //event.recipes.create.milling('extendedae:entro_dust', '#c:gems/entro').processingTime(200)
+    event.custom({
+        type: "create:milling",
+        ingredients: [
+            { tag: "c:gems/entro" }
+        ],
+        processing_time: 200,
+        results: [
+            { id: "extendedae:entro_dust" }
+        ]
+    })
 
     // Filling
-    event.recipes.createFilling("minecraft:magma_block",  ["minecraft:netherrack",Fluid.of("lava", 250)]);
-    event.recipes.createFilling("create:rose_quartz",  ["#c:gems/quartz",Fluid.of("kubejs:fluid_redstone", 400)]);
+    event.recipes.create.filling("minecraft:magma_block", ["minecraft:netherrack",Fluid.of("lava", 250)]);
+    //event.recipes.create.filling("create:rose_quartz", ["#c:gems/quartz",Fluid.of("kubejs:fluid_redstone", 400)]);
+    event.custom({
+        type: "create:filling",
+        ingredients: [
+            { tag: "c:gems/quartz" },
+            { type: "neoforge:single", amount: 400, fluid: "kubejs:fluid_redstone" }
+        ],
+        results: [
+            { id: "create:rose_quartz" }
+        ]
+    })
 
     // Haunting
-    event.recipes.createHaunting(["minecraft:wither_rose"],"minecraft:poppy");
-    event.recipes.createHaunting(["minecraft:magma_cream"],"minecraft:slime_ball");
+    event.recipes.create.haunting(["minecraft:wither_rose"],"minecraft:poppy");
+    event.recipes.create.haunting(["minecraft:magma_cream"],"minecraft:slime_ball");
 
-    event.recipes.createCutting(["snowball","snowball","snowball","snowball"],["minecraft:snow_block"]).id("endsnowball");
+    event.recipes.create.cutting(["snowball","snowball","snowball","snowball"],["minecraft:snow_block"]).id("endsnowball");
 
     // FARMERS DELIGHT
-    event.recipes.createMixing('farmersdelight:apple_pie',['minecraft:wheat','minecraft:wheat','minecraft:apple','minecraft:apple','minecraft:apple','minecraft:sugar','minecraft:sugar','farmersdelight:pie_crust'])
-    event.recipes.createMixing('farmersdelight:sweet_berry_cheesecake',['minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries',Fluid.of('minecraft:milk', 1000),'farmersdelight:pie_crust'])
-    event.recipes.createMixing('farmersdelight:fruit_salad',['minecraft:apple','minecraft:melon_slice','minecraft:melon_slice','#c:foods/berry','#c:foods/berry','farmersdelight:pumpkin_slice','minecraft:bowl'])
-    event.recipes.createMixing('farmersdelight:mixed_salad',['#c:foods/cabbage','farmersdelight:tomato','minecraft:beetroot','minecraft:bowl'])
-    event.recipes.createMixing('farmersdelight:nether_salad',['minecraft:crimson_fungus','minecraft:warped_fungus','minecraft:bowl'])
+    event.recipes.create.mixing('farmersdelight:apple_pie', ['minecraft:wheat','minecraft:wheat','minecraft:apple','minecraft:apple','minecraft:apple','minecraft:sugar','minecraft:sugar','farmersdelight:pie_crust'])
+    event.recipes.create.mixing('farmersdelight:sweet_berry_cheesecake', ['minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries','minecraft:sweet_berries',Fluid.of('minecraft:milk', 1000),'farmersdelight:pie_crust'])
+    event.recipes.create.mixing('farmersdelight:fruit_salad', ['minecraft:apple','minecraft:melon_slice','minecraft:melon_slice','#c:foods/berry','#c:foods/berry','farmersdelight:pumpkin_slice','minecraft:bowl'])
+    event.recipes.create.mixing('farmersdelight:mixed_salad', ['#c:foods/cabbage','farmersdelight:tomato','minecraft:beetroot','minecraft:bowl'])
+    event.recipes.create.mixing('farmersdelight:nether_salad', ['minecraft:crimson_fungus','minecraft:warped_fungus','minecraft:bowl'])
+
+    let transitional
 
     transitional = 'kubejs:incomplete_melon_popsicle'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:melon_popsicle',
     ], 'minecraft:stick', [
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:ice']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:melon_slice']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:melon_slice']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:ice']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:melon_slice']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:melon_slice']),
     ]).transitionalItem(transitional)
       .loops(2)
       .id('end:melon_popsicle')
 
 
     transitional = 'kubejs:incomplete_barbecue_stick'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:barbecue_stick'
     ], 'minecraft:stick', [
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:onion']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:tomato']),
-          event.recipes.createDeploying(transitional, [transitional,  '#c:foods/cooked_meat']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:onion']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:tomato']),
+          //event.recipes.create.deploying(transitional, [transitional,  '#c:foods/cooked_meat']),
+          createTaggedDeploy(transitional, transitional, 'c:foods/cooked_meat'),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:barbecue_stick')
 
     transitional = 'kubejs:incomplete_mutton_wrap'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:mutton_wrap'
     ], '#c:foods/bread', [
-          event.recipes.createDeploying(transitional, [transitional, '#c:foods/cooked_mutton']),
-          event.recipes.createDeploying(transitional, [transitional, '#c:foods/cabbage']),
-          event.recipes.createDeploying(transitional, [transitional,  'farmersdelight:onion']),
+          //event.recipes.create.deploying(transitional, [transitional, '#c:foods/cooked_mutton']),
+          createTaggedDeploy(transitional, transitional, 'c:foods/cooked_mutton'),
+          //event.recipes.create.deploying(transitional, [transitional, '#c:foods/cabbage']),
+          createTaggedDeploy(transitional, transitional, 'c:foods/cabbage'),
+          event.recipes.create.deploying(transitional, [transitional,  'farmersdelight:onion']),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:mutton_wrap')
 
     transitional = 'kubejs:incomplete_stuffed_potato'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:stuffed_potato'
     ], 'minecraft:baked_potato', [
-          event.recipes.createDeploying(transitional, [transitional, '#c:foods/cooked_beef']),
-          event.recipes.createFilling(transitional, [transitional,  Fluid.of('minecraft:milk', 750)]),
+          //event.recipes.create.deploying(transitional, [transitional, '#c:foods/cooked_beef']),
+          createTaggedDeploy(transitional, transitional, 'c:foods/cooked_beef'),
+          event.recipes.create.filling(transitional, [transitional,  Fluid.of('minecraft:milk', 750)]),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:stuffed_potato')
 
     transitional = 'kubejs:incomplete_salmon_roll'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:salmon_roll'
     ], 'farmersdelight:cooked_rice', [
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:salmon_slice']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:salmon_slice']),
     ]).transitionalItem(transitional)
       .loops(2)
       .id('end:salmon_roll')
 
     transitional = 'kubejs:incomplete_cod_roll'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:cod_roll'
     ], 'farmersdelight:cooked_rice', [
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cod_slice']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cod_slice']),
     ]).transitionalItem(transitional)
       .loops(2)
       .id('end:cod_roll')
 
     transitional = 'kubejs:incomplete_kelp_roll'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:kelp_roll'
     ], 'minecraft:dried_kelp', [
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:dried_kelp']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:carrot']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:dried_kelp']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:carrot']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:kelp_roll')
 
     transitional = 'kubejs:incomplete_rice_roll_medley_block'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:rice_roll_medley_block'
     ], 'minecraft:bowl', [
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cod_roll']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:kelp_roll_slice']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:salmon_roll']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cod_roll']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:kelp_roll_slice']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:salmon_roll']),
     ]).transitionalItem(transitional)
       .loops(2)
       .id('end:rice_roll_medley_block')
 
 
     transitional = 'kubejs:incomplete_shepherds_pie_block'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:shepherds_pie_block'
     ], 'minecraft:bowl', [
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:baked_potato']),
-          event.recipes.createDeploying(transitional, [transitional, '#c:foods/cooked_mutton']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:onion']),
-          event.recipes.createFilling(transitional, [transitional, Fluid.of('minecraft:milk', 400)]),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:baked_potato']),
+          //event.recipes.create.deploying(transitional, [transitional, '#c:foods/cooked_mutton']),
+          createTaggedDeploy(transitional, transitional, 'c:foods/cooked_mutton'),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:onion']),
+          event.recipes.create.filling(transitional, [transitional, Fluid.of('minecraft:milk', 400)]),
     ]).transitionalItem(transitional)
       .loops(2)
       .id('end:shepherds_pie_block')
 
     transitional = 'kubejs:incomplete_roast_chicken_block'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:roast_chicken_block'
     ], 'minecraft:bowl', [
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:cooked_chicken']),
-          event.recipes.createDeploying(transitional, [transitional, '#c:eggs']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:carrot']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:baked_potato']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:onion']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:bread']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:cooked_chicken']),
+          //event.recipes.create.deploying(transitional, [transitional, '#c:eggs']),
+          createTaggedDeploy(transitional, transitional, 'c:eggs'),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:carrot']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:baked_potato']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:onion']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:bread']),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:roast_chicken_block')
 
     transitional = 'kubejs:incomplete_grilled_salmon'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:grilled_salmon'
     ], 'minecraft:bowl', [
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:sweet_berries']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:onion']),
-          event.recipes.createDeploying(transitional, [transitional, '#c:foods/cabbage']),
-          event.recipes.createDeploying(transitional, [transitional, '#c:foods/cooked_salmon']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:sweet_berries']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:onion']),
+          //event.recipes.create.deploying(transitional, [transitional, '#c:foods/cabbage']),
+          createTaggedDeploy(transitional, transitional, 'c:foods/cabbage'),
+          //event.recipes.create.deploying(transitional, [transitional, '#c:foods/cooked_salmon']),
+          createTaggedDeploy(transitional, transitional, 'c:foods/cooked_salmon'),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:grilled_salmon')
 
     transitional = 'kubejs:incomplete_steak_and_potatoes'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:steak_and_potatoes'
     ], 'minecraft:bowl', [
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:cooked_beef']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:baked_potato']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:onion']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:cooked_beef']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:baked_potato']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:onion']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:steak_and_potatoes')
 
     transitional = 'kubejs:incomplete_roasted_mutton_chops'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:roasted_mutton_chops'
     ], 'minecraft:bowl', [
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_mutton_chops']),
-          event.recipes.createDeploying(transitional, [transitional, 'minecraft:beetroot']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:tomato']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cooked_mutton_chops']),
+          event.recipes.create.deploying(transitional, [transitional, 'minecraft:beetroot']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:tomato']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cooked_rice']),
     ]).transitionalItem(transitional)
       .loops(1)
       .id('end:roasted_mutton_chops')
 
     transitional = 'kubejs:incomplete_bacon_and_eggs'
-    event.recipes.createSequencedAssembly([
+    event.recipes.create.sequenced_assembly([
       'farmersdelight:bacon_and_eggs'
     ], 'minecraft:bowl', [
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:cooked_bacon']),
-          event.recipes.createDeploying(transitional, [transitional, 'farmersdelight:fried_egg']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:cooked_bacon']),
+          event.recipes.create.deploying(transitional, [transitional, 'farmersdelight:fried_egg']),
     ]).transitionalItem(transitional)
       .loops(2)
       .id('end:bacon_and_eggs')
@@ -298,7 +343,7 @@ ServerEvents.recipes((event) => {
     };
 
     const recycleEquipment = (inputItem, outputItem, chances) => {
-      let outputs = chances.map(chance => withChance(outputItem, chance));
+      let outputs = chances.map(chance => CreateItem.of(outputItem, chance));
       event.recipes.create.crushing(outputs, inputItem)
     }
 
@@ -312,10 +357,4 @@ ServerEvents.recipes((event) => {
     processRecyclingData(event, 'minecraft:diamond', equipmentRecyclingData.diamond);
     processRecyclingData(event, 'minecraft:iron_ingot', equipmentRecyclingData.iron);
     processRecyclingData(event, 'minecraft:gold_ingot', equipmentRecyclingData.gold);
-
-
-
-    // THIS LINE IS ALSO IMPORTANT!
-    // IT MUST BE THE LAST LINE IN THE EVENT HANDLER
-    event.recipes.create.finalize();
 });
